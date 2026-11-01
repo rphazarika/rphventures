@@ -1,0 +1,120 @@
+{
+  "publication": "RPHV DAILY",
+  "tagline": "PEOPLE, PROCESS & TECHNOLOGY",
+  "version": "web-preview-1",
+  "issues": [
+    {
+      "number": "005",
+      "date": "2026-11-01",
+      "status": "editorial-preview",
+      "category": "MARKET INTELLIGENCE",
+      "featureDesk": "SALES",
+      "title": "Wholesales are up. Are dealership processes keeping pace?",
+      "summary": "India's passenger-vehicle dispatches rose sharply in July–September 2026. Strong factory-to-dealer movement is useful context—but it cannot, on its own, tell a dealer whether enquiries are converting, vehicles are moving or cash is being released.",
+      "sourceNote": "SIAM, published 15 October 2026; reporting period July–September 2026. The figures are manufacturer domestic sales/wholesales, not customer retail registrations.",
+      "metrics": [
+        {
+          "value": "13,60,687",
+          "label": "Passenger vehicles, domestic sales",
+          "context": "SIAM • July–September 2026 • wholesales"
+        },
+        {
+          "value": "+30.7%",
+          "label": "Passenger vehicle growth",
+          "context": "Against July–September 2025 • SIAM"
+        },
+        {
+          "value": "68%",
+          "label": "Utility-vehicle share of PV sales",
+          "context": "July–September 2026 • SIAM"
+        }
+      ],
+      "reportingType": "OEM-to-dealer domestic sales (wholesale); not retail registrations",
+      "intro": [
+        "A strong market headline is a starting point, not a dealership performance report. On 15 October 2026, SIAM reported 13,60,687 passenger-vehicle domestic sales for the July–September quarter, 30.7% higher than the corresponding period of FY2025–26.",
+        "Those numbers describe manufacturer domestic dispatches—commonly called wholesales. Customer retail registrations are a separate measure. A dealership can see healthy vehicle inflow while still carrying excess stock, facing delayed deliveries or struggling to convert enquiries into invoices.",
+        "For the operations team, the right response is not to celebrate or panic on one industry number. It is to reconcile the market signal with the dealership's own pipeline, workshop load, inventory exposure and collection cycle."
+      ],
+      "interpretation": {
+        "heading": "What this means on the ground",
+        "points": [
+          "Compare confirmed customer orders and registrations with new arrivals rather than treating dispatches as retail demand.",
+          "Review ageing units and delivery readiness before accepting that higher inventory automatically improves sales.",
+          "Connect expected vehicle parc growth with technician readiness, genuine parts supply and service retention—but do not infer service demand directly from one quarter's wholesales."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Check delivery readiness, not just bookings",
+          "check": "Take the next seven days' booked deliveries. Confirm allocation, finance clearance, accessories, promised date and registration progress.",
+          "metric": "Delivery-ready bookings ÷ bookings due in 7 days (%)",
+          "rationale": "A booking is not yet a delivered car. Measure the handover pipeline."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Make promised delivery dates visible",
+          "check": "Review all open repair orders with their promised completion times. Identify jobs blocked by diagnosis, approvals, parts or capacity.",
+          "metric": "ROs delivered within promise ÷ total delivered ROs (%)",
+          "rationale": "Customer confidence depends on reliable service completion, not only inflow."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Expose cash sitting in ageing stock",
+          "check": "List parts untouched for 90 days, then check demand, supersession, reservations and return possibilities before reordering.",
+          "metric": "Value of stock aged 90+ days ÷ total stock value (%)",
+          "rationale": "A growing market is not a reason to relax inventory discipline."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Protect margin before acquisition",
+          "check": "For each proposed exchange, record ownership checks, repair inspection, reconditioning estimate and realistic resale value.",
+          "metric": "Acquisitions with approved margin sheet ÷ total acquisitions (%)",
+          "rationale": "Purchase price alone is not the acquisition cost."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Reconcile blocked money daily",
+          "check": "Trace unmatched receipts, delayed customer balances and pending manufacturer credits to a named owner and an expected resolution date.",
+          "metric": "Unreconciled receipts and claims older than 7 days (count)",
+          "rationale": "Turnover improves financial health only when cash and claims are controlled."
+        }
+      ],
+      "huddleTitle": "One blocked item. One owner. One deadline.",
+      "huddleSummary": "Each desk brings one exception that is holding up a delivery, repair, payment or stock decision. Close the huddle with a named owner and next action.",
+      "huddle": [
+        "Minutes 0–3: Sales identifies one promised delivery at risk and checks the evidence.",
+        "Minutes 3–6: Service identifies one repair order that may miss its promise.",
+        "Minutes 6–9: Spares identifies one order or item whose status is unclear.",
+        "Minutes 9–12: Used Cars or Accounts identifies one margin or collection exception.",
+        "Minutes 12–15: Assign one owner and deadline to every unresolved exception."
+      ],
+      "limitations": [
+        "SIAM's July–September PV domestic-sales data exclude BMW, Mercedes, JLR and Volvo Auto, as indicated in the release notes.",
+        "Wholesale dispatches do not equal customer retail registrations, and neither measure establishes any individual dealer's profitability.",
+        "The five department checks and suggested metrics are RPHV editorial recommendations, not published SIAM benchmarks."
+      ],
+      "sources": [
+        {
+          "publisher": "SIAM",
+          "title": "Auto Industry Sales Performance of Q2: FY2027 (July–September 2026)",
+          "published": "2026-10-15",
+          "period": "2026-07-01 to 2026-09-30",
+          "type": "Primary industry association release",
+          "url": "https://www.siam.in/pressrelease-details.aspx?mpgid=53&pgidtrail=50&pid=622"
+        }
+      ],
+      "corrections": []
+    }
+  ]
+}
