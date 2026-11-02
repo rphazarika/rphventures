@@ -4,6 +4,121 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "006",
+      "date": "2026-11-02",
+      "status": "editorial-preview",
+      "category": "SERVICE INTELLIGENCE",
+      "featureDesk": "SERVICE",
+      "title": "AI is entering aftersales. Fix the repair handoff first.",
+      "summary": "An Indian commercial-vehicle maker has launched an AI-enabled service coordination system. The lesson for every dealership is practical: make each repair's next action, owner and promised time visible before buying another dashboard.",
+      "sourceNote": "VECV / Eicher Power Solutions announcement dated 13 October 2026. Company-reported connected-platform counts at the time of announcement; no monthly measurement window stated. This is NOT wholesale dispatch data or retail registrations.",
+      "metrics": [
+        {
+          "value": "460,000+",
+          "label": "Connected vehicles claimed",
+          "context": "My Eicher platform; company statement, 13 Oct 2026"
+        },
+        {
+          "value": "200,000+",
+          "label": "Customers supported claimed",
+          "context": "My Eicher platform; company statement, 13 Oct 2026"
+        },
+        {
+          "value": "13 Oct",
+          "label": "Date of service-platform launch",
+          "context": "2026; original corporate announcement"
+        }
+      ],
+      "reportingType": "Company product-launch announcement and self-reported platform scale; neither OEM wholesales nor customer retail registrations.",
+      "intro": [
+        "On 13 October 2026, VE Commercial Vehicles announced an expanded AI-enabled uptime service model for its Eicher trucks and buses. It described a central control tower for service coordination and a generative-AI tool intended to help mechanics and diagnostic teams.",
+        "The company also reported that its My Eicher app supports more than 200,000 customers and connects over 460,000 vehicles. These are company-stated platform totals, not an independent survey, vehicle sales figures or proof that workshop turnaround has improved.",
+        "The useful dealership question is simple: can an adviser, technician, parts executive and customer all see who must do what next on a delayed job? Better visibility, clear ownership and timely escalation are worth testing before a costly technology rollout."
+      ],
+      "interpretation": {
+        "heading": "The operational lesson: close the handoff gap",
+        "points": [
+          "Start with delayed or repeat repair orders. Record the current block, next action, accountable person and promised update time in one visible place.",
+          "Use diagnostic help tools to assist trained technicians, not to bypass manufacturer procedures, safety precautions or technical verification.",
+          "Measure first-time-right results and communication reliability before attributing improvements to AI. The announcement does not disclose audited changes in these outcomes."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Complete the after-sales handover",
+          "check": "Check five recent deliveries: was the customer shown how to book service, report a concern and reach roadside support where provided?",
+          "metric": "Deliveries with documented service onboarding / total deliveries (%)",
+          "rationale": "Ownership support should be clear before the first problem arises."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Give every blocked repair one owner",
+          "check": "Review five delayed or repeat-concern ROs; log the next action, named owner, customer-update deadline and escalation path.",
+          "metric": "Open ROs with owner + next action + update time / all open ROs (%)",
+          "rationale": "A dashboard cannot rescue a job nobody owns."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Replace vague parts status with evidence",
+          "check": "For each parts-blocked RO, record verified part number, order status, supplier confirmation and realistic ETA.",
+          "metric": "Parts-blocked ROs with confirmed status and ETA / all parts-blocked ROs (%)",
+          "rationale": "A credible ETA makes service promises more dependable."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Carry repair history into appraisal",
+          "check": "Check whether trade-in inspection records include warning lamps, diagnosis, pending repairs and realistic reconditioning cost.",
+          "metric": "Appraisals with complete diagnostic and repair-cost sheet / appraisals (%)",
+          "rationale": "Unrecorded repair risks become unexpected resale expenses."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Trace money stuck behind open jobs",
+          "check": "Pick service invoices or claims awaiting settlement; identify the missing approval, document or owner and expected clearance date.",
+          "metric": "Value of service receivables outstanding over 30 days (INR)",
+          "rationale": "A repaired vehicle does not create usable cash until the billing and collection loop closes."
+        }
+      ],
+      "huddleTitle": "Five desks. Five exceptions. Fifteen minutes.",
+      "huddleSummary": "Each function brings one real case with an incomplete handoff. Record the blocker, next action, owner and deadline in a shared log; recheck the same five cases tomorrow.",
+      "huddle": [
+        "Minutes 0–3 — Sales: find one delivery with incomplete service onboarding; assign a callback.",
+        "Minutes 3–6 — Service: select one delayed or repeat RO; name the next action and customer-update time.",
+        "Minutes 6–9 — Spares: confirm a blocked repair part and realistic ETA, or document that none is available.",
+        "Minutes 9–12 — Used Cars: identify one appraisal with an unresolved diagnostic or repair-cost risk.",
+        "Minutes 12–15 — Accounts: take one ageing claim or invoice; assign its resolution owner and deadline."
+      ],
+      "limitations": [
+        "This is a single commercial-vehicle manufacturer's announcement, not a representative measure of India's passenger-vehicle or two-wheeler aftersales market.",
+        "The platform scale of over 200,000 customers and more than 460,000 connected vehicles is company-reported as of the 13 October 2026 announcement; it has no disclosed monthly measurement window or independent audit.",
+        "The release provides no independently verified before/after result for workshop turnaround, first-time-right repair or customer satisfaction; do not claim such improvements are proven.",
+        "No vehicle wholesale, dealer retail-registration or market-share figures are used in this issue. The five suggested checks and metrics are RPHV editorial recommendations, not OEM benchmarks.",
+        "Technician safety, authorisations and vehicle-specific diagnosis must follow manufacturer documentation and applicable regulations; AI-generated advice is not a substitute."
+      ],
+      "sources": [
+        {
+          "publisher": "VE Commercial Vehicles / Eicher Power Solutions",
+          "title": "Eicher Trucks & Buses launches Uptime NXT Services powered by AI enabled Uptime Centre",
+          "published": "2026-10-13",
+          "period": "Company announcement and stated platform scale as at 13 October 2026; no monthly reporting period specified",
+          "type": "Original OEM corporate press release; self-reported connected platform figures, not sales/registrations",
+          "url": "https://www.eicherpowersolutions.com/news-room/press-release/eicher-trucks-buses-launches-uptime-nxt-services-powered-by-ai-enabled-uptime-centre"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "005",
       "date": "2026-11-01",
       "status": "editorial-preview",
