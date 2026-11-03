@@ -4,6 +4,129 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "007",
+      "date": "2026-11-03",
+      "status": "editorial-preview",
+      "category": "DEALERSHIP CASH & INVENTORY",
+      "featureDesk": "ACCOUNTS",
+      "title": "Record dispatches. What has actually turned into cash?",
+      "summary": "October's manufacturer sales releases show strong vehicle movement. But a wholesale headline is not a dealership's retail registration, stock turn or bank balance. This week's most useful question is which vehicles, repair jobs and claims have genuinely converted into collected money.",
+      "sourceNote": "Original Maruti Suzuki press release dated 1 November 2026 and Mahindra newsroom release page dated 2 November 2026 (its text carries a 1 November dateline), both reporting October 2026 manufacturer sales. These are company-reported dispatch/sales figures—not nationwide retail registrations, dealer deliveries or dealer cash receipts.",
+      "metrics": [
+        {
+          "value": "2,76,120",
+          "label": "Maruti Suzuki total vehicle sales",
+          "context": "October 2026; includes domestic sales, sales to other OEMs and exports; OEM-reported"
+        },
+        {
+          "value": "49,872",
+          "label": "Maruti Suzuki export volumes",
+          "context": "October 2026; already included in its 2,76,120 total; not Indian retail"
+        },
+        {
+          "value": "73,338",
+          "label": "Mahindra domestic utility vehicles",
+          "context": "October 2026; company-reported domestic UV sales, including subsidiary vehicles"
+        }
+      ],
+      "reportingType": "Two manufacturers' October 2026 sales/dispatch releases (wholesale-related data); NOT customer retail registrations or nationwide market totals.",
+      "intro": [
+        "Two fresh October releases offer a useful lesson in reading automotive numbers. Maruti Suzuki reported total vehicle sales of 2,76,120 units: 2,16,789 domestic sales (including its light commercial vehicles), 9,459 units supplied to other OEMs and 49,872 exports. Mahindra reported 73,338 domestic utility-vehicle sales in the same month. These are different company-specific categories; they must not be added together or treated as India's retail registrations.",
+        "For a dealer, the gap between manufacturer billing and customer delivery matters more than the size of a market headline. Vehicles can arrive, create inventory and financing exposure, and still wait for documentation, loan clearance, accessories or final settlement. Similarly, a closed repair order or a manufacturer claim is not cash until its billing and collection are reconciled.",
+        "Use the next quarter-hour to compare what was billed, what was delivered and what was collected. If any figure is missing, assign an owner to close that gap rather than debating whether the market is strong."
+      ],
+      "interpretation": {
+        "heading": "The operating lesson: build a stock-to-cash bridge",
+        "points": [
+          "Keep OEM wholesale invoices, dealer retail registrations, physical deliveries and customer receipts in separate columns. They record different events and often different dates.",
+          "Identify vehicles with invoices or stock funding already booked but delivery or payment still pending. Separate genuine bottlenecks from paperwork delays.",
+          "Run the same exception discipline through open repair orders, ordered parts, exchange-car acquisition costs and unsettled claims. Report the number and age of exceptions, not just gross turnover."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Reconcile every promised handover",
+          "check": "Review the next seven days' vehicle deliveries: confirm allocation, registration, payment clearance and handover documents against the promised date.",
+          "metric": "Delivery-ready units / units promised for next 7 days (%)",
+          "rationale": "An allocated or invoiced vehicle has not necessarily reached the customer."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Stop completed jobs waiting for billing",
+          "check": "Check completed repair orders not yet invoiced or delivered; identify missing final QC, approvals or customer communication.",
+          "metric": "Completed ROs awaiting invoice or delivery over 24 hours (count)",
+          "rationale": "Workshop productivity is only one step toward realised revenue."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Match inventory to real job demand",
+          "check": "Take the top five high-value parts purchased but not issued and verify each job reservation, physical location and expected use date.",
+          "metric": "Unissued purchased-parts value older than 30 days (₹)",
+          "rationale": "Paid-for stock without a defined job can quietly absorb cash."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Know total cost before listing",
+          "check": "Check one exchange vehicle's agreed purchase value, transfer papers, repair estimate, carrying cost and approved asking price.",
+          "metric": "Acquired cars with complete cost-and-margin sheet / total acquired cars (%)",
+          "rationale": "A healthy resale price is not automatically a healthy gross margin."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Show cash gaps by owner and age",
+          "check": "Reconcile yesterday's vehicle receipts, workshop collections, unsettled OEM claims and stock-funding debits; allocate every unmatched item.",
+          "metric": "Unreconciled receipts and claims over 7 days (₹)",
+          "rationale": "A visible pending balance can be followed up before it becomes an ageing problem."
+        }
+      ],
+      "huddleTitle": "From invoice to bank: close five gaps",
+      "huddleSummary": "Five desks each bring one real exception. Record the amount or vehicle/RO number, the blocker, an accountable person and a dated next action.",
+      "huddle": [
+        "Minutes 0–3 — Sales: pick one billed or allocated vehicle with delayed delivery; identify the exact blocker.",
+        "Minutes 3–6 — Service: pick one completed but unbilled RO; agree the next step and responsible person.",
+        "Minutes 6–9 — Spares: identify one paid-for part not issued to its intended job; confirm its status.",
+        "Minutes 9–12 — Used Cars: review one exchange vehicle with unapproved reconditioning cost or margin.",
+        "Minutes 12–15 — Accounts: reconcile one unmatched receipt or ageing claim and set a deadline."
+      ],
+      "limitations": [
+        "The two OEM releases cover October 1–31, 2026 manufacturer-reported sales. They do not report VAHAN customer retail registrations, dealer delivery counts or dealer cash collections. No October nationwide retail-registration total is asserted.",
+        "Maruti Suzuki's 2,76,120 total contains exports (49,872), supplies to other OEMs (9,459), and domestic PV/LCV sales (2,16,789). It is not domestic passenger-car retail.",
+        "Mahindra's 73,338 figure is domestic utility vehicles, including its EV subsidiary; the company's broader 1,31,109 total spans other vehicle categories and exports. These scopes cannot be directly compared with Maruti's total or summed as an industry total.",
+        "Mahindra's newsroom page displays a publication date of 2 November 2026, while the release text is dated 1 November 2026. Both dates are disclosed rather than silently harmonised.",
+        "The five checks, metrics and 15-minute exercise are RPHV editorial recommendations, not OEM statistics, official benchmarks or a projection of profitability. Stock ageing cut-offs are practical local management choices, not industry standards."
+      ],
+      "sources": [
+        {
+          "publisher": "Maruti Suzuki India Limited",
+          "title": "Maruti Suzuki sales in October 2026",
+          "published": "2026-11-01",
+          "period": "2026-10-01 to 2026-10-31",
+          "type": "Original OEM corporate press release; manufacturer-reported total/domestic/exports sales, not customer registrations",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/november/maruti-suzuki-sales-in-october-2026"
+        },
+        {
+          "publisher": "Mahindra & Mahindra Limited",
+          "title": "Mahindra Auto records highest ever SUV domestic sales of 73338 vehicles and total volumes of 131109 in October 2026",
+          "published": "2026-11-02",
+          "period": "2026-10-01 to 2026-10-31 (body of release dated 2026-11-01)",
+          "type": "Original OEM corporate press release; reported domestic UV/overall auto sales, not retail registrations",
+          "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-auto-records-highest-ever-suv-domestic-sales-of-73338-vehicles-and-total-volumes-of-131109-in-october-2026"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "006",
       "date": "2026-11-02",
       "status": "editorial-preview",
