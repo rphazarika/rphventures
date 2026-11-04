@@ -4,6 +4,122 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "008",
+      "date": "2026-11-04",
+      "status": "editorial-preview",
+      "category": "AFTERMARKET & INVENTORY",
+      "featureDesk": "SPARES",
+      "title": "The aftermarket is growing. Is the right part on your shelf?",
+      "summary": "ACMA reports a 9% increase in India's domestic auto-component aftermarket in FY2025-26. For dealerships, bigger industry demand is no substitute for correct part identification, reliable order ETAs and disciplined inventory.",
+      "sourceNote": "ACMA's FY2025-26 industry review is listed in its official press archive on 17 July 2026; figures cross-checked against ACMA's undated live industry summary. Reporting period: 1 April 2025 to 31 March 2026. These are component-industry value indicators, not vehicle wholesales or retail registrations.",
+      "metrics": [
+        {
+          "value": "+9%",
+          "label": "Domestic component aftermarket growth",
+          "context": "India • FY2025-26 vs FY2024-25 • ACMA • value"
+        },
+        {
+          "value": "+12.7%",
+          "label": "Auto-component industry turnover growth",
+          "context": "India • FY2025-26 vs FY2024-25 • ACMA • value"
+        },
+        {
+          "value": "4.6%",
+          "label": "EV-component share of domestic OEM supplies",
+          "context": "FY2025-26 • ACMA • excludes lithium-ion batteries"
+        }
+      ],
+      "reportingType": "Auto-component industry value data, not vehicle wholesales or customer registrations",
+      "intro": [
+        "India's auto-component business is expanding. ACMA reports that domestic aftermarket value grew 9% in FY2025-26 compared with FY2024-25, while total auto-component industry turnover grew 12.7%. ACMA also identifies EV components, excluding lithium-ion batteries, as 4.6% of domestic OEM component supplies.",
+        "These numbers have different denominators. The aftermarket figure is about replacement-parts market value; the 12.7% figure is about the wider components industry; the EV share refers to original-equipment component supplies. None measures dealer fill rate, repair delays, vehicle dispatches or retail registrations.",
+        "That distinction matters. A parts counter can be busy yet lose time and money through wrong variants, old superseded numbers, unconfirmed arrival dates and stock that never turns. Growth creates opportunity; process determines whether a workshop captures it."
+      ],
+      "interpretation": {
+        "heading": "Do not turn market growth into blind reordering",
+        "points": [
+          "Build stock decisions from local repair history, model and powertrain mix, and actual demand—not an industry growth percentage.",
+          "Use VIN-based part identification, supersession checks and confirmed supplier lead times before promising completion dates.",
+          "Separate fast-moving service parts from high-value, low-frequency components so both customer waiting time and working capital remain visible."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Capture the exact vehicle variant",
+          "check": "Check five recent deliveries for complete VIN, model, year and powertrain details in the service/CRM record.",
+          "metric": "Delivery records with complete vehicle identification / deliveries checked (%)",
+          "rationale": "Accurate vehicle data reduces avoidable part-selection mistakes later."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Find the repairs stalled for parts",
+          "check": "Review parts-blocked repair orders; confirm part number, revised ETA, customer update and responsible person.",
+          "metric": "Open repair orders blocked for parts for over 48 hours (count)",
+          "rationale": "The 48-hour trigger is a suggested local escalation threshold, not an OEM standard."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Verify before you reorder",
+          "check": "Audit ten live parts orders against VIN/catalogue fitment, supersession, quantity and supplier confirmation.",
+          "metric": "Wrong-part returns / total parts issues in the review period (%)",
+          "rationale": "Correct fitment and first-time fill are more useful than ordering faster."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Cost variant-specific repairs early",
+          "check": "Before purchasing an exchange car, validate availability and price of required reconditioning parts.",
+          "metric": "Acquired units with signed, costed reconditioning sheets / acquired units (%)",
+          "rationale": "A cheap acquisition can become costly when repair parts are unavailable."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Trace money paid for parts not received",
+          "check": "Match supplier advances against open purchase orders, receipts and promised delivery dates.",
+          "metric": "Value of supplier advances for parts pending over 7 days (₹)",
+          "rationale": "A seven-day ageing flag is a management prompt, not a statutory threshold."
+        }
+      ],
+      "huddleTitle": "One delayed part. Five clear decisions.",
+      "huddleSummary": "Pick one real parts-blocked job. In 15 minutes, identify the fitment evidence, ETA, customer commitment and financial exposure.",
+      "huddle": [
+        "Minutes 0–3 — Sales: confirm VIN, model, powertrain and customer commitment.",
+        "Minutes 3–6 — Service: confirm symptom, diagnosis, part need and revised repair promise.",
+        "Minutes 6–9 — Spares: validate part number, supersession, stock and supplier ETA.",
+        "Minutes 9–12 — Used Cars: check whether any affected exchange/refurbishment job needs the same part and price update.",
+        "Minutes 12–15 — Accounts: confirm advance/credit exposure; assign the final owner and update deadline."
+      ],
+      "limitations": [
+        "ACMA's July 2026 annual-industry press-archive entry covers FY2025-26 (1 April 2025 to 31 March 2026), not October or November 2026.",
+        "ACMA's current About page does not state its own publication/update date. The original downloadable annual release is linked from the archive but was not machine-readable in this review; percentage figures were cross-checked on ACMA's own live summary.",
+        "ACMA's live About page reports a domestic-aftermarket rupee amount that conflicts with other published FY26 reporting; this edition deliberately omits the disputed rupee value rather than presenting it as verified.",
+        "The reported +9% and +12.7% are value-growth rates with different industry scopes, while 4.6% is an OEM component-supply share excluding lithium-ion batteries; these should not be combined.",
+        "No October 2026 vehicle wholesale or retail-registration total is cited. No industry metric predicts a specific dealership's parts demand, customer waiting time or profitability.",
+        "The five operational checks, ratios, seven-day and 48-hour triggers are RPHV editorial recommendations, not published ACMA targets or legal standards."
+      ],
+      "sources": [
+        {
+          "publisher": "ACMA",
+          "title": "Annual Industry Performance FY2025-26 — official press-release archive (17 July entry); FY26 indicators cross-checked with ACMA About page",
+          "published": "2026-07-17",
+          "period": "2025-04-01 to 2026-03-31",
+          "type": "Primary industry association archive; values verified against ACMA live industry summary",
+          "url": "https://www.acma.in/press-release.php"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "007",
       "date": "2026-11-03",
       "status": "editorial-preview",
