@@ -4,6 +4,130 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "009",
+      "date": "2026-11-05",
+      "status": "editorial-preview",
+      "category": "DEALERSHIP STRATEGY",
+      "featureDesk": "USED CARS",
+      "title": "Used-car buying is going phygital. Trust still needs a paper trail.",
+      "summary": "A newly announced physical-plus-digital used-car partnership combines online discovery with dealership inspections, finance and handover. The opportunity is real; the dealer's test is whether every vehicle has a verifiable ownership, condition and cost file before money changes hands.",
+      "sourceNote": "Landmark Cars and OLX India corporate partnership announcement, 24 September 2026. It describes a planned phased rollout and company-reported network footprint at announcement date; it is not a monthly sales report.",
+      "metrics": [
+        {
+          "value": "140+",
+          "label": "Retail and service touchpoints",
+          "context": "Landmark network, company-stated in 24 Sep 2026 release; not used-car-only locations"
+        },
+        {
+          "value": "12",
+          "label": "Indian states in stated network",
+          "context": "Company-reported existing footprint at announcement"
+        },
+        {
+          "value": "PHASED",
+          "label": "Proposed rollout",
+          "context": "Selected cities first; no completed nationwide rollout claimed"
+        }
+      ],
+      "reportingType": "Corporate strategy announcement; neither vehicle wholesales nor retail registrations",
+      "intro": [
+        "In a 24 September 2026 stock-exchange-disclosed announcement, Landmark Cars and OLX India outlined a partnership intended to connect digital pre-owned-car discovery with physical inspections, test drives, financing, ownership transfer and post-sale support. It is a proposed operating model, not a report of vehicles sold.",
+        "Landmark said its existing retail and service network spanned more than 140 touchpoints across 12 states. That is a company-described network footprint, not the number of used-car outlets operating under the new arrangement. The rollout was described as phased, beginning in selected cities.",
+        "For an independent dealership or used-car desk, the broader lesson is practical. Technology may attract and match a buyer, but a trustworthy transaction still depends on the VIN, legal ownership, condition report, repair estimate, finance closure and documented handover."
+      ],
+      "interpretation": {
+        "heading": "What this changes for an ordinary dealer",
+        "points": [
+          "Treat an online lead as the beginning of a verified transaction, not proof that a vehicle is ready to buy or deliver.",
+          "Use a standard vehicle dossier linking VIN, inspection photos, test-drive findings, pending repairs, document status and customer approvals.",
+          "Track the complete acquisition-to-handover cycle and contribution margin rather than only advertised selling price."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Book the appraisal before offering exchange value",
+          "check": "Check today's exchange enquiries for an identified vehicle, available RC details and a confirmed appraisal appointment.",
+          "metric": "Exchange enquiries with appraisal appointments ÷ total exchange enquiries (%)",
+          "rationale": "A price promise without verified vehicle details creates avoidable disputes."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Document condition before negotiation",
+          "check": "Verify that each considered trade-in has a signed inspection covering safety items, accident indicators, engine/transmission condition and an estimated repair list.",
+          "metric": "Appraised vehicles with completed inspection sheets ÷ total appraised vehicles (%)",
+          "rationale": "An inspection that cannot be reproduced is a weak basis for valuation."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Price the reconditioning basket",
+          "check": "Confirm part numbers, availability and supplier ETA for every material repair item in the vehicle appraisal.",
+          "metric": "Reconditioning estimates with confirmed parts price and ETA (%)",
+          "rationale": "A low purchase price can still hide costly or delayed repairs."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Require a verified vehicle dossier",
+          "check": "Before paying for a vehicle, confirm the VIN against RC, owner/finance status, inspection report, known repair history and agreed transfer responsibilities.",
+          "metric": "Acquisitions with complete pre-payment dossiers ÷ total acquisitions (%)",
+          "rationale": "Document confidence and ownership transfer are central to customer trust."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Approve the full cost, not just the buying price",
+          "check": "Build a unit-level margin sheet including purchase, repairs, statutory/transfer-related costs, brokerage, finance and likely holding expense.",
+          "metric": "Units with signed-off estimated net margin before purchase (%)",
+          "rationale": "Gross resale spread is not the same as net profit."
+        }
+      ],
+      "huddleTitle": "One exchange car. Five checks. One decision.",
+      "huddleSummary": "Bring a live trade-in file to a 15-minute cross-functional review. Find the missing facts, not the person to blame.",
+      "huddle": [
+        "Minutes 0–3 — Sales confirms customer consent, enquiry source, expected exchange date and appraisal slot.",
+        "Minutes 3–6 — Service identifies one unresolved condition or safety check and its inspection owner.",
+        "Minutes 6–9 — Spares verifies the highest-risk repair part, price and availability.",
+        "Minutes 9–12 — Used Cars confirms RC/VIN match, finance closure and ownership-transfer plan.",
+        "Minutes 12–15 — Accounts validates estimated total cost and margin; the team records accept, hold or decline with an owner."
+      ],
+      "limitations": [
+        "The September 24 announcement described a proposed partnership and phased rollout. It does not establish completed used-car sales, transaction quality, success rates, or a nationwide launch.",
+        "The 140+ touchpoints and 12-state footprint are company-reported Landmark network descriptors, not a count of dedicated used-car outlets.",
+        "No Indian used-car retail-registration volume is inferred. The release is not OEM wholesale data, FADA/VAHAN registration data or a representative market survey.",
+        "The press release's online audience claims are intentionally excluded because marketplace visitors, buyers/sellers, listings and completed transactions are distinct measures.",
+        "Department checks and suggested metrics are RPHV editorial recommendations, not government or OEM benchmarks.",
+        "The original exchange-announcement metadata and the issuer's investor-relations index were identified. The linked original PDF attachment could not be inspected in full in this drafting run; publication requires a final attachment check."
+      ],
+      "sources": [
+        {
+          "publisher": "NSE / Landmark Cars",
+          "title": "Corporate announcement: Landmark Cars and OLX India pre-owned-car partnership",
+          "published": "2026-09-24",
+          "period": "24 September 2026 announcement; stated network footprint at announcement, not a monthly data period",
+          "type": "Primary exchange announcement",
+          "url": "https://www.nseindia.com/corporate/corporate-announcements/LANDMARK/Landmark%20Cars%20Limited?ann_dt=24092026083317&segtype=EOD&seqid=106790363"
+        },
+        {
+          "publisher": "CarTrade Tech",
+          "title": "Company investor-relations register, 24 September 2026 press-release entry",
+          "published": "2026-09-24",
+          "period": "Event announcement dated 24 September 2026; no sales reporting period",
+          "type": "First-party corporate source register",
+          "url": "https://www.cartradetech.com/for-investors.html"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "008",
       "date": "2026-11-04",
       "status": "editorial-preview",
