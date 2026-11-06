@@ -4,6 +4,122 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "010",
+      "date": "2026-11-06",
+      "status": "editorial-preview",
+      "category": "SALES INTELLIGENCE",
+      "featureDesk": "SALES",
+      "title": "Festive sales: the dates can change the story.",
+      "summary": "FADA's provisional Navratri passenger-vehicle registrations were 10.39% higher than in 2024 but 21.91% lower than in 2025. The two comparisons use different festival windows. Before revising targets, separate calendar effects from the dealership's actual enquiry-to-delivery performance.",
+      "sourceNote": "FADA provisional vehicle retail-registration release, published 21 October 2026; Navratri 2026 covers 11-20 October (10 days), versus 22 September-2 October 2025 (11 days) and 3-12 October 2024 (10 days). These are customer registrations, not OEM wholesales.",
+      "metrics": [
+        {
+          "value": "1,82,728",
+          "label": "PV retail registrations",
+          "context": "India; Navratri 2026, 11-20 October; provisional FADA data"
+        },
+        {
+          "value": "+10.39%",
+          "label": "PV registrations vs Navratri 2024",
+          "context": "Both festival windows covered 10 days; 1,65,534 in 2024"
+        },
+        {
+          "value": "-21.91%",
+          "label": "PV registrations vs Navratri 2025",
+          "context": "2025 covered 11 days; 2,34,004 registrations; not like-for-like"
+        }
+      ],
+      "reportingType": "Provisional customer vehicle registrations (FADA/MoRTH); not manufacturer wholesales, dealer invoicing, or a representative enquiry survey",
+      "intro": [
+        "The headline depends on the comparison chosen. In its 21 October release, FADA recorded 1,82,728 passenger-vehicle registrations during Navratri 2026 (11-20 October). That was 10.39% above the 1,65,534 registrations recorded across the ten-day 2024 Navratri period, yet 21.91% below the 2,34,004 recorded during Navratri 2025.",
+        "The 2025 festival window ran for eleven days (22 September-2 October), compared with ten days in 2026 and 2024. FADA also identified the September 2025 GST changes and accumulated demand as factors that made last year's base unusual. The reported decline should therefore not be treated as a clean measure of weakened customer interest.",
+        "For a dealership, the more useful question is operational: Of customers promising a festive delivery, how many cars are allocated, finance-cleared, registered and actually ready to hand over? Review that chain before changing discounts, staffing or purchase decisions. Registrations reflect retail activity; OEM dispatches are a different data series."
+      ],
+      "interpretation": {
+        "heading": "Read the market. Then inspect your own funnel.",
+        "points": [
+          "Compare matched days or clearly label uneven festival windows; also examine the same dealership's week-by-week enquiry, booking and delivery stages.",
+          "For the coming seven days, verify every promised delivery against vehicle allocation, finance status, registration and required fitments. A booking is not a confirmed handover.",
+          "Record why each deferred delivery slipped: customer request, allocation, documents, finance, PDI or accessories. The reason tells managers which process to improve."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Check the promised delivery, not just the booking",
+          "check": "For all deliveries promised within seven days, confirm the customer's date, available VIN, finance approval and registration progress.",
+          "metric": "Fully confirmed deliveries ÷ deliveries promised in next 7 days (%)",
+          "rationale": "This identifies promises at risk without confusing industry registrations with your own sales funnel."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Release cars only after PDI closure",
+          "check": "Match every planned handover VIN to a completed pre-delivery inspection and closure of any safety or functional defects.",
+          "metric": "Deliveries with completed, signed PDI ÷ total deliveries (%)",
+          "rationale": "An incomplete inspection can turn a festive delivery into an early complaint."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Flag accessories holding up handovers",
+          "check": "Review accessories and fitments promised for the next seven days; verify kit availability, technician slot and supplier ETA.",
+          "metric": "Deliveries with all promised accessories ready before handover ÷ deliveries requiring accessories (%)",
+          "rationale": "Missing fitments create preventable delays and broken customer commitments."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Close exchange appraisals before the delivery date",
+          "check": "Identify upcoming deliveries with exchange commitments; confirm physical appraisal, ownership paperwork and approved trade-in value.",
+          "metric": "Exchange-linked deliveries with signed-off appraisals ÷ exchange-linked deliveries due (%)",
+          "rationale": "Unresolved exchange values can prevent a confirmed new-vehicle handover."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Clear money and documents before release",
+          "check": "Reconcile advances, lender payout confirmation, invoice balance and statutory charges on each delivery-due file.",
+          "metric": "Scheduled deliveries fully payment-cleared before handover ÷ scheduled deliveries (%)",
+          "rationale": "A delivery is operationally complete only when financial and documentation controls are clear."
+        }
+      ],
+      "huddleTitle": "Five desks. One delivery at risk. Fifteen minutes.",
+      "huddleSummary": "Use one real delivery file to identify the single blocker that could disappoint the customer, then assign its owner and deadline.",
+      "huddle": [
+        "Minutes 0-3: Sales checks customer commitment, allocation and confirmed date.",
+        "Minutes 3-6: Service validates the VIN's PDI and any open defect.",
+        "Minutes 6-9: Spares confirms accessories, fitment slot and any part ETA.",
+        "Minutes 9-12: Used Cars clears exchange valuation and transfer paperwork, if applicable.",
+        "Minutes 12-15: Accounts confirms payment and registration-related clearance; record the owner and customer update time."
+      ],
+      "limitations": [
+        "FADA's 21 October report was provisional. Retail data were collated as of 21 October 2026 from 1,468 of 1,469 RTOs in collaboration with MoRTH; figures can change with late registrations or revisions.",
+        "The festival windows differ: 2026 (11-20 Oct, 10 days), 2025 (22 Sep-2 Oct, 11 days), 2024 (3-12 Oct, 10 days). The -21.91% 2025 comparison is not a like-for-like daily or calendar-month growth measure.",
+        "FADA notes that Telangana registration data for 3W, CV and tractor categories were unavailable for Navratri 2026; this caveat applies to relevant all-vehicle totals, though PV is not listed among the missing categories.",
+        "FADA's discussion of GST-linked pent-up demand is industry interpretation, not causal proof about every dealership. Festival registrations cannot establish dealership enquiry conversion or profitability.",
+        "This article contains no October 2026 full-month FADA retail figure. It does not combine festival retail registrations with October manufacturer wholesale dispatches as if they describe the same period.",
+        "The five practical checks, metrics and 15-minute huddle are original RPHV operational suggestions, not FADA or OEM performance standards."
+      ],
+      "sources": [
+        {
+          "publisher": "FADA",
+          "title": "FADA Releases Navratri'26 Vehicle Retail Data (Provisional)",
+          "published": "2026-10-21",
+          "period": "Navratri 2026: 11-20 October 2026; compared with Navratri 2025: 22 September-2 October (11 days), and Navratri 2024: 3-12 October (10 days)",
+          "type": "Primary industry association / MoRTH-collaborated provisional retail-registration release",
+          "url": "https://fada.in/images/press-release/16ad896132aebfFADA_Press_Release_Navratri%2726_%28Provisional%29.pdf"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "009",
       "date": "2026-11-05",
       "status": "editorial-preview",
