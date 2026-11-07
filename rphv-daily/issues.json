@@ -4,6 +4,139 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "011",
+      "date": "2026-11-07",
+      "status": "editorial-preview",
+      "category": "SERVICE INTELLIGENCE",
+      "featureDesk": "SERVICE",
+      "title": "EV retail is growing. Is your service handoff ready?",
+      "summary": "FADA's 6 November statement reports about 3.55 lakh electric-vehicle registrations across all categories in October 2026. New registrations are not workshop visits. The useful question is whether the service team can identify electrified vehicles, route them safely and keep customer promises.",
+      "sourceNote": "FADA's October 2026 retail-registration statement dated 6 November 2026, covering 1–31 October. The first-party release text was verified through a syndicated reproduction and independent reporting; a direct FADA-hosted October PDF was not accessible for examination. Figures are registrations, NOT OEM wholesales or repair orders.",
+      "metrics": [
+        {
+          "value": "~3.55L",
+          "label": "EV registrations, all categories",
+          "context": "FADA statement • October 2026 • approximate retail count"
+        },
+        {
+          "value": "7.30%",
+          "label": "Electric share of PV registrations",
+          "context": "FADA retail powertrain mix • October 2026 • PV denominator"
+        },
+        {
+          "value": "5,07,768",
+          "label": "Passenger-vehicle retail registrations",
+          "context": "India • October 2026 • not OEM wholesale dispatches"
+        }
+      ],
+      "reportingType": "FADA-reported retail registrations for 1–31 October 2026; not manufacturer wholesales, workshop inflow, or a dealer-level survey",
+      "intro": [
+        "The number worth noticing is not a workshop target. FADA's 6 November 2026 statement says electric-vehicle retail registrations reached approximately 3.55 lakh across vehicle categories in October 2026. Within passenger vehicles, electric models represented 7.30% of 5,07,768 retail registrations. These are two different denominators.",
+        "A registered vehicle is not a service visit. It would be misleading to turn a month's EV retail data into a forecast for service revenue, trained-technician demand or diagnostic failures. But the changing mix is a useful reason to audit how enquiries and repair orders are received, identified and handed to the right people.",
+        "For the next EV or hybrid customer, can the advisor capture the exact vehicle and complaint, can the workshop assign work only within its training and equipment limits, and can the customer get a realistic update? That is the operational test, not a slogan about electrification."
+      ],
+      "interpretation": {
+        "heading": "Prepare the service process before the next exception",
+        "points": [
+          "Identify the powertrain and exact vehicle/VIN at appointment and job-card creation; do not treat EV, hybrid and conventional vehicles as interchangeable.",
+          "For work involving high-voltage systems, follow the manufacturer procedure and route only to authorised, appropriately trained personnel; escalate otherwise. This is a safety and process recommendation, not a claim about an industry-wide skills gap.",
+          "Agree on parts availability, diagnostic authorisation, expected completion and next customer-update time before making a delivery promise."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Explain ownership support at handover",
+          "check": "For each EV delivery, verify that the customer receives model-specific charging, roadside assistance, warranty and service-booking guidance.",
+          "metric": "EV deliveries with recorded customer orientation ÷ EV deliveries (%)",
+          "rationale": "A useful handover reduces avoidable confusion over whom to contact for help."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Route the job to the right technician",
+          "check": "Review electrified-vehicle job cards for VIN/powertrain identification, a named trained owner and safe escalation where high-voltage competence or equipment is unavailable.",
+          "metric": "EV/hybrid ROs with documented qualified assignment and triage ÷ EV/hybrid ROs (%)",
+          "rationale": "Good routing protects safety and reduces unowned diagnostic delays."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Confirm fitment before quoting",
+          "check": "For an electrified-vehicle parts request, match VIN and part number and record availability, supersession and supplier ETA before promising completion.",
+          "metric": "EV/hybrid parts requests with verified VIN and ETA ÷ EV/hybrid parts requests (%)",
+          "rationale": "A wrong or delayed component can keep a specialist bay occupied."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Document battery and warranty evidence",
+          "check": "Before acquiring a used EV, record the VIN, warranty eligibility, charging accessories and an OEM-supported battery assessment where available.",
+          "metric": "Used EV appraisals with battery/warranty evidence ÷ used EV appraisals (%)",
+          "rationale": "Unknown battery or warranty status makes an appraisal unnecessarily speculative."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Track outstanding electrified-vehicle claims",
+          "check": "Review EV/hybrid warranty claims for complete invoices, approvals, labour documentation and payment status; assign owners to overdue cases.",
+          "metric": "Value of EV/hybrid warranty claims outstanding over 30 days (₹)",
+          "rationale": "Correct technical work still needs timely claim documentation and reconciliation."
+        }
+      ],
+      "huddleTitle": "One electrified-vehicle case. Five clean handoffs.",
+      "huddleSummary": "Use one real EV or hybrid case; if none is currently open, use the latest genuine customer enquiry. Record an owner, the next step and a deadline; never perform high-voltage work as part of the huddle.",
+      "huddle": [
+        "Minutes 0–3: Sales checks what ownership, warranty and service guidance the customer received.",
+        "Minutes 3–6: Service confirms VIN, complaint, trained assignment and any safety/escalation limit.",
+        "Minutes 6–9: Spares validates any requested part number, fitment and availability.",
+        "Minutes 9–12: Used Cars checks what evidence would be needed if this vehicle came in for exchange.",
+        "Minutes 12–15: Accounts checks claim/billing documentation and the team records one owner, deadline and customer update."
+      ],
+      "limitations": [
+        "FADA's statement, dated 6 November 2026, concerns October 1–31 retail registrations. No November registrations, future sales or aftersales RO volumes are inferred.",
+        "The approximately 3.55 lakh EV figure covers all vehicle categories. The 7.30% EV figure is a share of PASSENGER-VEHICLE retail registrations; the percentages are not interchangeable.",
+        "The October release was not available as a directly inspected PDF on the FADA domain (site access blocked); its FADA-authored statement was checked in a syndicated reproduction and its major figures corroborated by independent dated trade coverage. Original publisher-hosted document and RTO scope/coverage footnotes remain unverified; retain an approval hold.",
+        "Monthly retail-registration figures are not manufacturer wholesale dispatches, billings, cash collections, service visits, repair demand or evidence of staff competency gaps.",
+        "FADA attributes the October 2026 year-on-year comparison to the unusual festival calendar; this issue does not infer a measured service-workload effect.",
+        "All five desk checks and suggested metrics are original RPHV guidance, not FADA standards or mandatory manufacturer service procedures. Follow the applicable OEM safety directions; do not attempt high-voltage work without appropriate training/authorisation.",
+        "If no relevant EV/hybrid cases occurred, record the metric as not applicable, not 100%."
+      ],
+      "sources": [
+        {
+          "publisher": "FADA statement (syndicated reproduction)",
+          "title": "FADA Releases Oct’26 Vehicle Retail Data",
+          "published": "2026-11-06",
+          "period": "1–31 October 2026",
+          "type": "FADA-authored association press release reproduced by Business Scanner; direct FADA-hosted original not retrieved",
+          "url": "https://businesscanner.com/business/fada-releases-oct26-vehicle-retail-data"
+        },
+        {
+          "publisher": "Autocar India",
+          "title": "PV retail sales fall 14 percent during festive period",
+          "published": "2026-11-06",
+          "period": "1–31 October 2026",
+          "type": "Independent dated report corroborating the PV registrations and 7.30% EV PV mix",
+          "url": "https://www.autocarindia.com/industry/pv-retail-sales-fall-14-percent-during-festive-period-top-3-maintain-position-441273"
+        },
+        {
+          "publisher": "FADA",
+          "title": "Official association website",
+          "published": "2026-11-06",
+          "period": "October 2026 release sought; direct file not accessible",
+          "type": "Official publisher website only, NOT a verified direct link to the October release; approval hold",
+          "url": "https://fada.in/"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "010",
       "date": "2026-11-06",
       "status": "editorial-preview",
