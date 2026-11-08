@@ -4,6 +4,137 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "012",
+      "date": "2026-11-08",
+      "status": "editorial-preview",
+      "category": "DEALERSHIP FINANCE & OPERATIONS",
+      "featureDesk": "ACCOUNTS",
+      "title": "Diwali deliveries are not cash until the records agree",
+      "summary": "FADA says passenger-vehicle channel inventory remained around 43–45 days in October 2026, even as dealers looked ahead to November's festive deliveries. A busy showroom helps only when the dealership also checks stock ageing, lender receipts, exchange adjustments and claims still waiting to be settled.",
+      "sourceNote": "FADA October 2026 vehicle-retail statement dated 6 November 2026 (period 1–31 October), plus its November 2026 member outlook survey. Passenger-vehicle retail registrations are RTO-based transactions; FADA's channel-stock days are an association estimate; the 51.65% expectation is a survey response. None is an OEM wholesale dispatch count, audited dealership cash receipt or realised November sale. First-party FADA LinkedIn posts were found, but the original FADA-hosted October press PDF was inaccessible.",
+      "metrics": [
+        {
+          "value": "43–45",
+          "label": "PV channel inventory, days",
+          "context": "FADA-reported estimate • October 2026 • not individual dealer stock"
+        },
+        {
+          "value": "5,07,768",
+          "label": "PV retail registrations",
+          "context": "FADA • India • 1–31 Oct 2026 • not manufacturer wholesales"
+        },
+        {
+          "value": "51.65%",
+          "label": "Survey respondents expecting November growth",
+          "context": "FADA Online Members' Survey • November 2026 outlook, not realised sales"
+        }
+      ],
+      "reportingType": "India October 2026 retail registrations (RTO-based); FADA national passenger-vehicle channel inventory-day estimate; forward-looking FADA dealer survey. NOT factory wholesales or dealership audited financial data.",
+      "intro": [
+        "FADA's 6 November report places October 2026 passenger-vehicle retail registrations at 5,07,768 and estimates channel inventory at around 43–45 days, unchanged from September. The registrations reflect vehicles recorded at RTOs; the inventory-day figure is an association-level stock estimate. These are different measures, and neither shows the cash available in a particular dealership.",
+        "Looking ahead, 51.65% of respondents to FADA's Online Members' Survey expected retail growth in November. That is sentiment, not a forecast guaranteed to come true. With Diwali on 8 November, the test for a dealer is whether scheduled handovers become completed, correctly accounted transactions.",
+        "A vehicle can have a customer invoice, a registration entry and a promised delivery without every supporting receipt, bank payout, exchange adjustment or credit note being reconciled. The useful festive-season control is a short, daily exception list: which unit is still in stock, who owes which amount and who owns the next action?"
+      ],
+      "interpretation": {
+        "heading": "Turn festive activity into reconciled business",
+        "points": [
+          "Separate three records in the daily review: OEM-to-dealer dispatches (wholesale), customer registrations (retail), and actual dealership receipts. Reconcile differences instead of treating them as interchangeable sales figures.",
+          "Age each unsold vehicle and record its landed cost and funding status; do not apply the nationwide 43–45-day estimate to any individual stock ledger.",
+          "Close the handover loop: finance disbursement, customer balance, exchange adjustment, accessory bill and delivery acknowledgement must be traceable to the same vehicle/VIN. Track unresolved items by owner and date."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Check each promised handover",
+          "check": "From today's delivery list, match VIN, customer invoice, registration status, lender approval and payment clearance before confirming handover.",
+          "metric": "Delivery files with verified clearance ÷ deliveries scheduled today (%)",
+          "rationale": "A delivery promise should be supported by a complete customer and payment record."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Close PDI exceptions before release",
+          "check": "For each vehicle marked ready for delivery, confirm signed pre-delivery inspection and closure or authorised escalation of any open defect.",
+          "metric": "Planned deliveries with signed, cleared PDI ÷ planned deliveries (%)",
+          "rationale": "A last-minute repair hold is easier to manage when visible to Sales and Accounts."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Match accessories to the invoice",
+          "check": "Review billed accessories on today's handover list and confirm fitment, issue records and approved exceptions with Sales.",
+          "metric": "Billed accessory lines without verified fitment or issue (count)",
+          "rationale": "A missing accessory can delay handover or create avoidable billing disputes."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Record the full exchange adjustment",
+          "check": "For each exchange attached to a new delivery, verify acquisition value, existing loan closure/no-dues status, ownership documents and ledger treatment.",
+          "metric": "Exchange-linked deliveries with approved settlement sheet ÷ exchange-linked deliveries (%)",
+          "rationale": "Unresolved loans and undocumented offsets make the sale harder to reconcile."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Trace the money vehicle by vehicle",
+          "check": "Match each delivered VIN to customer receipts, lender disbursement, exchange offsets, taxes and any OEM receivable; assign ageing and owner to mismatches.",
+          "metric": "Unreconciled delivery-linked balance aged over 2 working days (₹)",
+          "rationale": "Completed deliveries are not the same as fully settled or reconciled transactions."
+        }
+      ],
+      "huddleTitle": "One VIN. Five checks. Fifteen minutes.",
+      "huddleSummary": "Select one live festive handover at risk. Spend three minutes with each desk, capture the gap and end with one named owner per unresolved item.",
+      "huddle": [
+        "Minutes 0–3 — SALES: Show the VIN, customer promise, invoice and payment/registration status.",
+        "Minutes 3–6 — SERVICE: Confirm signed PDI or identify the release blocker.",
+        "Minutes 6–9 — SPARES: Confirm accessories billed, issued and fitted.",
+        "Minutes 9–12 — USED CARS: If an exchange is involved, confirm loan settlement and adjustment documentation; otherwise record no exchange.",
+        "Minutes 12–15 — ACCOUNTS: Match bank receipts and lender payout to the VIN; assign owners and deadlines for every exception."
+      ],
+      "limitations": [
+        "Original October 2026 FADA-hosted report/PDF was not accessible during research; the 6 November statement was checked through a separately hosted attributed reproduction and credible independent reports. The association's publicly visible LinkedIn feed corroborates the 43–45-day stock statement and 51.65% November sentiment, but exact first-party PDF footnotes remain unchecked. Do not publish until reconciled.",
+        "FADA's ~43–45 inventory days describe the passenger-vehicle channel at an industry level, not an audited figure for an individual dealership or a rupee financing cost.",
+        "51.65% is the share of respondents to a FADA Online Members' Survey expecting growth in November 2026. Survey sample size, response rate and full questionnaire were not verified; it is not a measure of realised sales or a probability.",
+        "October 2026 retail registrations are not manufacturer-to-dealer dispatches (wholesales). The festive calendar differs from October 2025 because Diwali is in November 2026; simple annual comparisons can mislead.",
+        "The recommended checks and two-working-day exception threshold are RPHV editorial management suggestions, not FADA, OEM, RBI or statutory norms."
+      ],
+      "sources": [
+        {
+          "publisher": "Federation of Automobile Dealers Associations (FADA)",
+          "title": "Official FADA updates: October 2026 PV channel inventory and November dealer sentiment",
+          "published": "2026-11-06",
+          "period": "October 2026 stock reporting; November 2026 dealer expectations (press statement dated 6 November; exact social-post dates not independently confirmed)",
+          "type": "First-party association posts, available on official LinkedIn company feed; full PDF inaccessible",
+          "url": "https://in.linkedin.com/company/federation-of-automobile-dealers-associations"
+        },
+        {
+          "publisher": "FADA statement, reproduced by Business Scanner",
+          "title": "FADA Releases Oct'26 Vehicle Retail Data",
+          "published": "2026-11-06",
+          "period": "2026-10-01 to 2026-10-31; survey outlook November 2026",
+          "type": "Attributed reproduction of association statement, not a directly retrieved FADA-hosted original",
+          "url": "https://businesscanner.com/business/fada-releases-oct26-vehicle-retail-data"
+        },
+        {
+          "publisher": "Autocar Professional",
+          "title": "Passenger Vehicle Retail Sales Fall 14.23% To 5.08 Lakh In October: FADA",
+          "published": "2026-11-06",
+          "period": "2026-10-01 to 2026-10-31",
+          "type": "Independent contemporaneous corroboration; secondary",
+          "url": "https://www.autocarpro.in/analysis-sales/passenger-vehicle-retail-sales-fall-1423-percent-to-508-lakh-in-october-fada-135776"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "011",
       "date": "2026-11-07",
       "status": "editorial-preview",
