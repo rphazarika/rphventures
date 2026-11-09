@@ -4,6 +4,121 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "013",
+      "date": "2026-11-09",
+      "status": "editorial-preview",
+      "category": "AFTERSALES & SUPPLY CHAIN",
+      "featureDesk": "SPARES",
+      "title": "A bigger parts warehouse is not a delivery promise.",
+      "summary": "An automaker's Bengaluru distribution expansion illustrates the importance of spare-parts infrastructure. But workshop customers experience the last mile: correct fitment, confirmed order status, a realistic ETA and prompt updates when a repair is blocked.",
+      "sourceNote": "Honda Cars India corporate announcement published 18 September 2026, covering the Phase-II warehouse ground-breaking on that date. Figures are proposed project investment and physical facility area, NOT vehicle wholesales, retail registrations, parts sales or independently measured delivery times.",
+      "metrics": [
+        {
+          "value": "₹450 cr",
+          "label": "Announced Phase-II investment",
+          "context": "Planned project spend; Honda Cars India • 18 Sep 2026"
+        },
+        {
+          "value": "80,000 m²",
+          "label": "Announced Phase-II addition",
+          "context": "Proposed warehouse floor area • not completed capacity"
+        },
+        {
+          "value": "140,000 m²",
+          "label": "Projected total warehouse area",
+          "context": "After Phase II; includes existing 60,000 m² Phase I"
+        }
+      ],
+      "reportingType": "Corporate investment / capacity announcement. Not OEM vehicle wholesales, retail registrations or measured parts fill rate.",
+      "intro": [
+        "On 18 September 2026, Honda Cars India announced the ground-breaking of Phase II of its spare-parts warehouse at Doddaballapura near Bengaluru. The company said the planned addition would cover approximately 80,000 square metres with an investment of ₹450 crore. It projects 140,000 square metres of total site area after the expansion, including the 60,000-square-metre first phase operational since June 2025.",
+        "This is a useful example of investment in India's automotive aftersales supply chain, not evidence that service parts are arriving faster today. The stated hub serves the company's car, two-wheeler and power-products businesses. The release does not provide a completion date, order-fill rate, transit-time improvement or local-dealership result.",
+        "For managers, the actionable question is narrower: for each vehicle held up by a part, does someone know the correct part number, actual order status, dated supplier ETA, assigned owner and next customer update?"
+      ],
+      "interpretation": {
+        "heading": "The last mile matters more than the headline",
+        "points": [
+          "Separate stock at the central warehouse from stock available to your specific workshop; availability is not a promise until an order and delivery date are confirmed.",
+          "Make parts-blocked repair orders visible each morning. Record VIN, part number, supplier acknowledgement, ETA, escalation owner and customer update time.",
+          "Use scheduled repairs and actual fast-moving consumption to plan genuine demand. Avoid speculative buying that turns working capital into ageing inventory."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Protect accessory-ready deliveries",
+          "check": "For the next seven days' planned vehicle handovers, verify VIN-specific accessories and fitment slots before confirming the delivery time.",
+          "metric": "Deliveries with required accessories physically ready ÷ all deliveries requiring accessories (%)",
+          "rationale": "Do not equate a parts order with fitted accessories."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Keep parts-blocked ROs in sight",
+          "check": "Review every open repair order stopped by unavailable parts; confirm its age, revised promise and next customer-update owner.",
+          "metric": "Open parts-blocked ROs older than 48 hours (number)",
+          "rationale": "The customer needs a dependable next update even when the part is unavailable."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Know which ETA is confirmed",
+          "check": "Check the ten most urgent unfulfilled parts requests for VIN fitment, supplier acknowledgement, order status and a dated ETA.",
+          "metric": "Open parts orders with a supplier-confirmed ETA ÷ all open parts orders (%)",
+          "rationale": "An estimated arrival date without supplier acknowledgement is still a risk, not a delivery commitment."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Price reconditioning delays",
+          "check": "Before accepting an exchange vehicle, verify cost and availability of critical repair parts, including delayed or discontinued items.",
+          "metric": "Acquired used vehicles with parts-verified reconditioning sheets ÷ total acquired used vehicles (%)",
+          "rationale": "Low acquisition price cannot protect margin when essential parts are unavailable."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Unblock parts-related cash",
+          "check": "Match supplier advances and payments against purchase orders, invoices and goods received notes; flag amounts against unreceived items.",
+          "metric": "Unmatched parts-supplier advances older than 7 calendar days (₹)",
+          "rationale": "Paid does not mean received, and received does not mean correctly issued."
+        }
+      ],
+      "huddleTitle": "One missing part. Five decisions. Fifteen minutes.",
+      "huddleSummary": "Choose one actual parts-blocked repair order and use five three-minute reviews to resolve availability, fitment, customer promise, reconditioning exposure and cash.",
+      "huddle": [
+        "Minutes 0–3 | Service: Explain the blocked RO, promised date and last customer update.",
+        "Minutes 3–6 | Spares: Verify exact part, supplier order status and dated ETA; flag unconfirmed information.",
+        "Minutes 6–9 | Sales: Check whether the issue also affects a planned new-car or accessory delivery.",
+        "Minutes 9–12 | Used Cars: Check whether the same part could delay an exchange-vehicle reconditioning job.",
+        "Minutes 12–15 | Accounts: Confirm any advance exposure, assign owners and schedule next customer/management update."
+      ],
+      "limitations": [
+        "The 18 September 2026 company release is a project announcement, not a report from 9 November 2026; the newsletter date is the publication date of RPHV commentary.",
+        "Phase II had only reached the announced ground-breaking stage. The cited ₹450 crore and 80,000 m² refer to planned investment and addition, not completed assets or verified expenditure.",
+        "The 140,000 m² is the company's projected combined facility area after Phase II; 60,000 m² Phase I was reported operational in June 2025.",
+        "The company release gives no actual fill-rate, repair turnaround, delivery lead-time, opening/completion date or proof of dealer-level improvement.",
+        "The source is specific to one supplier network; the five checks are brand-neutral RPHV recommendations, not company performance targets. No vehicle wholesale or retail registrations are reported."
+      ],
+      "sources": [
+        {
+          "publisher": "Honda Cars India Ltd.",
+          "title": "Honda Cars India Begins INR 450 Crore Phase II Expansion of Bengaluru Spare Parts Warehouse",
+          "published": "2026-09-18",
+          "period": "Project ground-breaking announced on 2026-09-18; Phase I operational since 2025-06 (company statement)",
+          "type": "Primary automaker corporate press release; planned logistics investment, not sales data",
+          "url": "https://stage.hondacarindia.com/media/press-releases/expansion-bengaluru-spare-parts"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "012",
       "date": "2026-11-08",
       "status": "editorial-preview",
