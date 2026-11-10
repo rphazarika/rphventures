@@ -4,6 +4,121 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "014",
+      "date": "2026-11-10",
+      "status": "editorial-preview",
+      "category": "USED-CAR OPERATIONS",
+      "featureDesk": "USED CARS",
+      "title": "A certified used car still needs a complete file.",
+      "summary": "A 25-year milestone in organised pre-owned retail puts inspection, vehicle history and buyer trust in focus. For any dealership, the important test is not the size of the used-car market: it is whether every promise made about a vehicle can be demonstrated before a customer pays.",
+      "sourceNote": "Maruti Suzuki True Value anniversary announcement, reported 16 October 2026; milestones are cumulative since its 2001 launch, not October 2026 sales or Indian market totals. Original company page carries no visible publication timestamp in the accessible text; 16 October date is cross-checked against contemporaneous reporting. Original page date requires final editorial confirmation.",
+      "metrics": [
+        {
+          "value": "25 years",
+          "label": "True Value network anniversary",
+          "context": "Company milestone in October 2026; began in 2001"
+        },
+        {
+          "value": "65 lakh+",
+          "label": "Cumulative pre-owned vehicles reported sold",
+          "context": "Company-reported since 2001; not monthly retail registrations or unique-buyer count"
+        },
+        {
+          "value": "662",
+          "label": "True Value outlets",
+          "context": "Company-reported network at October 2026 announcement; spread across 338 cities"
+        }
+      ],
+      "reportingType": "Company-reported cumulative used-car retail milestones and network footprint; not OEM wholesales, VAHAN registrations or independent national-market measurements",
+      "intro": [
+        "Maruti Suzuki's October 2026 True Value anniversary announcement reports a 25-year pre-owned car business, more than 65 lakh cumulative vehicle sales since its 2001 launch, and 662 outlets across 338 cities. It describes vehicle assessment, documentation, history checks, certification and warranty support as part of its operating model.",
+        "These are company-reported business milestones, not sales achieved in October, not the number of unique Indian used-car buyers and not the size of the nationwide used-car market. The anniversary is a useful case study in process design, not proof that any certificate eliminates vehicle defects.",
+        "For dealerships of any brand, an inspection checklist is useful only if the recorded findings are supported by evidence, the reconditioning estimate is fully costed and the sale contract tells the buyer what is and is not covered. A glossy sales listing cannot replace a traceable vehicle file."
+      ],
+      "interpretation": {
+        "heading": "Build the proof before the promise",
+        "points": [
+          "A buyer should be able to trace the VIN, registration details, prior ownership, known condition, service history and inspection findings to the actual vehicle.",
+          "Keep reconditioning costs, finance settlement, transfer documentation and warranty conditions visible to the decision-maker before the selling price is approved.",
+          "Treat digital listings and certification badges as invitations to inspect the evidence—not substitutes for the evidence itself."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Explain exactly what is included",
+          "check": "Before taking a used-car booking, show the written condition summary, disclosed exceptions, warranty scope and transfer responsibilities; record customer acknowledgement.",
+          "metric": "Used-car bookings with signed condition and terms disclosure ÷ total used-car bookings (%)",
+          "rationale": "A clear, documented promise helps prevent avoidable disputes after delivery."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Make inspections traceable",
+          "check": "For each car under appraisal, record VIN, inspection date, diagnostic findings, accident/flood indicators where assessable, road-test result and inspector sign-off.",
+          "metric": "Appraised cars with signed technical inspection ÷ cars appraised (%)",
+          "rationale": "A signed inspection captures known findings, not a guarantee against every hidden defect."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Cost the reconditioning properly",
+          "check": "Confirm VIN-correct replacement parts, prices and supplier availability for the approved reconditioning work before the purchase price is finalised.",
+          "metric": "Acquisition proposals with verified reconditioning parts cost and ETA ÷ total proposals (%)",
+          "rationale": "Unavailable or expensive parts can erase expected margin."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Close the ownership evidence gap",
+          "check": "Match RC and VIN to the physical vehicle; document ownership, finance/hypothecation status and the applicable transfer process before releasing acquisition payment.",
+          "metric": "Acquisitions with complete ownership and transfer dossier before payment ÷ total acquisitions (%)",
+          "rationale": "Acquisition without clean documents can delay legal transfer and resale."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Approve the all-in margin",
+          "check": "Sign off the price sheet including acquisition, finance settlement, repairs, logistics, statutory/transfer charges and estimated holding costs.",
+          "metric": "Acquisitions with approved all-in margin sheet ÷ total acquisitions (%)",
+          "rationale": "Gross selling spread is not the same as realised margin."
+        }
+      ],
+      "huddleTitle": "Can we prove this car is ready to sell?",
+      "huddleSummary": "Pick one vehicle being acquired or listed. Each department has three minutes to identify one missing piece of evidence; finish with a hold-or-release decision and owners.",
+      "huddle": [
+        "Minutes 0–3 — Sales: state the buyer-facing promise and identify anything not yet disclosed.",
+        "Minutes 3–6 — Service: show signed inspection findings and any unresolved technical risk.",
+        "Minutes 6–9 — Spares: verify parts needed for rectification and their confirmed cost/ETA.",
+        "Minutes 9–12 — Used Cars: check RC/VIN, finance status, transfer papers and outstanding approvals.",
+        "Minutes 12–15 — Accounts: confirm all-in margin and record 'ready', 'hold' or 'decline', plus the action owner."
+      ],
+      "limitations": [
+        "The 65-lakh-plus figure is a cumulative company statement since 2001, not October 2026 sales, VAHAN registrations, unique people, or a measure of all Indian used-car transactions.",
+        "662 outlets and 338 cities describe a single company's reported network at its October 2026 announcement, not the total number of used-car dealers in India.",
+        "The corporate web page does not visibly print a release date in the retrieved text. Contemporary reports identify 16 October 2026; original timestamp or downloadable press release remains a final pre-publication verification task.",
+        "The standing Parivahan guidance for normal ownership transfers refers to Forms 29/30 and state-dependent documents and timelines. Dealers must confirm current requirements with their relevant RTO; no universal completion time is claimed.",
+        "These five checks and performance metrics are RPHV editorial suggestions, not manufacturer or government benchmarks. No evidence is presented that certification guarantees defect-free vehicles or higher realised margins."
+      ],
+      "sources": [
+        {
+          "publisher": "Maruti Suzuki India Limited",
+          "title": "Maruti Suzuki True Value celebrates 25 years with 65 lakh customers",
+          "published": "2026-10-16",
+          "period": "Cumulative since 2001; network snapshot reported October 2026",
+          "type": "Primary OEM corporate announcement; webpage does not display its own timestamp (date cross-checked independently)",
+          "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/october/maruti-suzuki-true-value-celebrates-25-years-with-65-lakh-customers"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "013",
       "date": "2026-11-09",
       "status": "editorial-preview",
