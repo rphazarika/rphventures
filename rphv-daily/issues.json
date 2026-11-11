@@ -4,6 +4,125 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "015",
+      "date": "2026-11-11",
+      "status": "editorial-preview",
+      "category": "VEHICLE SAFETY & CUSTOMER TRUST",
+      "featureDesk": "SALES",
+      "title": "Five stars are not the whole story. Check the VIN.",
+      "summary": "Mahindra's XUV 3XO ZNG earned a five-star Bharat NCAP rating, but the assessment also carries an important vehicle-identification qualification. The customer deserves the correct variant, VIN-specific score and clearly explained safety equipment—not a generic showroom badge.",
+      "sourceNote": "Mahindra press release dated 6 November 2026; Bharat NCAP's XUV 3XO rating began in November 2024 and its official vehicle page records a November 2026 extension to CNG variants. Bharat NCAP specifies that the revised child-protection score of 45/49 applies to vehicles from VIN MA1NS2NVPS2B98575 onwards; earlier vehicles retain 43/49. The exact day of the Bharat NCAP website revision is not displayed.",
+      "metrics": [
+        {
+          "value": "5 stars",
+          "label": "Bharat NCAP AOP and COP rating",
+          "context": "Mahindra XUV 3XO ZNG CNG family, November 2026 rating extension"
+        },
+        {
+          "value": "29.36/32",
+          "label": "Adult Occupant Protection score",
+          "context": "Bharat NCAP points; standardized crash-assessment result"
+        },
+        {
+          "value": "45/49*",
+          "label": "Child Occupant Protection score",
+          "context": "*From VIN MA1NS2NVPS2B98575 onwards; pre-cutoff vehicles: 43/49"
+        }
+      ],
+      "reportingType": "Model-specific standardized Bharat NCAP crash-test rating and November 2026 applicability revision; NOT manufacturer wholesale dispatches, retail registrations, vehicle-sale totals or crash-outcome statistics",
+      "intro": [
+        "On 6 November 2026, Mahindra announced that its factory-fitted CNG XUV 3XO ZNG had received five stars under Bharat NCAP, with 29.36 out of 32 points for Adult Occupant Protection and 45 out of 49 for Child Occupant Protection. These are defined crash-assessment scores, not a prediction of protection in every real-world collision.",
+        "The full story is more specific than the showroom headline. The official Bharat NCAP XUV 3XO vehicle page says the original rating was published in November 2024 and was extended to the CNG family in November 2026. It also states that the revised child-protection score of 45/49 is applicable only to vehicles built from VIN MA1NS2NVPS2B98575 onwards; vehicles before that VIN retain 43/49. Both reported score sets correspond to five-star child ratings.",
+        "That production-cutoff note matters whenever a salesperson discusses a rating, a customer compares variants or a used-car appraiser assesses an earlier vehicle. The right sales promise identifies the exact vehicle and official rating applicability before quoting the headline."
+      ],
+      "interpretation": {
+        "heading": "Turn a safety badge into an evidence-backed explanation",
+        "points": [
+          "Use the vehicle's actual VIN, fuel type, variant and manufacture record to check the official assessment's applicability; never assume every car sharing a model name carries exactly the same published score.",
+          "Explain standard airbags, electronic stability control, ISOFIX availability and the manufacturer's CNG gas-leak protection using approved documentation, without promising that any vehicle is injury-proof.",
+          "Record which safety information was communicated to the buyer, and refer technical or CNG-system questions to the authorised manufacturer procedure rather than ad-hoc workshop checks."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Verify the car behind the claim",
+          "check": "Before quoting a Bharat NCAP result, match actual VIN, variant and fuel system with the current official ratings-applicability notes; retain that check in the delivery file.",
+          "metric": "Safety-rating claims supported by VIN and variant check ÷ safety-rating claims made (%)",
+          "rationale": "The published assessment can contain production-batch exclusions that a generic model brochure does not show."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Complete a safety-focused handover",
+          "check": "Document OEM-prescribed pre-delivery warning-lamp checks and explain seat-belt, ISOFIX and relevant CNG safety instructions; escalate CNG faults to trained authorised staff.",
+          "metric": "Deliveries with signed safety/PDI handover checklist ÷ deliveries due (%)",
+          "rationale": "A high crash-test rating does not replace functioning safety equipment and owner understanding."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Do not guess on safety-critical parts",
+          "check": "Verify safety-system and CNG-related part numbers against the exact VIN and OEM catalogue before ordering or issuing replacement parts.",
+          "metric": "Safety-critical part orders with verified VIN fitment ÷ all safety-critical part orders (%)",
+          "rationale": "Correct part selection matters more than quick but incorrect substitution."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Check rating and modifications separately",
+          "check": "During acquisition, record VIN, fuel system as originally manufactured, known safety-system repairs and any non-OEM CNG modification; verify whether the tested rating actually applies.",
+          "metric": "Used-car appraisals with VIN-linked safety and fuel-system record ÷ total appraisals (%)",
+          "rationale": "A used vehicle's actual specification and repair history may differ from the car described in a sales advertisement."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Make safety charges transparent",
+          "check": "Match billed safety accessories or child-restraint equipment against approved quotations, actual fitment and customer acknowledgement; flag unsupported safety-related charges.",
+          "metric": "Deliveries with safety-accessory bill-to-fitment reconciliation ÷ deliveries containing such items (%)",
+          "rationale": "Trust requires accurate invoices as well as accurate vehicle information."
+        }
+      ],
+      "huddleTitle": "Check one VIN before making a five-star claim",
+      "huddleSummary": "Use one live quotation or incoming used car. Each desk checks one part of the evidence chain. Finish with the approved claim, a gap owner and a customer update.",
+      "huddle": [
+        "Minutes 0–3 — Sales: identify actual VIN, variant and fuel type; check the rating's applicability and cutoff note.",
+        "Minutes 3–6 — Service: verify PDI record, warning indicators, seat-belt/ISOFIX explanation and appropriate CNG safety instructions.",
+        "Minutes 6–9 — Spares: confirm any safety-critical replacement item is matched to VIN and manufacturer catalogue.",
+        "Minutes 9–12 — Used Cars: review manufacturing specification, repairs and modifications that affect what can accurately be promised.",
+        "Minutes 12–15 — Accounts: reconcile billed safety items with approved scope; record 'claim verified', 'hold' or 'correct communication', an owner and deadline."
+      ],
+      "limitations": [
+        "The 6 November 2026 manufacturer statement and official Bharat NCAP vehicle page concern a defined model and assessment; the results are not retail registrations, factory wholesales, sales performance, accident statistics or guarantees in real-world collisions.",
+        "Mahindra's five-star announcement is company communication. Bharat NCAP's official vehicle listing independently confirms the original November 2024 assessment, November 2026 CNG extension and VIN-specific child-score note. It does not display the exact day of its November 2026 revision.",
+        "The Bharat NCAP listing notes that the CNG AX5 underwent a frontal offset test while side and pole results were carried over because the body structure and safety systems remain the same. Do not imply each variant underwent every test independently.",
+        "Older XUV 3XO vehicles before VIN MA1NS2NVPS2B98575 retain a 43/49 COP score; 45/49 applies from that VIN onward. This issue makes no blanket claim that every XUV 3XO ever built has a 45/49 COP score.",
+        "Mahindra's claim to be the first sub-compact CNG SUV with five stars is deliberately not repeated: sub-segment definitions and rival applicability would need additional independent checking.",
+        "These five dealership checks and ratios are RPHV editorial recommendations, not Bharat NCAP test criteria, OEM operational standards or a substitute for approved service and safety procedures."
+      ],
+      "sources": [
+        {
+          "publisher": "Mahindra & Mahindra Ltd.",
+          "title": "Mahindra XUV 3XO ZNG secures 5-star Bharat NCAP rating",
+          "published": "2026-11-06",
+          "period": "Announcement on 6 November 2026; model-specific crash-test rating, not a periodic vehicle-sales dataset; Bharat NCAP extension marked November 2026",
+          "type": "Primary OEM announcement; assessed independently against the Bharat NCAP official live vehicle page (updated Nov 2026, exact day not specified)",
+          "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-xuv-3xo-zng-secures-5-star-bharat-ncap-rating-Indias-first-sub-compact-cng-suv-to-achieve-this-milestone"
+        }
+      ],
+      "corrections": [],
+      "officialAssessmentUrl": "https://www.bncap.in/vehicle/mahindra-xuv-3xo/",
+      "officialAssessmentDatePrecision": "Updated November 2026; exact calendar day not disclosed in public page",
+      "publicationReviewStatus": "Hold for publisher approval; ensure the live Bharat NCAP November 2026 revision is still displayed at publication time."
+    },
+    {
       "number": "014",
       "date": "2026-11-10",
       "status": "editorial-preview",
