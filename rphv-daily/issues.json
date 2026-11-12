@@ -4,6 +4,132 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "016",
+      "date": "2026-11-12",
+      "status": "editorial-preview",
+      "category": "AFTERSALES & CUSTOMER CONVENIENCE",
+      "featureDesk": "SERVICE",
+      "title": "Service is moving closer to the customer. Can the process follow?",
+      "summary": "Two Maruti Suzuki initiatives announced in 2026 show complementary directions in aftersales: small on-site service facilities at high-density locations and flexible prepaid maintenance. Neither announcement proves shorter repair times or better profitability. The dealership opportunity lies in clear job scope, scheduled capacity, parts readiness and reconciled package obligations.",
+      "sourceNote": "Maruti Suzuki Quickstop original corporate release dated 30 March 2026 (10 facilities in pilot locations at launch); Maruti Suzuki Smart Maintenance Plan original corporate release dated 15 June 2026 (customer offer terms as announced, not current sales volumes). This 12 November article is an operational analysis of earlier 2026 announcements, not a newly launched November programme.",
+      "metrics": [
+        {
+          "value": "10",
+          "label": "Quickstop facilities in announced pilot",
+          "context": "Company-reported on 30 March 2026; located across eight listed markets/regions"
+        },
+        {
+          "value": "10%+",
+          "label": "Stated labour-cost saving under SMP",
+          "context": "Maruti Suzuki announcement, 15 June 2026; plan-specific terms apply; not a guaranteed total-bill discount"
+        },
+        {
+          "value": "10 years",
+          "label": "Upper tenure option in SMP",
+          "context": "Private: up to 100,000 km; commercial: up to 160,000 km; options and eligibility differ"
+        }
+      ],
+      "reportingType": "Two dated OEM service-format/product announcements, NOT wholesale dispatches, retail vehicle registrations, workshop performance results, audited financial outcomes, survey results or proof of adoption.",
+      "intro": [
+        "On 30 March 2026, Maruti Suzuki announced 'Quickstop', a compact modified-container service facility designed for routine maintenance and minor repairs at places such as corporate campuses, airport zones and fleet hubs. The company identified 10 pilot facilities across Delhi-NCR, Chennai, Hyderabad, Bengaluru, Kolkata, Bagdogra, Calicut and Surat. Dealer partners operate the units while participating corporate entities or fleet operators provide the space.",
+        "On 15 June 2026, Maruti Suzuki separately introduced its Smart Maintenance Plan (SMP). Customers could select labour-only, parts-and-labour and other configurations; the company stated at least a 10% saving on labour under the plan, subject to terms. Published options extended up to 10 years/100,000 km for private vehicles, and up to 10 years/160,000 km for commercial vehicles. The plan is usable at authorised Maruti Suzuki dealer workshops across India.",
+        "Both releases describe propositions, not measured outcomes: neither source supplies a controlled comparison of repair turnaround, customer retention, number of prepaid-plan purchases or dealership operating margin. Their relevance to other dealers is as models to evaluate, not claims to copy verbatim."
+      ],
+      "interpretation": {
+        "heading": "The service promise needs an operating system",
+        "points": [
+          "Choose a limited service menu and clearly separate on-site jobs from repairs requiring full workshop tools, diagnosis, safety controls or specialist technicians.",
+          "Offer an appointment only after checking location access, technician capacity, correct parts/consumables and a realistic return time; capture the customer's approval of extra work.",
+          "For prepaid packages, map covered and excluded items, eligibility, redemptions, workshop reimbursement and balances; measure economic outcomes before promising savings or scaling."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Explain service convenience without overpromising",
+          "check": "At delivery, record whether the customer received a correct explanation of available service channels, package eligibility, covered work and exclusions. Avoid suggesting another brand's offer applies to your dealership.",
+          "metric": "New deliveries with documented service-option briefing / new deliveries (%)",
+          "rationale": "A transparent, realistic convenience promise can support retention; unsupported claims create complaints."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Keep on-site scope and time promises credible",
+          "check": "For the next ten scheduled routine-service visits, verify work scope, bay or site capacity, technician allocation, ETA and out-of-scope referral route before confirmation.",
+          "metric": "Routine-service jobs completed within committed time / routine-service jobs completed (%)",
+          "rationale": "Convenience depends on a kept appointment and a safe handoff, not only proximity."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Pre-kit routine-service parts against VIN",
+          "check": "Match the next day's service appointments to VIN-correct filters, oil grade, consumables and supplier alternatives approved under OEM rules. Flag gaps before the customer arrives.",
+          "metric": "Booked routine-service appointments with full confirmed parts kit / total booked routine-service appointments (%)",
+          "rationale": "A nearby service location still fails the customer if the correct consumables are missing."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Disclose what service readiness means",
+          "check": "Before delivery of a pre-owned car, record completed maintenance, outstanding recommendations, service history and any plan or warranty eligibility validated with the issuer.",
+          "metric": "Used-car deliveries with signed maintenance-status disclosure / total used-car deliveries (%)",
+          "rationale": "Documented readiness protects trust without implying an unverified warranty or maintenance-plan transfer."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Keep package cash and obligations apart",
+          "check": "For every collected prepaid maintenance amount or partner reimbursement, reconcile receipt, package entitlement, job redemption and the agreed accounting treatment; flag unmatched items.",
+          "metric": "Unreconciled prepaid-service receipts and redemptions older than 7 days (₹)",
+          "rationale": "Upfront cash is not proof of earned service revenue or programme profitability."
+        }
+      ],
+      "huddleTitle": "One routine service, five checks, fifteen minutes",
+      "huddleSummary": "Use one real upcoming booked service or proposed fleet visit. Each team contributes a three-minute evidence check; conclude with a go/hold decision, owner and customer message.",
+      "huddle": [
+        "Minutes 0–3 — Sales: confirm customer promise, plan eligibility, service location and approved price explanation.",
+        "Minutes 3–6 — Service: decide whether the job is suitable for the intended site; identify technician, available slot and promised return time.",
+        "Minutes 6–9 — Spares: confirm VIN-linked consumables, correct oil grade, required stock and parts contingency.",
+        "Minutes 9–12 — Used Cars: if relevant, verify prior repair history and any unfulfilled maintenance before committing on the vehicle; otherwise check the next used-car delivery.",
+        "Minutes 12–15 — Accounts: verify billing/package status and advance reconciliation; assign one owner and deadline to each gap, then issue the final customer confirmation."
+      ],
+      "limitations": [
+        "The Quickstop release was dated 30 March 2026, and the SMP release 15 June 2026. These are earlier-year developments analysed on 12 November, not new November launches.",
+        "The 10 Quickstop facilities are the company's pilot count at the March announcement; there is no verified November 2026 live-location total, utilisation rate, service-volume denominator or repair-turnaround reduction.",
+        "The 10%+ statement concerns advertised labour-cost savings for SMP subject to applicable terms, model, service and location. It must not be represented as an unconditional 10% discount on the entire invoice or a dealer profit figure.",
+        "Ten-year/100,000-km private and ten-year/160,000-km commercial options are described as maximum configurations, not automatically available to every vehicle; actual package eligibility and cost must be checked.",
+        "The Quickstop format targets routine and minor work, not all repairs; safety-critical, high-voltage or specialist work may need authorised full-workshop infrastructure.",
+        "Neither source reports customer registrations, manufacturer wholesale sales, independent satisfaction outcomes, controlled performance comparisons or actual programme margins.",
+        "The five operational checks and metrics are original RPHV recommendations and not Maruti Suzuki dealer standards or contractual terms. They require local policy and feasibility review."
+      ],
+      "sources": [
+        {
+          "publisher": "Maruti Suzuki India Ltd.",
+          "title": "Maruti Suzuki introduces ‘Quickstop’ service format, redefining service convenience for a fast-moving India",
+          "published": "2026-03-30",
+          "period": "Pilot status at 30 March 2026 announcement; 10 locations across eight listed regional markets",
+          "type": "Primary manufacturer press release; 2-page original PDF",
+          "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Press_Release_Maruti_Suzuki_introduces_Quickstop_service_format_redefining_service_convenience_for_a_fast_moving_India.pdf"
+        },
+        {
+          "publisher": "Maruti Suzuki India Ltd.",
+          "title": "Maruti Suzuki rolls-out ‘Smart Maintenance Plan’",
+          "published": "2026-06-15",
+          "period": "Product announcement and plan options as at 15 June 2026; not a monthly or quarterly sales dataset",
+          "type": "Primary manufacturer press release; 2-page original PDF",
+          "url": "https://www.marutisuzuki.com/content/dam/arena-eds/corporate/press-release/assets/documents/2026/june/Press_Release_Maruti_Suzuki_rolls_out_Smart_Maintenance_Plan.pdf"
+        }
+      ],
+      "corrections": [],
+      "publicationReviewStatus": "Hold for publisher approval; verify current November 2026 product availability, permitted customer-facing claims, any country/vehicle eligibility changes and final graphic layout before publication."
+    },
+    {
       "number": "015",
       "date": "2026-11-11",
       "status": "editorial-preview",
