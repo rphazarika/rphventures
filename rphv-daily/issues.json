@@ -4,6 +4,123 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "017",
+      "date": "2026-11-13",
+      "status": "editorial-preview",
+      "category": "DEALERSHIP NETWORK & 3S OPERATIONS",
+      "featureDesk": "SALES",
+      "title": "One roof, three functions. Is the customer journey joined up?",
+      "summary": "Stellantis opened an integrated Jeep and Citroën Sales, Service and Spares facility in Patna on 26 October 2026. A single site may simplify access, but a reliable customer experience requires connected records, accountable handoffs and visible exceptions across every desk—not just shared premises.",
+      "sourceNote": "Stellantis India primary press release published 26 October 2026; scope: inauguration and announced facilities of one 3S location at Ranipur Bypass, Patna, Bihar. Approximately 19,000 sq. ft. describes premises area, six is showroom display capacity, and nine is workshop bay count. These are announced capacity figures, not units sold, retail registrations, throughput or independent quality results.",
+      "metrics": [
+        {
+          "value": "~19,000 sq. ft.",
+          "label": "Integrated 3S premises",
+          "context": "Stellantis-announced facility area; Patna, Bihar; 26 Oct 2026"
+        },
+        {
+          "value": "9 bays",
+          "label": "Service workshop capacity",
+          "context": "Physical bays announced; NOT jobs per day or actual utilisation"
+        },
+        {
+          "value": "6 cars",
+          "label": "Showroom display capacity",
+          "context": "Vehicle display spaces; NOT vehicle deliveries or sales"
+        }
+      ],
+      "reportingType": "Single-location manufacturer-declared facility inauguration and physical capacity; NOT nationwide OEM wholesales, customer retail registrations, actual workshop throughput, sales conversions, audited financial performance or a survey.",
+      "intro": [
+        "On 26 October 2026, Stellantis India announced the opening of its first Stellantis Brand House in Bihar with dealer partner KP Automobiles Pvt. Ltd. The integrated Jeep and Citroën facility at Ranipur Bypass, Patna brings Sales, Service and Spares (3S) under one roof. The company reported approximately 19,000 sq. ft. of space, including a showroom able to display six vehicles and a nine-bay workshop.",
+        "The company says the workshop is equipped for routine maintenance, mechanical repairs, wheel alignment and balancing, and accident and body-shop work. These are declared capabilities at launch, not independently measured repair completion times, parts-fill rates, customer satisfaction or revenue. The release does not establish what proportion of customers already use the combined location.",
+        "For dealership operators, the useful question is whether a shared address produces a shared customer record. A buyer's VIN, promised accessory, registration status, first-service date, complaint, parts order and settlement should be traceable without repeated calls between departments."
+      ],
+      "interpretation": {
+        "heading": "Integration is an operating discipline, not a building design",
+        "points": [
+          "Assign one accountable owner for each pending customer promise, even where departments or brands share a site.",
+          "Use a VIN- or RO-linked exception log so Sales, Service, Spares and Accounts see the same agreed next action and deadline, within permitted access rights.",
+          "Measure actual service completion, parts readiness, customer communication and payment resolution before concluding that a 3S format improves performance."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Complete the post-sale handoff",
+          "check": "Review the last ten new-vehicle delivery files. Confirm VIN, accessory promises, service introduction, complaint contact and first-service reminder are recorded and handed over to the correct team.",
+          "metric": "Delivery files with complete aftersales handoff / delivery files checked (%)",
+          "rationale": "A co-located workshop cannot support the customer when ownership details and promises are missing."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Make each repair promise visible",
+          "check": "Review ten open ROs; confirm approved scope, technician or bay assignment, blocked status, promised completion time and next customer update.",
+          "metric": "Open ROs with a documented next update and accountable owner / open ROs reviewed (%)",
+          "rationale": "Nine physical bays measure installed space, not completed repairs or customer trust."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Link each parts promise to a real job",
+          "check": "Trace parts requirements on ten pending ROs to the correct VIN, brand catalogue, purchase/stock acknowledgement and dated availability commitment.",
+          "metric": "Parts-dependent ROs with confirmed fitment and ETA / parts-dependent ROs reviewed (%)",
+          "rationale": "An integrated store still requires traceable, brand-correct parts and realistic delivery dates."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Keep exchange commitments evidence-based",
+          "check": "For current exchange proposals, verify ownership, inspection, reconditioning costs and approved valuation before anyone promises an exchange price.",
+          "metric": "Exchange proposals with signed appraisal and cost sheet / exchange proposals assessed (%)",
+          "rationale": "A new-car sale should not conceal a future loss or ownership dispute on the trade-in."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Connect money to the same VIN or RO",
+          "check": "Match sampled customer advances, final invoices, approved accessories, repair bills and outstanding credits to the VIN or RO. Give unresolved cases named owners.",
+          "metric": "Value of cross-desk unreconciled items older than 2 working days (₹)",
+          "rationale": "Shared premises alone will not close financial exceptions or prevent unsupported handovers."
+        }
+      ],
+      "huddleTitle": "One customer, five desks, fifteen minutes",
+      "huddleSummary": "Trace one live vehicle journey across all five departments. Each gets three minutes. Finish with a single list of blockers, owners and next customer-update times.",
+      "huddle": [
+        "Minutes 0–3 — Sales: show the VIN, committed delivery and accessories, and the contact that owns the customer's relationship.",
+        "Minutes 3–6 — Service: locate any PDI, first service, complaint or open RO, with promised date and responsibility.",
+        "Minutes 6–9 — Spares: check any pending items by VIN and catalogue, with supplier acknowledgement and realistic ETA.",
+        "Minutes 9–12 — Used Cars: verify exchange appraisal and transfer file if there is a trade-in; otherwise select the next active exchange file.",
+        "Minutes 12–15 — Accounts: reconcile the advance, invoice and pending credits; name an owner and deadline for each remaining exception."
+      ],
+      "limitations": [
+        "The primary source is dated 26 October 2026. This 13 November edition interprets an October inauguration; it does not report a new 13 November launch.",
+        "The approximately 19,000 sq. ft. site area, nine service bays and six displayed vehicles are announced physical capacities for one Patna facility. No service-jobs-per-day or sales-per-day denominator was supplied.",
+        "Jeep and Citroën share the announced facility, but the release does not establish identical service procedures, warranty policies or interchangeability of parts between brands. OEM-specific authorisations remain necessary.",
+        "The company also reports nationwide touchpoints and a 2026 network expansion, but those different date bases and counting units are deliberately excluded from this issue's visual metrics.",
+        "The release does not give independent customer-satisfaction outcomes, before-and-after repair turnaround, revenue, margin, network-wide uptake, or realised savings from co-location.",
+        "There are no manufacturer domestic-wholesale sales or retail-registration figures in this edition. All five departmental checks and metrics are original RPHV management proposals, not Stellantis standards or measured company results."
+      ],
+      "sources": [
+        {
+          "publisher": "Stellantis India",
+          "title": "STELLANTIS INDIA CONTINUES NETWORK EXPANSION WITH NEW JEEP® AND CITROËN BRAND HOUSE IN PATNA",
+          "published": "2026-10-26",
+          "period": "26 October 2026 inauguration and facility specifications; Patna, Bihar, India; single site",
+          "type": "Primary OEM press release, company-reported announcement",
+          "url": "https://www.media.stellantis.com/in-en/corporate/press/stellantis-india-continues-network-expansion-with-new-jeep-and-citroen-brand-house-in-patna"
+        }
+      ],
+      "corrections": [],
+      "publicationReviewStatus": "Editorial preview. Confirm that the source link and facility specifications remain valid, review editorial interpretation, check brand-specific process permissions, visually approve one-page and mobile artwork, then obtain express publisher approval before publication."
+    },
+    {
       "number": "016",
       "date": "2026-11-12",
       "status": "editorial-preview",
