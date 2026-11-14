@@ -4,6 +4,124 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "018",
+      "date": "2026-11-14",
+      "status": "editorial-preview",
+      "category": "MARKET INTELLIGENCE & DEALERSHIP CASH CONTROL",
+      "featureDesk": "SALES",
+      "title": "5.19 lakh PV dispatches. Which cars have actually reached customers?",
+      "summary": "SIAM's 13 November statement reports 5,19,060 domestic passenger-vehicle manufacturer sales for October 2026. This factory-to-dealer wholesale measure, with specified brand exclusions, is not a count of customer deliveries or registrations. RPHV's operational response: test delivery readiness, parts and service handoffs, exchange risk and cash reconciliation against each VIN rather than reading national dispatches as dealer success.",
+      "sourceNote": "SIAM original public release dated 13 November 2026; reporting period 1–31 October 2026, India. Domestic passenger-vehicle sales (factory-to-dealer/wholesale) include Tata Motors in the press release but exclude BMW, Mercedes, JLR and Volvo Auto. The release quotes 5,19,060 PV units; its separately noted PV total without Tata Motors is 4,45,166 units. Two- and three-wheeler domestic sales are 25,77,810 and 1,03,349 units. These are not VAHAN/FADA retail registrations or verified dealership handovers.",
+      "metrics": [
+        {
+          "value": "5,19,060",
+          "label": "PV domestic wholesales",
+          "context": "SIAM • India • October 2026 • includes Tata Motors; excludes BMW, Mercedes, JLR and Volvo Auto"
+        },
+        {
+          "value": "25,77,810",
+          "label": "2W domestic wholesales",
+          "context": "SIAM • India • October 2026 • manufacturer sales, not retail registrations"
+        },
+        {
+          "value": "1,03,349",
+          "label": "3W domestic wholesales",
+          "context": "SIAM • India • October 2026 • manufacturer sales, not retail registrations"
+        }
+      ],
+      "reportingType": "Manufacturer-reported domestic vehicle sales / OEM-to-dealer wholesale dispatches for October 2026, released 13 November 2026; not FADA/VAHAN transaction-linked customer registrations, dealer orders, showroom footfalls, or vehicle handovers; no survey claims in this issue.",
+      "intro": [
+        "On 13 November 2026, the Society of Indian Automobile Manufacturers (SIAM) released its October 2026 performance statement. It reported 5,19,060 domestic passenger-vehicle sales, 25,77,810 two-wheeler sales and 1,03,349 three-wheeler sales. SIAM described passenger vehicles as up 12.4% from October 2025 and called October 2026 the segment's strongest October to date.",
+        "Read the measurement before the headline: SIAM's domestic-sales series records manufacturers' dispatches into the domestic trade, not completed customer registrations. Its passenger-vehicle headline includes Tata Motors in the public statement but excludes BMW, Mercedes, Jaguar Land Rover and Volvo Auto. The stated passenger-vehicle figure excluding Tata Motors is 4,45,166; that alternative coverage must never be compared casually with the headline total.",
+        "A dealer facing stronger arrivals should ask four separate questions: which units have identified customers; which are actually ready for handover; which leave an open exchange, accessory or service obligation; and which payments or credits remain unreconciled? A market-wide wholesale record is not evidence of a particular dealer's conversion rate, stock ageing or profit."
+      ],
+      "interpretation": {
+        "heading": "Replace the market headline with a VIN-level reality check",
+        "points": [
+          "Review units due for delivery over the next seven days against actual customer commitment, finance, registration and accessory readiness; do not count an invoice as a completed handover.",
+          "Trace pending pre-delivery inspections, accessory fitment and service/parts promises to a named person and a credible customer update time.",
+          "Link delivered VINs to money: check customer receipts, bank disbursements, exchange settlements and manufacturer claims separately before treating sales volume as released cash."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Separate bookings, invoices and handovers",
+          "check": "Review the next seven calendar days' committed deliveries. For each VIN, confirm customer booking, allocation, finance approval, registration stage, accessory readiness and promised date.",
+          "metric": "VINs ready on all required gates / VINs committed for delivery within 7 days (%)",
+          "rationale": "Wholesale arrivals, bookings, invoices and actual handovers occur at different stages; separate them."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Close the PDI and early ownership handoff",
+          "check": "Check the next ten due deliveries for a signed PDI, cleared defects, new-owner orientation and recorded first-service contact.",
+          "metric": "Due deliveries with signed PDI and no unresolved safety hold / due deliveries checked (%)",
+          "rationale": "A customer should not receive a vehicle with unresolved readiness or safety exceptions."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Protect promised accessory fitment",
+          "check": "For every delivery requiring accessories this week, match the committed kit to VIN, physical stock and installer slot; flag unconfirmed supplier ETAs.",
+          "metric": "Accessory-requiring VINs with parts and fitment slot confirmed / accessory-requiring VINs due (%)",
+          "rationale": "A warehouse order is not a customer-ready accessory."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Keep exchange margins and ownership auditable",
+          "check": "For exchange deals supporting imminent new-car deliveries, verify RC/ownership, lien or hypothecation status, signed condition appraisal, reconditioning estimate and approved exchange price.",
+          "metric": "Exchange-linked deliveries with completed acquisition dossier / exchange-linked deliveries due (%)",
+          "rationale": "An apparently completed new-car deal may carry unresolved used-vehicle liabilities."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Verify cash release against the VIN",
+          "check": "For yesterday's delivered VINs, reconcile advance, final invoice, customer receipt, lender disbursement, exchange credit and any unpaid balance; assign owners to unmatched items.",
+          "metric": "Unreconciled value against delivered VINs older than 2 working days (₹)",
+          "rationale": "Increased dispatches or billed revenue are not the same as collected cash."
+        }
+      ],
+      "huddleTitle": "One VIN, five checkpoints, fifteen minutes",
+      "huddleSummary": "Select one customer delivery due within seven days, ideally with an exchange and accessory fitting. Spend three minutes per department and end with one verified Go/Hold decision, named owners and customer-update times.",
+      "huddle": [
+        "Minutes 0–3 — SALES: Show booking, exact VIN, promised delivery date, finance and registration position; identify missing evidence.",
+        "Minutes 3–6 — SERVICE: Confirm signed PDI status, defect closure and customer orientation responsibility; flag any safety hold.",
+        "Minutes 6–9 — SPARES: Match required accessories with physical stock, fitment booking and actual order status; separate estimate from confirmed ETA.",
+        "Minutes 9–12 — USED CARS: If a trade-in applies, verify ownership, hypothecation, condition and approved acquisition margin; otherwise review the next pending exchange.",
+        "Minutes 12–15 — ACCOUNTS: Reconcile receipts, loan payout and exchange adjustment; record Go/Hold, outstanding tasks, owners, deadlines and next customer update."
+      ],
+      "limitations": [
+        "The source publication date is 13 November 2026; the reported transactions span 1–31 October 2026. The issue date is 14 November 2026, not the event date.",
+        "SIAM numbers describe manufacturer domestic sales/wholesale dispatches, not retail registrations (FADA/VAHAN), invoices, deliveries, confirmed booking conversions or customer payment collections.",
+        "SIAM's PV headline includes Tata Motors only in this public release and excludes BMW, Mercedes, JLR and Volvo Auto. The release also provides a distinct 4,45,166 PV figure excluding Tata Motors; this is a different coverage basis and is not presented as a year-on-year comparator.",
+        "SIAM's overall production headline has a separate exclusion footnote that also excludes Tata Motors. Production is not used as a metric in this issue.",
+        "The release states PV growth of 12.4% versus October 2025, but this edition does not infer a dealership growth rate from it. No vehicle subsegment, geography-by-state or dealership profitability breakdown is claimed.",
+        "The source is an official public association release, not a independently audited dealer census. Numbers may be updated by the reporting association. Retail-registration estimates from other sources have not been combined because matching methodology and coverage were not verified in this editorial draft.",
+        "The five operational checks, sample sizes, deadlines and suggested KPI formulas are original RPHV management proposals, not SIAM or OEM standards."
+      ],
+      "sources": [
+        {
+          "publisher": "Society of Indian Automobile Manufacturers (SIAM)",
+          "title": "Auto Industry Performance of October-2026",
+          "published": "2026-11-13",
+          "period": "2026-10-01 to 2026-10-31; India; manufacturer domestic-sales/wholesale segment totals",
+          "type": "Primary industry-association public press release; company-reported wholesale dispatches; footnotes specify PV data exclusions",
+          "url": "https://www.siam.in/pressrelease-details.aspx?mpgid=53&pgidtrail=50&pid=624"
+        }
+      ],
+      "corrections": [],
+      "publicationReviewStatus": "Editorial preview only. Recheck SIAM's live original release and exact exclusion footnotes; confirm factual copy and no misleading wholesale/retail comparison; approve editorial analysis and navy mobile graphics; obtain publisher's express approval before any merge, published status, site deployment or external distribution."
+    },
+    {
       "number": "017",
       "date": "2026-11-13",
       "status": "editorial-preview",
