@@ -100,12 +100,12 @@
         "Minutes 12–15 — ACCOUNTS: Reconcile receipts, loan payout and exchange adjustment; record Go/Hold, outstanding tasks, owners, deadlines and next customer update."
       ],
       "limitations": [
-        "The source publication date is 13 November 2026; the reported transactions span 1–31 October 2026. The issue date is 14 November 2026, not the event date.",
+        "The source publication date is 13 November 2026; the reported domestic-sales period spans 1–31 October 2026. The issue date is 14 November 2026, not the event date.",
         "SIAM numbers describe manufacturer domestic sales/wholesale dispatches, not retail registrations (FADA/VAHAN), invoices, deliveries, confirmed booking conversions or customer payment collections.",
         "SIAM's PV headline includes Tata Motors only in this public release and excludes BMW, Mercedes, JLR and Volvo Auto. The release also provides a distinct 4,45,166 PV figure excluding Tata Motors; this is a different coverage basis and is not presented as a year-on-year comparator.",
         "SIAM's overall production headline has a separate exclusion footnote that also excludes Tata Motors. Production is not used as a metric in this issue.",
         "The release states PV growth of 12.4% versus October 2025, but this edition does not infer a dealership growth rate from it. No vehicle subsegment, geography-by-state or dealership profitability breakdown is claimed.",
-        "The source is an official public association release, not a independently audited dealer census. Numbers may be updated by the reporting association. Retail-registration estimates from other sources have not been combined because matching methodology and coverage were not verified in this editorial draft.",
+        "The source is an official public association release, not an independently audited dealer census. Numbers may be updated by the reporting association. Retail-registration estimates from other sources have not been combined because matching methodology and coverage were not verified in this editorial draft.",
         "The five operational checks, sample sizes, deadlines and suggested KPI formulas are original RPHV management proposals, not SIAM or OEM standards."
       ],
       "sources": [
