@@ -4,6 +4,124 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "019",
+      "date": "2026-11-15",
+      "status": "editorial-preview",
+      "category": "DEALER NETWORK & CUSTOMER HANDOFF",
+      "featureDesk": "SERVICE",
+      "title": "Škoda reaches Imphal. Will new access become dependable aftersales?",
+      "summary": "Škoda Auto India's 2 November 2026 announcement records its 350th customer touchpoint opening in Imphal on 30 October. Across India, it reports more than 350 touchpoints in 193 cities, backed by 79 dealer partners. The opportunity for a dealership is to translate network expansion into accountable handoffs, parts ETAs, service ownership and reconciled customer promises.",
+      "sourceNote": "Škoda Auto India official corporate release published 2 November 2026, reporting a network snapshot around end-October 2026 and the 350th touchpoint's 30 October opening in Imphal, Manipur. All counts are OEM-reported business-network figures, not customer retail registrations, manufacturer vehicle wholesales or independently verified service throughput.",
+      "metrics": [
+        {
+          "value": "350+",
+          "label": "Customer touchpoints",
+          "context": "Škoda Auto India • company-reported national network • end-October 2026; 'over 350' in original release"
+        },
+        {
+          "value": "193",
+          "label": "Cities reached",
+          "context": "India • company-reported network at the 2 Nov 2026 announcement"
+        },
+        {
+          "value": "79",
+          "label": "Dealer partners",
+          "context": "India • company-reported supporting dealers at the 2 Nov 2026 announcement"
+        }
+      ],
+      "reportingType": "Primary OEM press release about sales/aftersales network reach, reported as at October 2026. These are company-stated location and dealer-network counts, not SIAM manufacturer wholesales, FADA/VAHAN customer retail registrations, customer-review survey results, or audited repair outcomes.",
+      "intro": [
+        "On 2 November 2026, Škoda Auto India announced that its 350th customer touchpoint had opened in Imphal, Manipur, on 30 October. The company described this as its first Group-brand presence in Manipur. Jorhat was also among the cities it listed as new Škoda markets in 2026.",
+        "The company said its network had surpassed 350 customer touchpoints in 193 Indian cities, supported by 79 dealer partners. It separately reported 270 sales and 203 aftersales touchpoints, including 2S and 3S formats. Those two categories must not be added as though they were 473 distinct locations: functions can share a site.",
+        "Greater geographic reach can reduce the distance between a customer and a brand, but an outlet count does not measure diagnosis quality, parts availability or whether promised callbacks happen. For dealers, the opportunity is to make every sales-to-service-to-parts handoff visible and accountable."
+      ],
+      "interpretation": {
+        "heading": "A new pin on the map should come with a service promise",
+        "points": [
+          "At delivery, give customers their actual service contact, booking method, support and escalation routes; capture the handoff against the VIN instead of relying on an unsigned leaflet.",
+          "Review first enquiries from newly served areas and assign a single owner for diagnosis, parts availability and customer-update commitments, especially when work passes between branches.",
+          "Measure response and closure from actual dealer records. A larger network or favourable survey mention cannot by itself prove faster repairs or better retention."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Make the ownership handoff verifiable",
+          "check": "Sample ten recent deliveries; record the authorised service contact, booking route, roadside-assistance explanation where applicable and the customer's acknowledgement.",
+          "metric": "Deliveries with verified service onboarding / deliveries sampled (%)",
+          "rationale": "A new outlet's presence has little practical value if customers do not know how to obtain support."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Give cross-location complaints a single owner",
+          "check": "Review open cases that need another outlet or specialist. Record the next diagnostic action, accountable person, approved transfer plan and the exact next customer-update time.",
+          "metric": "Cross-location open cases with named owner and next-update time / all cross-location open cases (%)",
+          "rationale": "More customer touchpoints can create additional handoffs; ownership must remain clear."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Verify the last-mile parts promise",
+          "check": "Review every parts-blocked repair today; verify VIN fitment, order acknowledgement, inventory or supplier status, and whether the ETA is confirmed or only estimated.",
+          "metric": "Parts-blocked ROs with confirmed part status and dated ETA / all parts-blocked ROs (%)",
+          "rationale": "National parts presence does not establish availability at the repair location."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Price regional acquisitions with real repair evidence",
+          "check": "For three prospective trade-ins, verify VIN and ownership records, inspect defects and confirm parts costs and availability before approving the acquisition price.",
+          "metric": "Proposed acquisitions with signed condition and cost sheet / acquisitions reviewed (%)",
+          "rationale": "Expansion into new regions can widen exchange opportunities without reducing reconditioning risk."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Close inter-branch service money gaps",
+          "check": "Match branch-transferred jobs, parts invoices, customer receipts, warranty claims and outstanding credits to vehicle/RO identifiers and a named settlement owner.",
+          "metric": "Unreconciled inter-branch/service balances older than 7 days (₹)",
+          "rationale": "A smooth customer transfer must also produce an auditable financial trail."
+        }
+      ],
+      "huddleTitle": "One customer journey. Five desks. Fifteen minutes.",
+      "huddleSummary": "Choose an actual customer case involving a branch handoff or new service catchment. In three minutes per desk, verify the evidence and leave with a named case owner, clear promise and follow-up deadline.",
+      "huddle": [
+        "Minutes 0–3 — SALES: Check VIN, delivery-onboarding record and the service contact actually given to the customer.",
+        "Minutes 3–6 — SERVICE: State the complaint, next diagnosis, accountable adviser or technician and exact customer-update time.",
+        "Minutes 6–9 — SPARES: Verify the part number, stock or supplier acknowledgement and confirmed-versus-estimated ETA.",
+        "Minutes 9–12 — USED CARS: If an exchange applies, review condition and reconditioning costs; otherwise use a pending regional appraisal.",
+        "Minutes 12–15 — ACCOUNTS: Reconcile the job's receipts, parts transfers or claim exposure, then confirm one Go/Hold decision, owners and deadlines."
+      ],
+      "limitations": [
+        "Škoda's original release is dated 2 November 2026. The event was the opening of the 350th touchpoint in Imphal on 30 October 2026; the network totals describe company-reported reach as at the October 2026 announcement, not November deliveries.",
+        "Over 350 customer touchpoints across 193 cities and 79 dealer partners are self-reported OEM business-network figures; they are not independently audited outlets or proof of workshop capacity or service quality.",
+        "The release also separately cites 270 sales touchpoints and 203 aftersales touchpoints, including 2S/3S formats; these categories can overlap at the same physical site and MUST NOT be totalled to suggest 473 unique locations.",
+        "The source's lower-page corporate boilerplate still says 184 cities / over 325 touchpoints, inconsistent with the dated body. This draft uses the dated announcement figures and flags the boilerplate as possibly stale.",
+        "Škoda also reports a share of sales contributed by new outlets for January–October 2026 and cites a CarPhD customer-review survey. Their underlying denominators, selection and survey methods were not independently verified, so neither claim is reproduced as a performance metric.",
+        "No Indian vehicle wholesale or customer-registration volume is asserted in this issue. No measured service turnaround, first-time-right rate or dealer profit improvement is attributed to the expansion.",
+        "All five practical checks, sample sizes and KPI definitions are original RPHV editorial suggestions, not benchmarks issued by Škoda or a regulator."
+      ],
+      "sources": [
+        {
+          "publisher": "Škoda Auto India (official OEM website)",
+          "title": "Škoda Auto India crosses 350 touchpoints in 193 cities",
+          "published": "2026-11-02",
+          "period": "National company-reported network snapshot at end-October 2026; 350th touchpoint inaugurated 2026-10-30 in Imphal; additional city entries described for calendar 2026",
+          "type": "Original manufacturer corporate release; network-footprint announcement, not wholesale/retail registration data and not independently audited service outcomes",
+          "url": "https://www.skoda-auto.co.in/news/news-detail/skoda-auto-india-crosses-350-touchpoints-in-193-cities"
+        }
+      ],
+      "corrections": [],
+      "publicationReviewStatus": "Editorial preview on a separate branch only. Publisher must approve original-source interpretation, dated figures/boilerplate caveat, five-department copy, navy graphics and final layout. Before publication, reconfirm the live official release and any corrections, validate mobile view, then obtain express approval for status change, merge, deployment and external sharing."
+    },
+    {
       "number": "018",
       "date": "2026-11-14",
       "status": "editorial-preview",
