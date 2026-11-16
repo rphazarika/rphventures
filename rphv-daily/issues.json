@@ -4,6 +4,148 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "020",
+      "date": "2026-11-16",
+      "status": "editorial-preview",
+      "category": "PREMIUM EV & OWNERSHIP TRANSPARENCY",
+      "featureDesk": "SALES",
+      "title": "Luxury EVs are arriving. Are ownership promises ready?",
+      "summary": "Denza introduced its D9 and Z9GT electric vehicles in India on 13 November 2026. Its official India page lists a 122.49 kWh battery and up to 670 km advertised range for the Z9GT, but does not identify the test cycle. For dealers, product excitement must be matched with written charging, warranty, service and parts commitments.",
+      "sourceNote": "India launch on 13 November 2026 corroborated by Reuters and dated reporting. Official Denza India Z9GT and D9 product pages checked 16 November 2026 show no publication date. Z9GT battery and range are manufacturer-advertised specifications, not independently verified real-world figures. No retail, wholesale or booked-sales volume is asserted.",
+      "metrics": [
+        {
+          "value": "2",
+          "label": "India-debut EV models",
+          "context": "Denza D9 and Z9GT; launch 13 Nov 2026 independently corroborated, both models on brand's official India website"
+        },
+        {
+          "value": "122.49 kWh",
+          "label": "Z9GT battery capacity",
+          "context": "Manufacturer-stated on Denza India Z9GT page; not D9 capacity"
+        },
+        {
+          "value": "670 km",
+          "label": "Z9GT advertised top range",
+          "context": "Manufacturer-stated; official product page does not name test cycle; not real-world range"
+        }
+      ],
+      "reportingType": "Manufacturer product-specification pages, undated and checked 16 Nov 2026, plus dated secondary reporting of 13 Nov launch. These are model and product specifications, not OEM-to-dealer wholesales, FADA/VAHAN retail registrations, independent tests or survey results.",
+      "intro": [
+        "BYD Group's luxury brand Denza entered India with the seven-seat D9 electric MPV and Z9GT electric shooting brake on 13 November 2026, according to dated independent reporting. Both models appear on Denza's official India product website. An introduction is not evidence of delivered vehicles or retail registrations.",
+        "The official Z9GT India page quotes 122.49 kWh battery capacity, approximately 850 kW and up to 670 km top driving range. That page does not specify a test cycle alongside the range. Contemporary reporting calls 670 km an NEDC figure; without the official India test specification, it should never be presented as a guaranteed on-road distance.",
+        "The operating lesson reaches beyond luxury pricing: dealer staff need to explain charge setup, warranty exclusions, trained service routes, parts lead times and aftersales escalation before taking a customer booking."
+      ],
+      "interpretation": {
+        "heading": "Sell a verified ownership plan, not a headline number",
+        "points": [
+          "Separate manufacturer-advertised range from the customer's expected actual range; driving speed, load, ambient conditions, terrain and accessories can change it.",
+          "Before taking a deposit, verify customer charging feasibility, applicable written warranty and roadside-support terms, the authorised servicing location and parts sourcing. Never promise an unconfirmed facility or installation.",
+          "Maintain a VIN-linked checklist covering charging setup, safe breakdown response, feature education, model-specific warranty disclosures and signed customer acknowledgement."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Put the ownership promise in writing",
+          "check": "Review five EV enquiries. Document planned usage, charging feasibility, source of range claims, exact warranty wording and acknowledgement before booking.",
+          "metric": "EV enquiries with completed ownership briefing / EV enquiries sampled (%)",
+          "rationale": "A range figure does not prove suitability for a customer's real journey."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Verify qualified triage and escalation",
+          "check": "For an EV case verify trained personnel, OEM-approved isolation/diagnostic process, escalation contact and next update time. No unauthorised high-voltage work.",
+          "metric": "EV cases with trained owner and escalation route / EV cases reviewed (%)",
+          "rationale": "Safe service competence is essential to the promised ownership experience."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Check VIN-linked critical part availability",
+          "check": "For three example service scenarios, verify exact part numbers, supplier acknowledgement, local stock and whether ETA is confirmed or estimated.",
+          "metric": "Critical-part requests with VIN match and verified status / sampled requests (%)",
+          "rationale": "A launch is not evidence that a replacement part is locally stocked."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Record battery and warranty evidence",
+          "check": "For one EV appraisal, document VIN, authorised battery test evidence, remaining warranty, charger equipment, ownership and reconditioning estimate.",
+          "metric": "EV appraisals with complete battery and ownership files / EV appraisals reviewed (%)",
+          "rationale": "Lack of evidence inflates reconditioning and resale risk."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Reconcile booking-to-invoice exposure",
+          "check": "Trace each sampled deposit to its order, cancellation/refund terms, invoicing status, charger commitments and pending credit.",
+          "metric": "Booking advances without matched order and terms (₹)",
+          "rationale": "High-value deposits require reliable contractual and accounting trails."
+        }
+      ],
+      "huddleTitle": "One EV customer. Five desks. Fifteen minutes.",
+      "huddleSummary": "Select a genuine EV prospect or customer case. Spend three minutes per desk, closing with a written ownership commitment, named owners and the next update.",
+      "huddle": [
+        "Minutes 0–3 — SALES: Check actual usage, source and caveat for range claim, charging location and warranty statement.",
+        "Minutes 3–6 — SERVICE: Confirm trained technician, safety boundary, authorised escalation and next customer update.",
+        "Minutes 6–9 — SPARES: Verify VIN-specific part number, supplier status and certainty of ETA.",
+        "Minutes 9–12 — USED CARS: Confirm battery-condition documentation and whether warranty/charger transfers with the car.",
+        "Minutes 12–15 — ACCOUNTS: Check deposits and documented conditions; record Go/Hold decision, owners and deadlines."
+      ],
+      "limitations": [
+        "Launch date of 13 November 2026 is supported by Reuters and other dated reports, not by a verified dated corporate Denza India press release.",
+        "Denza India model pages are manufacturer primary sources with no displayed original publication date; checked on 16 November 2026. Specifications may vary by variant or model year.",
+        "The official Z9GT page's 670 km top range has no visible test cycle. Secondary launch coverage calls it NEDC. An official India homologation/specification sheet and independent on-road results were not verified; do not treat this as achievable real-world range.",
+        "The 122.49 kWh figure applies specifically to the Z9GT. Other model specifications cannot be inferred from it.",
+        "Prices, reservation deposits, showroom readiness, warranty details and charger installation conditions are excluded from the lead because complete official current India terms were not verified.",
+        "No wholesale, retail registration, achieved sales, customer survey or operational outcome figures are claimed.",
+        "All five operational KPIs and checks are original RPHV suggestions, not OEM or regulatory standards."
+      ],
+      "sources": [
+        {
+          "publisher": "DENZA India (official)",
+          "title": "DENZA Z9GT | All-Electric Supercar",
+          "published": "Not displayed; accessed 2026-11-16",
+          "period": "India model-specification snapshot checked 2026-11-16; no sales/registration period",
+          "type": "Primary official manufacturer product webpage; undated performance and advertised range claims",
+          "url": "https://www.denza.com/in/car/z9gt"
+        },
+        {
+          "publisher": "DENZA India (official)",
+          "title": "DENZA D9 | All-Electric Luxury People Mover",
+          "published": "Not displayed; accessed 2026-11-16",
+          "period": "India product page checked 2026-11-16",
+          "type": "Primary official brand product webpage; no dated launch announcement",
+          "url": "https://www.denza.com/in/car/d9"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "BYD launches luxury brand Denza in India, taking on Mercedes, Toyota",
+          "published": "2026-11-13",
+          "period": "India launch 2026-11-13; no retail registrations measured",
+          "type": "Independent dated reporting of debut, not a corporate release",
+          "url": "https://www.reuters.com/markets/emerging/byd-launches-luxury-brand-denza-india-taking-mercedes-toyota-2026-11-13/"
+        },
+        {
+          "publisher": "Times of India Auto",
+          "title": "DENZA enters India with Z9 GT and D9 priced from Rs 90 lakh",
+          "published": "2026-11-13",
+          "period": "India product launch 2026-11-13",
+          "type": "Secondary reporting on NEDC cycle label; not an independent range test",
+          "url": "https://timesofindia.indiatimes.com/auto/cars/denza-enters-india-with-z9-gt-and-d9-priced-from-rs-90-lakh/articleshow/135797465.cms"
+        }
+      ],
+      "corrections": [],
+      "publicationReviewStatus": "Editorial preview, not published. Confirm official Indian specification sheet and test cycle plus warranty/charger support if added; publisher to approve copy, visual design and source register. No merge, status change, portal deployment or external distribution authorised."
+    },
+    {
       "number": "019",
       "date": "2026-11-15",
       "status": "editorial-preview",
