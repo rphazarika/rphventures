@@ -4,6 +4,129 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "021",
+      "date": "2026-11-17",
+      "status": "editorial-preview",
+      "category": "FLEET ELECTRIFICATION & DEALER OPERATIONS",
+      "featureDesk": "SALES",
+      "title": "5,000 electric autos planned. Is the driver economics file ready?",
+      "summary": "On 16 November 2026, Mahindra Last Mile Mobility and Uber announced a programme to support adoption of 5,000 Mahindra electric three-wheelers over the next 12 months. This is a forward-looking MoU target, not completed deliveries or customer registrations. Driver affordability and uptime require written finance, service, spares, trade-in and cash controls.",
+      "sourceNote": "Mahindra Group release published 16 November 2026, announcing an India 12-month target at an event in Mumbai. The 5,000 units are planned adoption, not verified wholesales or retail registrations. Company says over 4 lakh passenger-and-cargo commercial EVs on the road; older 19 August release refers to 4 lakh cumulative sales (different measure).",
+      "metrics": [
+        {
+          "value": "5,000",
+          "label": "Electric 3W adoption target",
+          "context": "Mahindra-Uber MoU, 16 Nov 2026 • prospective India target; NOT vehicles delivered"
+        },
+        {
+          "value": "12 months",
+          "label": "Programme target horizon",
+          "context": "Prospective after announcement on 16 Nov 2026; no completed rollout claimed"
+        },
+        {
+          "value": "4 lakh+",
+          "label": "Commercial EVs reportedly on road",
+          "context": "Mahindra company claim, 16 Nov 2026 • passenger and cargo vehicles; not 3W-only"
+        }
+      ],
+      "reportingType": "Primary manufacturer announcement of prospective MoU target, not SIAM domestic wholesales, FADA/VAHAN retail registrations, confirmed customer orders, vehicle deliveries, independent audited data or a survey. Company-reported existing commercial EV on-road stock is a different figure.",
+      "intro": [
+        "Mahindra Last Mile Mobility Limited and Uber announced the EV Auto Advantage partnership in Mumbai on 16 November 2026. They aim to facilitate adoption of 5,000 Mahindra electric three-wheelers over the following 12 months, targeting markets where EV penetration is relatively low.",
+        "The stated focus is on easier access to financing and other adoption enablers for drivers on the Uber platform. The release does not specify participating cities, model allocations, lender rates, deposit requirements, written service guarantees or evidence that the target has already been achieved.",
+        "RPHV interpretation: an earning vehicle needs more than a launch announcement. Dealers should provide drivers with traceable cost proposals, dependable repairs, parts ETAs, carefully costed trade-ins and reconciled funding."
+      ],
+      "interpretation": {
+        "heading": "From the announcement to a driver-ready process",
+        "points": [
+          "Keep the 5,000 target separate from verified invoices, registrations and actual deployments.",
+          "Record offered loan terms and operating-cost assumptions in writing; do not promise scheme benefits before local eligibility is confirmed.",
+          "Treat vehicle uptime, spare-parts continuity and funded-deal reconciliation as a combined dealership responsibility."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Put the complete offer in writing",
+          "check": "Record model/variant, on-road quotation, local programme eligibility, written lender terms and driver-specific cost assumptions before confirming a commercial EV proposal.",
+          "metric": "Proposals with verified finance-and-cost sheet ÷ commercial EV proposals issued (%)",
+          "rationale": "MoU ambitions do not establish loan approval or the driver's actual savings."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Protect the driver's earning time",
+          "check": "For each fleet EV repair, confirm qualified technician, diagnostic plan, promised delivery, high-voltage safety escalation and next driver-update owner.",
+          "metric": "Fleet EV ROs completed within documented promise ÷ fleet EV ROs closed with a promise (%)",
+          "rationale": "A work vehicle's value depends on dependable uptime, not just sales."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Make parts ETAs accountable",
+          "check": "For parts-blocked fleet EV jobs, confirm VIN fitment, supplier acknowledgement and dated ETA; flag any item that prevents return to service.",
+          "metric": "Fleet EV parts-blocked ROs with verified ETA ÷ all parts-blocked fleet EV ROs (%)",
+          "rationale": "An unknown ETA can translate into income lost by the driver."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Audit each trade-in",
+          "check": "Verify RC/title, hypothecation, condition and reconditioning costs before approving a trade-in; document battery evidence and warranty if an EV is involved.",
+          "metric": "Trade-ins with complete approved title/condition/margin file ÷ trade-ins proposed (%)",
+          "rationale": "An unsupported exchange value can remove margin from the new sale."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Reconcile customer and lender money",
+          "check": "Match deposit, customer receipt, lender disbursal, invoice and exchange adjustment by VIN. Do not book unverified incentives or subsidies as receivable.",
+          "metric": "Unreconciled customer/lender balances older than 7 working days (₹)",
+          "rationale": "Deployment goals cannot replace transaction-level cash discipline."
+        }
+      ],
+      "huddleTitle": "Can one driver make an informed EV decision?",
+      "huddleSummary": "Choose one actual commercial EV enquiry or fleet case. Each desk spends three minutes checking evidence and naming an owner for any gap.",
+      "huddle": [
+        "Minutes 0–3: Sales verifies vehicle, full quote, eligibility and written finance terms.",
+        "Minutes 3–6: Service confirms qualified support, uptime escalation and driver update.",
+        "Minutes 6–9: Spares checks essential part/VIN readiness and dated ETAs.",
+        "Minutes 9–12: Used Cars verifies exchange file, or marks no trade-in applicable.",
+        "Minutes 12–15: Accounts reconciles advance, lender and invoice; conclude Go/Hold, owner and deadline."
+      ],
+      "limitations": [
+        "The 5,000 figure is a planned India-wide MoU objective over 12 months starting with the 16 November 2026 announcement, not manufacturer wholesales, retail registrations, customer bookings or delivered vehicles.",
+        "The official announcement does not give specific cities, eligible models, finance rates, subsidies, driver savings, service-level guarantees or completed deployments; none is asserted.",
+        "Mahindra's 4 lakh+ commercial EVs-on-road claim includes passenger and cargo vehicles. Its 19 August 2026 announcement of 4 lakh cumulative commercial EV sales is a different measure; neither is a VAHAN-verified 3W total.",
+        "There is no national-market denominator, comparative growth rate, actual transaction dataset or independently audited survey in this edition.",
+        "The five recommended checks and KPIs are original RPHV operating suggestions, not official Mahindra-Uber programme obligations."
+      ],
+      "sources": [
+        {
+          "publisher": "Mahindra Group / Mahindra Last Mile Mobility Limited",
+          "title": "Mahindra Last Mile Mobility and Uber Partner to Accelerate 3W EV Adoption Across India",
+          "published": "2026-11-16",
+          "period": "Mumbai announcement 16 Nov 2026; prospective 12-month target, not historical reporting",
+          "type": "Primary company press release / MoU",
+          "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-last-mile-mobility-and-uber-partner-to-accelerate-3w-ev-adoption-across-india"
+        },
+        {
+          "publisher": "Mahindra Group / Mahindra Last Mile Mobility Limited",
+          "title": "Mahindra Last Mile Mobility Limited crosses 4 Lakh EV sales",
+          "published": "2026-08-19",
+          "period": "Cumulative sales through 19 Aug 2026, passenger and cargo commercial EVs",
+          "type": "Primary company historic milestone (context only)",
+          "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-last-mile-mobility-limited-crosses-4-lakh-ev-sales-becoming-indias-first-commercial-vehicle-manufacturer-to-reach-this-milestone"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "020",
       "date": "2026-11-16",
       "status": "editorial-preview",
