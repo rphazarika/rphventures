@@ -4,6 +4,139 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "022",
+      "date": "2026-11-18",
+      "status": "editorial-preview",
+      "category": "AFTERSALES QUALITY & CUSTOMER EXPERIENCE",
+      "featureDesk": "SERVICE",
+      "title": "Quality month is a start. Can your workshop prove a first-time fix?",
+      "summary": "During November 2026, Nissan Motor India is conducting World Quality Month across a company-reported 315 combined sales-and-service touchpoints. Its focus on first-time-right repair is a timely reminder: quality should be measured from the customer's original concern through diagnosis, parts, verification, repeat visits and the final bill. The 315 figure is a self-reported network footprint, not service throughput or proven improvement.",
+      "sourceNote": "Nissan Motor India media statement dated Gurugram, 6 November 2026, reproduced by Odisha Diary on 6 November and V3Cars on 12 November. Reporting scope: announced November 2026 programme and company-reported combined sales-and-service network. Original Nissan-hosted campaign release not independently located; publication hold pending issuer-original check. Nissan India first-party customer-service pages are undated standing guidance, not a dated campaign source.",
+      "metrics": [
+        {
+          "value": "315",
+          "label": "Sales and service touchpoints",
+          "context": "Nissan-reported India-wide combined network, Nov 2026; NOT workshop-only facilities"
+        },
+        {
+          "value": "4",
+          "label": "Weekly quality themes",
+          "context": "Environment, people, customer experience and repair quality; planned campaign structure"
+        },
+        {
+          "value": "Nov 2026",
+          "label": "Month-long quality programme",
+          "context": "Company announcement dated 6 Nov 2026; campaign, not measured performance"
+        }
+      ],
+      "reportingType": "OEM-supplied campaign announcement reproduced by third-party news/press-release outlets; company-reported combined touchpoint count. Not SIAM manufacturer wholesale dispatches, not FADA/VAHAN customer retail registrations, not transaction data, not survey evidence and not audited aftersales outcomes.",
+      "intro": [
+        "A Nissan Motor India media statement dated 6 November 2026 describes a World Quality Month programme throughout November at a company-reported network of 315 combined sales and service touchpoints. The announcement places special emphasis on getting a repair right the first time.",
+        "The company sets out four weekly themes: workshop environment, people, customer experience and repair quality. The statement describes proposed training, customer education, health checks and feedback activities. These are planned activities, not measured improvements.",
+        "RPHV interpretation: repeat concerns are a management signal, not a technician-blame score. A repair is 'first-time right' only when the initial complaint is captured, diagnosis and fitment are evidenced, the result is verified, the customer understands the work and any recurrence is investigated honestly."
+      ],
+      "interpretation": {
+        "heading": "Measure the customer outcome, not the campaign poster",
+        "points": [
+          "Sample recently closed repair orders and trace the original symptom, diagnostic evidence, authorisation, fitted parts and final functional test.",
+          "Record same-concern repeat visits separately from unrelated new faults. Review any comeback by root cause and ownership rather than automatically attributing blame.",
+          "Compare the 30-day repeat-visit cohort with its own eligible closed-RO denominator before claiming improvement; do not infer a result from a manufacturer campaign announcement."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Make ownership guidance part of delivery",
+          "check": "Review five recent new-car deliveries for signed handover of service booking channel, warranty information and escalation contact.",
+          "metric": "Deliveries with documented aftersales handover ÷ deliveries sampled (%)",
+          "rationale": "A customer should know how and where to report a concern before it becomes a complaint."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Trace same-concern comebacks",
+          "check": "Audit completed ROs with a full 30-day follow-up window; link original concerns to any repeat visit, diagnosis, quality control and test-drive evidence.",
+          "metric": "Same-concern returns within 30 days ÷ eligible ROs closed in the cohort (%)",
+          "rationale": "A documented, comparable repeat-concern rate is more useful than a vague first-time-fix claim."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Stop incorrect-fitment rework",
+          "check": "For three recent repeat or disputed jobs, compare VIN, original ordered part number, supersession and actual issued component.",
+          "metric": "VIN-verified first-issue part lines ÷ sampled part lines (%)",
+          "rationale": "Incorrect fitment or order substitution can undo otherwise good diagnosis."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Close the reconditioning file",
+          "check": "Before a vehicle is advertised, verify signed inspection, completed defects, road test and documented exclusions.",
+          "metric": "Advertised used cars with signed inspection and repair closure ÷ used cars advertised (%)",
+          "rationale": "Unresolved defects create repeat visits and warranty disputes after resale."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Make rework cost visible",
+          "check": "Match same-concern repeat ROs with technician hours, parts, warranty claim status, goodwill approval and unrecovered costs.",
+          "metric": "Unrecovered approved rework expense for last 30 days (₹)",
+          "rationale": "Without cost attribution, avoidable rework remains hidden inside normal workshop expenditure."
+        }
+      ],
+      "huddleTitle": "One repeat concern. Five evidence checks.",
+      "huddleSummary": "Select one real repeat-concern case (or a recently closed service case) and build a fact-based action record. Three minutes per desk, 15 minutes total.",
+      "huddle": [
+        "Minutes 0–3 — SALES: verify what the customer was originally promised and whether the ownership guidance was handed over.",
+        "Minutes 3–6 — SERVICE: read the original complaint verbatim; compare diagnosis, verification and the repeat symptom.",
+        "Minutes 6–9 — SPARES: verify VIN, issued part number, supersession and any return or defect evidence.",
+        "Minutes 9–12 — USED CARS: review appraisal/reconditioning history if applicable; otherwise explicitly record 'not applicable'.",
+        "Minutes 12–15 — ACCOUNTS: identify any rework cost or pending claim, then assign the case owner, corrective action, deadline and customer-update time."
+      ],
+      "limitations": [
+        "The announcement's 315 is a combined sales-and-service touchpoint count reported by Nissan, not 315 workshops and not vehicles repaired or registered.",
+        "The initiative is stated to run through November 2026; no verified attendance count, completed training count, independent audit or before/after first-time-right improvement is available.",
+        "The Nissan press-release wording is accessible in dated third-party reproductions, but an issuer-hosted campaign release was not located on Nissan India's current indexed newsroom. Treat campaign metrics as company-reported and withhold public release until source provenance is accepted by the publisher.",
+        "Nissan India's customer service and maintenance webpages are first-party but undated standing content; they must not be presented as a new November 2026 announcement.",
+        "The suggested 30-day period is an RPHV operational measurement choice, not a Nissan-prescribed window. Exclude same-concern cases without a complete 30-day observation window from the denominator; an unrelated new fault is not automatically a comeback.",
+        "There are no manufacturer wholesale, VAHAN/FADA retail-registration, customer transaction or survey statistics in this issue. No audited benefit or national outcome is asserted.",
+        "The five departmental actions and KPIs are independent RPHV editorial recommendations, not Nissan policy, contractual criteria or industry benchmarks."
+      ],
+      "sources": [
+        {
+          "publisher": "Nissan Motor India / Odisha Diary (release reproduction)",
+          "title": "Nissan Motor India celebrates World Quality Month 2026, reinforcing commitment to customer satisfaction and service excellence",
+          "published": "2026-11-06",
+          "period": "2026-11-01 to 2026-11-30 (programme); 315 touchpoint figure reported in 6 Nov media statement",
+          "type": "Nissan-attributed press-release text reproduced by third-party outlet; issuer original inaccessible",
+          "url": "https://orissadiary.com/nissan-motor-india-celebrates-world-quality-month-2026-reinforcing-its-commitment-to-customer-satisfaction-and-service-excellence/"
+        },
+        {
+          "publisher": "V3Cars (reproduces Nissan's announcement)",
+          "title": "Nissan Motor India Celebrates World Quality Month 2026 (Press Release)",
+          "published": "2026-11-12",
+          "period": "November 2026 campaign, based on company statement originally dated 6 Nov 2026",
+          "type": "Secondary hosting of OEM-supplied press-release wording; dated reproducer publication",
+          "url": "https://www.v3cars.com/press-release/nissan-world-quality-month-2026-customer-service"
+        },
+        {
+          "publisher": "Nissan Motor India",
+          "title": "Customer Service Promise",
+          "published": "undated (verified on 2026-11-18)",
+          "period": "Standing first-party India ownership/service guidance; not a dated November programme",
+          "type": "Official OEM standing service page, supplementary context",
+          "url": "https://www.nissan.in/ownership/customer-service-promise.html"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "021",
       "date": "2026-11-17",
       "status": "editorial-preview",
