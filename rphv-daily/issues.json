@@ -4,6 +4,123 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "023",
+      "date": "2026-11-19",
+      "status": "editorial-preview",
+      "category": "RETAIL REGISTRATIONS & INVENTORY CONTROL",
+      "featureDesk": "SALES",
+      "title": "October registrations rose from September. Is dealer stock moving?",
+      "summary": "FADA's 6 November release shows 5,07,768 passenger-vehicle customer retail registrations for October 2026, 18.86% above September but 14.23% below October 2025. The association estimated passenger-vehicle channel inventory at about 43–45 days. With Diwali shifting from October in 2025 to November in 2026, a dealer should monitor VIN-level stock, delivery readiness and money released—not confuse retail registrations, OEM wholesales and dealer-body inventory estimates.",
+      "sourceNote": "FADA original 6 November 2026 release; reported period 1–31 October 2026, using MoRTH-supported registration data collated as of 4 November from 1,468 of 1,469 RTOs. Passenger-vehicle Oct'26 5,07,768, Sep'26 4,27,213, Oct'25 5,92,032; +18.86% MoM and −14.23% YoY. FADA's 43–45 inventory days is a dealer-association estimate, not a count of registrations. Telangana 3W, CV and tractor data unavailable in the aggregate release; do not imply full national completeness. No new November 2026 vehicle retail totals asserted.",
+      "metrics": [
+        {
+          "value": "5,07,768",
+          "label": "PV customer retail registrations",
+          "context": "FADA/VAHAN-linked India snapshot • Oct 2026 • collated 4 Nov; NOT OEM wholesales"
+        },
+        {
+          "value": "+18.86%",
+          "label": "PV retail vs September",
+          "context": "October 5,07,768 ÷ September 4,27,213 − 1; month-on-month, not YoY"
+        },
+        {
+          "value": "~43–45 days",
+          "label": "Estimated PV channel stock",
+          "context": "FADA's dealer-channel inventory estimate in Nov 6 release; not RTO registration data"
+        }
+      ],
+      "reportingType": "FADA registration-based customer retail snapshot for October 2026 (collated as of 04 Nov 2026 from 1,468/1,469 RTOs), with comparative September 2026 and October 2025 figures. Separately, FADA's estimated passenger-vehicle channel inventory days is a dealer-body estimate, not a VAHAN transaction count. Not OEM-to-dealer wholesale dispatches, not a nationally exhaustive final census, and not the FADA member-expectations survey.",
+      "intro": [
+        "On 6 November 2026, the Federation of Automobile Dealers Associations (FADA) reported 5,07,768 passenger-vehicle retail registrations in October 2026. The same original data table shows 4,27,213 in September 2026 and 5,92,032 in October 2025: up 18.86% month-on-month, but down 14.23% year-on-year. These are customer retail registration records—not the vehicles manufacturers dispatch to dealers.",
+        "FADA also estimated passenger-vehicle dealer-channel inventory at roughly 43–45 days, unchanged from September. Inventory days are an association-level estimate, not the number of vehicles registered or a verified measure for every dealer. The release was compiled as of 4 November from 1,468 of 1,469 RTOs; 3W, CV and tractor registrations for Telangana were not available in the aggregate.",
+        "FADA attributes much of the annual decline to a shifted festive calendar: October 2025 contained both Navratri and Diwali, while Diwali fell in November 2026. That is the association's interpretation, not proof that every missed October purchase moved to November. RPHV's operating conclusion is narrower: after festive deliveries, reconcile each VIN's age, sale status, delivery paperwork and cash."
+      ],
+      "interpretation": {
+        "heading": "A market chart cannot replace a VIN-by-VIN stock and cash review",
+        "points": [
+          "Read October's month-on-month and year-on-year registration changes together; do not describe the 14.23% annual fall alone as proof of demand collapse or the 18.86% monthly rise alone as sustained growth.",
+          "For a dealership, count unsold vehicles by days since inward receipt, separately from transit cars, invoiced-but-not-delivered units and customer-delivered vehicles. Define the denominator before calling anything 'stock days'.",
+          "Run a daily closure check across promised deliveries, PDI, accessories, registration, exchange and lender receipts; investigate any VIN that appears delivered but has an unresolved financial or documentation item."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Close the delivery pipeline by VIN",
+          "check": "Select all VINs promised for delivery in the next seven days and verify allocation, registration progress, finance clearance, PDI, accessories and the exact committed date.",
+          "metric": "VINs fully ready for delivery ÷ VINs due within the next 7 days (%)",
+          "rationale": "Industry registrations do not reveal whether a dealer's actual orders are ready to hand over."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Make PDI holds visible",
+          "check": "Review all new vehicles held after pre-delivery inspection. Record defect, evidence, closure authority and promised customer-update time by VIN.",
+          "metric": "PDI-held VINs older than 48 hours (count)",
+          "rationale": "An invoiced vehicle with an unresolved defect is not a clean customer handover."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Clear accessory and fitment blockers",
+          "check": "For booked deliveries with pending accessories or fitments, check the correct part number, physical stock, fitting slot and supplier-confirmed ETA.",
+          "metric": "Booked deliveries with all promised parts ready ÷ booked deliveries requiring parts (%)",
+          "rationale": "Unavailable promised fitments can delay both customer delivery and final collection."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Do not lose margin in exchanges",
+          "check": "Before paying for a trade-in, verify RC, hypothecation, approved inspection, reconditioning estimate, resale assumptions and signed transfer documentation.",
+          "metric": "Exchange acquisitions with approved complete margin dossier ÷ total exchanges acquired (%)",
+          "rationale": "An unverified exchange can trap cash even while new-car retail is active."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Trace money against actual delivery",
+          "check": "Reconcile one week's delivered VINs with customer receipts, financing disbursements, booking advances, exchange adjustments and the final invoice.",
+          "metric": "Delivered VINs with unreconciled receipt or lender balance after 2 working days (count)",
+          "rationale": "Industry-level sales growth is not the same as money available in the dealer's bank."
+        }
+      ],
+      "huddleTitle": "One delivery at risk. Five evidence checks.",
+      "huddleSummary": "In 15 minutes, select one actual new-vehicle VIN due for customer delivery and walk the five operational desks through the same file. Record Go/Hold, responsible owner, deadline and next customer-update commitment.",
+      "huddle": [
+        "Minutes 0–3 — SALES: confirm customer promise, VIN, finance and registration progress.",
+        "Minutes 3–6 — SERVICE: verify PDI release, open defects and signed quality clearance.",
+        "Minutes 6–9 — SPARES: verify all promised fitments, parts availability and dated ETA.",
+        "Minutes 9–12 — USED CARS: verify any linked exchange's title and margin sheet; otherwise record N/A.",
+        "Minutes 12–15 — ACCOUNTS: reconcile advance, lender balance and final invoice, then record Go/Hold, owner, deadline and customer update."
+      ],
+      "limitations": [
+        "FADA release published 6 November 2026 reports October 2026 customer vehicle registrations; its underlying data were collated as of 4 November 2026 in collaboration with MoRTH and covered 1,468 of 1,469 RTOs. It is an as-of snapshot, not an immutable final census; late amendments could change numbers.",
+        "PV monthly comparisons are registration-based: 5,07,768 in October 2026 versus 4,27,213 in September 2026 and 5,92,032 in October 2025. The percentages have these distinct month-specific denominators. No assumption is made that RTO coverage is identical in all underlying months.",
+        "FADA notes that October 2026 vehicle registrations for the 3W, CV and tractor categories were unavailable for Telangana. Do not present the aggregate national total as complete in those classes; the feature is specifically PV.",
+        "FADA's roughly 43–45 PV inventory days is the association's dealer-channel estimate, not a VAHAN/RTO transaction value, independently audited stock take, or figure applicable to any particular dealership.",
+        "October's YoY fall is not interpreted as a proven demand collapse; FADA's festive-calendar explanation is plausible but cannot identify individual deferred purchases. November 2026 registration outcomes are not yet verified here.",
+        "SIAM manufacturer domestic sales/wholesales and FADA customer retail registration totals have different reporting definitions and scope; no direct arithmetic subtraction or dealer-inventory inference is made from the two series.",
+        "The five operational checks and denominators are independent RPHV recommendations, not FADA-prescribed benchmarks or measured dealer results. No FADA members' expectations survey figures are treated as transactions."
+      ],
+      "sources": [
+        {
+          "publisher": "Federation of Automobile Dealers Associations (FADA)",
+          "title": "FADA Releases Oct’26 Vehicle Retail Data",
+          "published": "2026-11-06",
+          "period": "2026-10-01 to 2026-10-31; compared with Sep 2026 and Oct 2025; RTO compilation as of 2026-11-04",
+          "type": "Primary dealer-association release with MoRTH-supported registration-based retail tables and separate dealer inventory estimate",
+          "url": "https://www.fada.in/images/press-release/16aed49cca8e14FADA_Press_Release_Oct_26.pdf"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "022",
       "date": "2026-11-18",
       "status": "editorial-preview",
