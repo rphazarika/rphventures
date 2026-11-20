@@ -4,6 +4,121 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "024",
+      "date": "2026-11-20",
+      "status": "editorial-preview",
+      "category": "DEALERSHIP EXPANSION & CAPITAL DISCIPLINE",
+      "featureDesk": "ACCOUNTS",
+      "title": "Five outlets on paper. Is the business case ready?",
+      "summary": "Landmark Cars disclosed on 26 October 2026 that it had received letters of intent from JSW Motors for five proposed outlets across Ahmedabad and Bhopal: three showrooms and two workshops. Letters of intent are not commissioned outlets, customer deliveries or a proven return on capital. RPHV's lesson for dealer groups is to approve staffing, service capability, parts supply and cash exposure before launch commitments become fixed costs.",
+      "sourceNote": "Original Landmark Cars Limited stock-exchange filing and attached corporate press release, dated 26 October 2026; it concerns the intended future network, not an operating-period sales or registration statistic. Five planned outlets: South Ahmedabad 2 showrooms + 1 workshop; Bhopal 1 showroom + 1 workshop. JSW Motors is distinct from JSW MG Motor India. The issuer did not provide capex, financing, break-even dates, actual openings or completed customer deliveries.",
+      "metrics": [
+        {
+          "value": "5 planned",
+          "label": "Proposed dealership outlets",
+          "context": "Landmark Cars LOIs received by 26 Oct 2026; not open outlets"
+        },
+        {
+          "value": "3 planned",
+          "label": "New-vehicle showrooms",
+          "context": "South Ahmedabad 2 + Bhopal 1; proposed, not operational"
+        },
+        {
+          "value": "2 planned",
+          "label": "Service workshops",
+          "context": "South Ahmedabad 1 + Bhopal 1; proposed, not operating"
+        }
+      ],
+      "reportingType": "Issuer-filed announcement of proposed dealership network (letters of intent) dated 26 October 2026. Counts are forward-looking outlet plans, not manufacturer wholesales, retail registrations, transaction outcomes, surveys or audited operational counts. No monthly vehicle-reporting period applies.",
+      "intro": [
+        "In a stock-exchange disclosure on 26 October 2026, Landmark Cars Limited enclosed a statement that it had received letters of intent from JSW Motors Limited for five passenger-car dealership outlets in Ahmedabad and Bhopal. Its stated plan covers two showrooms and one workshop in South Ahmedabad, and one showroom and one workshop in Bhopal.",
+        "The distinction matters: a letter of intent is a proposal-stage milestone, not evidence that these outlets are already operational. The release also describes JSW Motors as a separate brand from JSW MG Motor India. It says sales were expected in the next financial quarter, but supplies no confirmed launch date, expenditure budget, sales volume or dealer profitability forecast.",
+        "RPHV's operational lesson is to treat expansion as a stage-gated investment decision. Opening a location commits money, people, tooling and parts before demand or aftersales throughput is proven. Before declaring a centre 'ready', test whether all five functions can fulfill and reconcile the same customer promise."
+      ],
+      "interpretation": {
+        "heading": "An outlet count is not a business case",
+        "points": [
+          "Translate each proposed site into a signed pre-opening readiness file: customer catchment, realistic order pipeline, facility schedule, technician competency and approved capital envelope.",
+          "Do not count a proposed showroom as delivered retail volume or a proposed workshop as usable service capacity. Use site-specific launch milestones and evidence.",
+          "Review cash burn, credit terms and parts exposure together. Escalate unresolved assumptions before committing to rent, inventory or headcount."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Test demand before fixing capacity",
+          "check": "For every proposed showroom, document its catchment, competing outlets, planned lead sources and a 90-day enquiry-to-delivery forecast with assumptions.",
+          "metric": "Proposed showrooms with signed 90-day demand forecasts / all proposed showrooms (%)",
+          "rationale": "A showroom location and a forecast are not proof of paid customer demand."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Prove workshop launch readiness",
+          "check": "For each proposed workshop, verify service-bay plan, trained technician coverage, safety procedures, diagnostic tools and escalation support; mark every gap.",
+          "metric": "Planned workshops passing a signed technician-and-tools readiness checklist / all planned workshops (%)",
+          "rationale": "An announced workshop cannot support customers without people, tools and safe processes."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Secure critical parts without overstocking",
+          "check": "Build a launch critical-parts list; verify OEM part numbers, order eligibility, supplier lead time and replenishment or return terms before initial stocking.",
+          "metric": "Critical launch part lines with verified number and supplier lead time / critical launch part lines reviewed (%)",
+          "rationale": "Cash held in launch stock is risky if fitment and supply assumptions are not validated."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Write down exchange exposure",
+          "check": "For the launch exchange policy, require an ownership check, inspection report, estimated reconditioning cost and authorised resale-margin floor on each appraisal.",
+          "metric": "Exchange appraisals with signed ownership, condition and margin sheets / all appraisals reviewed (%)",
+          "rationale": "An aggressive new-car acquisition strategy can conceal losses in the trade-in book."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Gate investment by cash runway",
+          "check": "Prepare a location-wise capital and operating budget including rental deposits, equipment, salaries, floorplan finance, working capital and downside break-even scenario.",
+          "metric": "Planned outlets with approved capex, monthly cash-runway and break-even sheets / total planned outlets (%)",
+          "rationale": "An LOI does not disclose investment requirements or establish that a new site will earn its cost of capital."
+        }
+      ],
+      "huddleTitle": "One proposed outlet. Five gates. Fifteen minutes.",
+      "huddleSummary": "Use one actual proposed new outlet, or a live network expansion proposal if no new outlet is planned. Record evidence, one unresolved risk per desk, a named decision owner and deadline; a proposed site is not automatically launch-ready.",
+      "huddle": [
+        "Minutes 0–3 — Sales: show catchment evidence and the assumption behind the first 90-day demand forecast.",
+        "Minutes 3–6 — Service: verify technician, safe-equipment and bay-readiness gaps.",
+        "Minutes 6–9 — Spares: test one critical item for fitment, order status and lead time.",
+        "Minutes 9–12 — Used Cars: identify one exchange valuation or reconditioning margin risk.",
+        "Minutes 12–15 — Accounts: read out downside monthly cash need; record a Go / Hold / Rework decision, owner and deadline."
+      ],
+      "limitations": [
+        "The original filing is dated 26 October 2026; this 20 November edition revisits that development for dealership planning. It is not an announcement of a new November transaction.",
+        "All 5 outlets, 3 showrooms and 2 workshops are proposed under letters of intent. No commissioning, actual deliveries, utilisation or financial return is verified in the source.",
+        "The filing mentions a prospective 'next financial quarter' for vehicle sales but offers no confirmed calendar launch date. Its forward-looking statement cautions that plans may change.",
+        "No capex, debt, projected sales, profitability or service volume is provided in the disclosure, so none is asserted. The five operational checks and denominator-defined metrics are RPHV recommendations.",
+        "This source is a single issuer's corporate exchange disclosure, not industry sales data: it supplies neither OEM-to-dealer wholesales nor VAHAN/FADA customer registrations, and is not a survey."
+      ],
+      "sources": [
+        {
+          "publisher": "Landmark Cars Limited / NSE India stock-exchange filing",
+          "title": "Landmark Cars signs letters of intent with JSW Motors for its New Passenger Cars Brand",
+          "published": "2026-10-26",
+          "period": "Issuer's letters of intent and proposed future outlet plan as disclosed on 2026-10-26; no monthly sales period",
+          "type": "Original signed Regulation 30 issuer filing and annexed press release; forward-looking planned outlets, not actual transactions",
+          "url": "https://nsearchives.nseindia.com/corporate/LANDMARK_26102026124517_Covering_letter_merged_signed.pdf"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "023",
       "date": "2026-11-19",
       "status": "editorial-preview",
