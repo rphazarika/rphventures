@@ -4,6 +4,138 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "025",
+      "date": "2026-11-21",
+      "status": "editorial-preview",
+      "category": "USED-CAR RETAIL & TRANSFER DISCIPLINE",
+      "featureDesk": "USED CARS",
+      "title": "More festive used-car deliveries. Is every exchange file closing cleanly?",
+      "summary": "Spinny said it delivered 9,377 used cars during its 11 October–10 November 2026 festive window, up 39% on the comparable 31-day festive window in 2025. SUVs represented a reported 28% of its 2026 festive deliveries. These are company-reported platform deliveries, not nationwide used-car retail registrations. RPHV's lesson: inspect the vehicle, control reconditioning margin, and track ownership transfer through evidence—not assumptions.",
+      "sourceNote": "Spinny-attributed figures reported by PTI on 12 Nov 2026, reproduced by The Week and corroborated by Business Standard on 12 Nov. 2026 period: 11 Oct–10 Nov (31 days); comparative festival window: 22 Sep–22 Oct 2025 (31 days). 9,377 company-reported used-car deliveries, +39% versus matching festive window, SUVs 28% share in current deliveries. No issuer-hosted underlying transaction ledger or primary announcement independently located; publication requires verification of company data provenance. Separately, Parivahan/MoRTH's undated standing transfer-of-ownership guidance describes Forms 29 and 30; it is regulatory process context, not November news.",
+      "metrics": [
+        {
+          "value": "9,377",
+          "label": "Spinny-reported used-car deliveries",
+          "context": "India platform; 11 Oct–10 Nov 2026, 31 days; company statement via PTI, not VAHAN"
+        },
+        {
+          "value": "+39%",
+          "label": "Company-reported change vs comparable festive window",
+          "context": "Spinny 2026 31 days vs 22 Sep–22 Oct 2025 31 days; different calendar dates, festival-aligned not calendar YoY"
+        },
+        {
+          "value": "28%",
+          "label": "SUV share of reported festive deliveries",
+          "context": "Numerator: Spinny 2026 festive SUV deliveries; denominator: Spinny 9,377 reported deliveries, not all Indian used cars"
+        }
+      ],
+      "reportingType": "Company-reported platform-specific used-car DELIVERIES relayed by PTI; not independently audited, not FADA/VAHAN customer registration totals, not SIAM new-vehicle manufacturer wholesales, not a household survey, and not comparable to nationwide used-car retail market share. The comparative windows align by festival (both 31 days) rather than identical calendar dates. MoRTH transfer guidance is official standing process information, not period-specific transactions.",
+      "intro": [
+        "PTI reported on 12 November 2026 that used-car retailer Spinny said it delivered 9,377 cars between 11 October and 10 November 2026, a 31-day festive window. The company described this as 39% higher than the corresponding 31-day festive period of 22 September–22 October 2025. Those are Spinny-attributed operational deliveries rather than registrations for India's total used-car market.",
+        "The company also reported SUVs representing 28% of its 2026 festive deliveries; media coverage says 21% in the earlier comparison window. A change in mix at one platform does not prove all Indian used-car consumers shifted at the same rate, nor does a reported delivery imply the relevant ownership-transfer record has already been updated.",
+        "RPHV interpretation: the more vehicles a dealership acquires or retails, the more important a disciplined deal file becomes. Each trade-in requires verified identity and title, independent inspection, an approved repair cost, truthful disclosure, a defined margin and documented transfer status. Otherwise an apparently successful exchange can become a capital, legal or customer-trust problem."
+      ],
+      "interpretation": {
+        "heading": "Volume is useful. Documented ownership and margin make it sustainable.",
+        "points": [
+          "Do not use a platform's festive growth as an India-wide used-car market growth rate; record geography, channel, period and whether the reported number is deliveries or registrations.",
+          "Before accepting an exchange or re-listing a vehicle, verify RC identity, existing finance or hypothecation, lien/loan clearance, accident/repair history where available, and an authorised reconditioning budget.",
+          "Keep a register that separates sold-and-delivered vehicles from those whose ownership transfer is submitted, pending or verified complete; assign a named case owner and review ageing."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Make the exchange promise traceable",
+          "check": "For new-car deals involving exchange, cross-check the quoted used-car value, deductions, settlement and customer acknowledgement before delivery.",
+          "metric": "Exchange-linked new-car deals with signed valuation and settlement ÷ exchange-linked deliveries reviewed (%)",
+          "rationale": "An attractive new-car deal can hide an unclear obligation on the trade-in."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Evidence before reconditioning",
+          "check": "Inspect incoming used cars with a recorded multi-point condition report, diagnostic scan where appropriate and approved repair scope before workshop work starts.",
+          "metric": "Used-car refurbishments with approved inspection and repair scope ÷ used-car refurbishments started (%)",
+          "rationale": "Unapproved repairs erode resale margin and can leave undisclosed faults."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Price parts before committing margin",
+          "check": "For all planned reconditioning work, match VIN-correct parts, physical availability, price and supplier lead time to the job-cost sheet.",
+          "metric": "Reconditioning part lines with approved fitment, price and availability ÷ planned part lines (%)",
+          "rationale": "A missed cost or wrong part can turn a profitable bid into a loss."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Track title through confirmed transfer",
+          "check": "Audit vehicles acquired or retailed this week for verified RC/owner identity, hypothecation status, signed sale papers, transfer application evidence and documented final transfer outcome.",
+          "metric": "Sold used vehicles with verified completed ownership transfer ÷ sold vehicles due for completed transfer under their applicable process (%)",
+          "rationale": "Vehicle delivery and successful ownership-record transfer are not the same event."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Book contribution after all costs",
+          "check": "Reconcile purchase price, loan settlement, transport, repairs, taxes/fees, carrying cost and final customer receipts against each used-car stock number.",
+          "metric": "Used-car sales with approved fully reconciled contribution sheet ÷ used-car sales closed (%)",
+          "rationale": "Revenue is not net contribution until obligations and actual expenses are recognised."
+        }
+      ],
+      "huddleTitle": "One exchanged vehicle. Five checks. Fifteen minutes.",
+      "huddleSummary": "Pick one actual recent trade-in or used-vehicle sale. Five desks, three minutes each. Record document gaps, evidence, owner, deadline and the customer update. A transfer application is not confirmation that the register has changed.",
+      "huddle": [
+        "Minutes 0–3 — SALES: verify original offer, exchange amount, signatures and new-car delivery linkage.",
+        "Minutes 3–6 — SERVICE: show condition evidence, open faults and authorised refurbishment estimate.",
+        "Minutes 6–9 — SPARES: confirm parts, pricing and exceptions for remaining repairs.",
+        "Minutes 9–12 — USED CARS: inspect RC/loan status, transfer application and recorded completion or pending stage.",
+        "Minutes 12–15 — ACCOUNTS: reconcile acquisition, fees, reconditioning, settlement and sale proceeds; log owner, deadline and Go/Hold decision."
+      ],
+      "limitations": [
+        "PTI's report, dated 12 November 2026, conveys Spinny's self-reported delivery figures; an issuer-hosted original release or raw platform transaction data has not been independently obtained. Public release must await publisher acceptance of this provenance or primary company verification.",
+        "The 9,377 count concerns Spinny-delivered used vehicles only, within 11 October–10 November 2026; it is not India-wide used-car transactions, MoRTH/VAHAN transfer entries or new-vehicle OEM wholesales.",
+        "The +39% comparison uses a 31-day festival-aligned period from 22 September to 22 October 2025; it is not an identical-date year-on-year or full-calendar-month comparison. Baseline transaction count was not supplied in the cited PTI report and is not back-calculated as an observed value.",
+        "The 28% SUV share is the reported share within Spinny's 9,377 festive deliveries. It is not a national share, independent survey or a claim about vehicle registrations. The published percentage may be rounded.",
+        "MoRTH/Parivahan's transfer guidance is undated and state-/vehicle-specific requirements can differ. Forms 29 and 30 are documented in official general guidance, but this article is not legal advice or an assertion about the completion of any individual ownership transfer.",
+        "The five checks, ratios and 15-minute exercise are RPHV editorial recommendations rather than Spinny, FADA or MoRTH mandated dealer KPIs."
+      ],
+      "sources": [
+        {
+          "publisher": "Press Trust of India via The Week",
+          "title": "Spinny retails 9,377 cars this festive season, 39 pc more than last year",
+          "published": "2026-11-12",
+          "period": "11 Oct–10 Nov 2026 (31 days); comparative festival period 22 Sep–22 Oct 2025 (31 days)",
+          "type": "Dated PTI report of company-reported platform deliveries; primary issuer statement not independently available",
+          "url": "https://www.theweek.in/wire-updates/business/2026/11/12/spinny-retails-9-377-cars-this-festive-season-39-pc-more-than-last-year.amp.html"
+        },
+        {
+          "publisher": "Business Standard",
+          "title": "Spinny's festive used-car deliveries jump 39% to 9,377 units as SUVs gain",
+          "published": "2026-11-12",
+          "period": "11 Oct–10 Nov 2026 company-reported deliveries; comparative 2025 festive window",
+          "type": "Independent dated news corroboration of company-stated quantities, not transaction audit",
+          "url": "https://www.business-standard.com/amp/companies/news/spinny-s-festive-used-car-deliveries-jump-39-to-9-377-units-as-suvs-gain-126111201567_1.html?isa=yes"
+        },
+        {
+          "publisher": "MoRTH / mParivahan",
+          "title": "Transfer of Ownership — vehicle registration guidance",
+          "published": "undated (verified 2026-11-21)",
+          "period": "Standing India transfer procedure; no monthly or calendar sales period",
+          "type": "Primary official administrative guidance for ownership transfer, Form 29/Form 30",
+          "url": "https://mparivahan.parivahan.gov.in/mstatic/english/rc-info-ownership.html"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "024",
       "date": "2026-11-20",
       "status": "editorial-preview",
