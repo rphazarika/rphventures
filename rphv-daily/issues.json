@@ -4,6 +4,130 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "026",
+      "date": "2026-11-22",
+      "status": "editorial-preview",
+      "category": "AFTERSALES / SPECIALIST REPAIR READINESS",
+      "featureDesk": "SERVICE",
+      "title": "Battery repair capability moves east. Is your escalation process ready?",
+      "summary": "Porsche India announced a new Kolkata service centre on 17 November 2026, measuring more than 32,000 sq ft and equipped for high-voltage and battery repair. The company calls it its largest Indian aftersales facility and the only Eastern India facility able to undertake dedicated Porsche battery repairs. RPHV lesson: specialist equipment matters, but successful customer care also depends on safe triage, qualified ownership, parts availability, approvals and cost control.",
+      "sourceNote": "Porsche Newsroom India announcement, published 17 Nov 2026; scope: inauguration and company-described capabilities of one Kolkata aftersales facility in Eastern India. Area exceeds 32,000 square feet. The Eastern India exclusivity statement applies only to dedicated Porsche battery repairs, is attributable to Porsche, and has not been independently audited. Not a monthly registrations, manufacturer-wholesale, transaction, survey or performance dataset.",
+      "metrics": [
+        {
+          "value": ">32,000",
+          "label": "Service-centre area (sq ft)",
+          "context": "Porsche-reported Kolkata facility size, announcement 17 Nov 2026; strictly more than 32,000 sq ft"
+        },
+        {
+          "value": "1",
+          "label": "Company-stated dedicated Porsche battery-repair site in Eastern India",
+          "context": "Porsche describes Kolkata as the only such facility in Eastern India as of 17 Nov 2026; not a count of all-brand EV centres"
+        },
+        {
+          "value": "17 Nov",
+          "label": "Original announcement date",
+          "context": "2026 Porsche Newsroom; a facility inauguration, not October or November vehicle volume"
+        }
+      ],
+      "reportingType": "Primary OEM corporate infrastructure announcement, dated 17 November 2026, about one facility in Kolkata, West Bengal, India. Figures describe area and manufacturer-stated service capabilities; no sales transactions, customer retail registrations, manufacturer domestic wholesales, dealer profitability, independent survey outcomes or measured throughput.",
+      "intro": [
+        "On 17 November 2026, Porsche India announced the inauguration of its new Service Centre Kolkata, developed with dealer partner Bird Group. The manufacturer says the site covers more than 32,000 square feet and is its largest aftersales facility in India.",
+        "Porsche lists routine servicing, advanced diagnostics, mechanical work and dedicated structural and multi-material repair bays. It also reports a high-voltage work area and specialised battery-repair capability; the claim that it is the only dedicated Porsche battery-repair facility in Eastern India is a company statement, not an all-brand regional census.",
+        "RPHV interpretation: specialised repair facilities demonstrate where aftersales capability is heading. But a customer with a complex repair needs a dependable process long before equipment is used: accurate complaint capture, safe triage by authorised staff, clear referral, VIN-correct parts, repair approvals and a transparent payer decision."
+      ],
+      "interpretation": {
+        "heading": "Equipment is capacity. A controlled handoff creates confidence.",
+        "points": [
+          "Map which repair categories can be safely done in-house, which require a manufacturer-authorised specialist and who communicates that decision to the customer.",
+          "Never promise an EV battery repair deadline or repairability before authorised diagnosis, parts availability and warranty eligibility are confirmed.",
+          "Track every referred vehicle or specialist repair through an owner, confirmed next update, authorised cost and documented return-to-customer quality check."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Make specialist-service access part of handover",
+          "check": "For each sampled EV delivery, verify that the customer received documented service contacts, emergency escalation instructions and the applicable warranty-document reference.",
+          "metric": "EV deliveries with documented service and escalation handover ÷ sampled EV deliveries (%)",
+          "rationale": "A customer should know who owns an unexpected technical problem before the first breakdown."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Triage before touching high-voltage systems",
+          "check": "Review all open EV or complex electronic cases. Confirm a qualified case owner, safe non-invasive intake, approved in-house/referral decision and next customer-update time. Only authorised personnel may perform high-voltage work.",
+          "metric": "Applicable complex/EV ROs with qualified owner and documented approved repair or referral route ÷ applicable complex/EV ROs reviewed (%)",
+          "rationale": "Safety, responsibility and accurate promises matter as much as diagnostic hardware."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Verify parts before promising turnaround",
+          "check": "For specialist repair jobs, verify VIN-specific part number and supersession, source, availability, dated ETA and returns rules before committing a completion date.",
+          "metric": "Required specialist part lines with verified fitment and dated supplier ETA ÷ all required specialist part lines reviewed (%)",
+          "rationale": "Unconfirmed components can turn an expert diagnosis into an indefinite vehicle hold."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Do not guess at EV battery condition",
+          "check": "For EV trade-in appraisals, document battery-condition evidence from a suitably qualified inspection, remaining warranty and any unreconciled fault/repair history. Disclose unavailable evidence explicitly.",
+          "metric": "EV appraisals with documented battery evidence and warranty status ÷ EV appraisals completed (%)",
+          "rationale": "Unsupported claims about battery health can distort valuations and expose the next owner."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Assign costs before specialist work starts",
+          "check": "Match the approved diagnosis, warranty or goodwill decision, external specialist charges, freight, customer advance and invoicing party to each complex repair RO.",
+          "metric": "Specialist repair ROs with authorised payer and cost estimate before work order ÷ specialist repair ROs started (%)",
+          "rationale": "A correctly repaired car may still generate avoidable disputes and negative contribution if payment responsibility is unclear."
+        }
+      ],
+      "huddleTitle": "One complex case. Five owners. Fifteen minutes.",
+      "huddleSummary": "Take one real complex repair or EV referral case; do not perform physical high-voltage tests as part of the huddle. Each desk gets three minutes, followed by one documented Go / Hold / Escalate decision and next customer update.",
+      "huddle": [
+        "Minutes 0–3 — SALES: verify customer promise, warranty documentation and contact trail.",
+        "Minutes 3–6 — SERVICE: verify concern, qualified case owner, safety gate and in-house versus specialist referral.",
+        "Minutes 6–9 — SPARES: verify VIN fitment, sourcing, parts ETA and any blocking items.",
+        "Minutes 9–12 — USED CARS: identify valuation and battery-condition disclosure implications if this is a trade-in; otherwise record N/A with reason.",
+        "Minutes 12–15 — ACCOUNTS: approve payer, estimate and outstanding advances; record Go / Hold / Escalate, owner, deadline and customer-update time."
+      ],
+      "limitations": [
+        "The Porsche release concerns an announced, newly inaugurated Kolkata facility, not nationwide service volumes or a monthly market reporting period. It does not report customer retail registrations, OEM wholesales, repair transactions, throughput or independent satisfaction outcomes.",
+        "The stated area is MORE THAN 32,000 square feet; 32,000 must not be reported as an exact measurement. The release does not provide numbers of service bays, trained technicians, battery repairs completed, investment value, operating cost or repair turnaround.",
+        "The description \"only facility in Eastern India\" refers specifically to dedicated Porsche battery repairs, according to Porsche as of 17 November 2026. It does NOT mean there are no other EV battery repair facilities of other brands in the region; there was no independent census.",
+        "A dedicated high-voltage repair area does not establish that every battery fault or chemistry is repairable on site, nor does it verify part availability, warranties or prices for any customer vehicle.",
+        "The article derives from an issuer corporate release, not an independent survey, audited transaction database or a dated FADA/VAHAN registration extract. Operational checks and KPIs are RPHV recommendations, not Porsche-mandated dealership requirements.",
+        "No official launch-day appointment capacity, booking URL, service labour rates or public repair SLAs were verifiable from the release; these have been withheld."
+      ],
+      "sources": [
+        {
+          "publisher": "Porsche Newsroom / Porsche India",
+          "title": "Porsche India inaugurates its largest aftersales facility in Kolkata",
+          "published": "2026-11-17",
+          "period": "Facility inauguration and announced capability in Kolkata, West Bengal, India, as reported 17 Nov 2026 (not a monthly sales series)",
+          "type": "Primary OEM corporate announcement; source of facility area, technical scope and Porsche-specific regional exclusivity statement",
+          "url": "https://newsroom.porsche.com/en_PME/2026/company/porsche-india-aftersales-facility-kolkata-43734.html"
+        },
+        {
+          "publisher": "Press Trust of India via The Week",
+          "title": "Porsche India inaugurates its largest after-sales facility in Kolkata",
+          "published": "2026-11-17",
+          "period": "Company inauguration announcement of 17 Nov 2026; Kolkata site",
+          "type": "Dated secondary corroboration; does not independently audit company facility claims",
+          "url": "https://www.theweek.in/wire-updates/business/2026/11/17/porsche-india-inaugurates-its-largest-after-sales-facility-in-kolkata.amp.html"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "025",
       "date": "2026-11-21",
       "status": "editorial-preview",
