@@ -4,6 +4,131 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "027",
+      "date": "2026-11-23",
+      "status": "editorial-preview",
+      "category": "VEHICLE SAFETY / CUSTOMER EDUCATION",
+      "featureDesk": "SALES",
+      "title": "Five safety stars. Can the dealership explain what was actually tested?",
+      "summary": "Hyundai Motor India announced on 20 November 2026 that the updated Verna received five stars for both adult and child occupant protection under Bharat NCAP. The official assessment scores are 28.22/32 (adult) and 44/49 (child), from a July 2026 assessment. The finding applies to listed current-model variants, not automatically to every historical Verna. RPHV's lesson: convert rating headlines into accurate variant-specific customer advice and evidence-based safety repair practices.",
+      "sourceNote": "Original manufacturer press release published 20 November 2026; official Bharat NCAP 2026 fact sheet assessed July 2026, with no exact fact-sheet upload/publication day stated. India, Hyundai Verna 2026: 5-star adult and child ratings, adult 28.22 out of 32 and child 44.00 out of 49. Tested variants: 1.5 Turbo GDi DCT HX8 and 1.5 MPi iVT HX8; rating coverage restricted to 12 variants in official annexure. This is a standardized laboratory crash assessment, not a sales, registration, survey or real-road injury outcome dataset.",
+      "metrics": [
+        {
+          "value": "5 + 5",
+          "label": "Bharat NCAP adult + child stars",
+          "context": "2026 Verna; independent standardised crash-assessment rating, not an individual crash guarantee"
+        },
+        {
+          "value": "28.22 / 32",
+          "label": "Adult occupant protection",
+          "context": "Bharat NCAP fact sheet; score points earned / 32 available; 2026 Verna"
+        },
+        {
+          "value": "44.00 / 49",
+          "label": "Child occupant protection",
+          "context": "Bharat NCAP fact sheet; score points earned / 49 available; child restraints used in assessment"
+        }
+      ],
+      "reportingType": "2026 laboratory crash-assessment result for a specified India-market vehicle model; manufacturer announcement 20 November 2026 and official Bharat NCAP fact sheet assessed July 2026. These are assessment scores and stars, neither OEM-to-dealer domestic wholesales nor customer retail registrations, surveys, crash-frequency data or observed injury rates.",
+      "intro": [
+        "Hyundai Motor India announced on 20 November 2026 that its updated Verna earned five stars for adult occupant protection and five stars for child occupant protection under Bharat NCAP. The official test-programme fact sheet records 28.22 points out of 32 for adult protection and 44.00 out of 49 for child protection.",
+        "The official assessment was conducted in July 2026. Bharat NCAP identifies the tested vehicles as the Verna 1.5 Turbo GDi DCT HX8 and 1.5 MPi iVT HX8; its annexure extends the rating to twelve listed current-model petrol variants. The rating must not be automatically attached to an earlier model-year Verna or an unlisted version.",
+        "The five-star summary does not mean perfect protection in every test or collision. The fact sheet reports marginal thigh protection in the frontal-offset test and specifies child-restraint arrangements used for child assessment. Safety features mentioned in the manufacturer's marketing may vary by trim; confirm the actual VIN and variant before promising equipment.",
+        "RPHV interpretation: customer trust improves when dealerships can explain both what the independent rating measures and what it cannot prove. Safe aftersales repair and transparent used-car appraisals are part of the same promise."
+      ],
+      "interpretation": {
+        "heading": "Turn a star badge into a verified customer promise",
+        "points": [
+          "Train the sales team to show the official Bharat NCAP score sheet, identify the exact model/variant and explain the test conditions rather than presenting stars as a blanket safety guarantee.",
+          "Tie workshop inspection, any crash-related repair and replacement of safety systems to manufacturer-approved procedures and evidence; never declare a restraint or ADAS system safe without appropriate checks.",
+          "For used cars, distinguish tested 2026 variants from older models and reconcile repair history, safety equipment and ownership documents before using a rating in advertising."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Match the safety claim to the exact car",
+          "check": "For today's 2026 Verna enquiries, record variant/powertrain, verify that it appears in the official Bharat NCAP annexure, and explain adult and child scores without claiming accident-proof performance.",
+          "metric": "Enquiries with documented rating-applicability and score briefing ÷ sampled 2026 Verna enquiries (%)",
+          "rationale": "A five-star headline becomes misleading when applied to the wrong model year or promised as a universal outcome."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Document safety-critical repair verification",
+          "check": "Audit recent accident, windscreen, steering, restraint or driver-assistance repairs. Confirm prescribed inspection, calibration (where applicable), fault resolution and qualified quality sign-off before delivery.",
+          "metric": "Completed applicable safety-critical ROs with documented OEM-required verification ÷ applicable safety-critical ROs audited (%)",
+          "rationale": "Crash performance depends on systems being correctly repaired and returned to service."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Protect traceability of safety components",
+          "check": "For SRS/seatbelt/ADAS parts issued against an RO, verify VIN applicability, genuine sourcing, part-number supersession and traceable issue records; escalate substitutions.",
+          "metric": "Audited safety-part issue lines with verified VIN, approved source and traceability ÷ safety-part lines audited (%)",
+          "rationale": "An incorrect or untraceable safety-critical component can undermine repair quality."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Do not inherit a newer model's rating",
+          "check": "For every Verna or similar model in used stock, check model year/variant, repair history and warning-light or restraint-system evidence before citing any Bharat NCAP or Global NCAP rating.",
+          "metric": "Advertised used vehicles with verified rating applicability and safety-history evidence ÷ used vehicles carrying a safety-rating claim (%)",
+          "rationale": "Past model-year designs and different test protocols cannot automatically borrow the 2026 rating."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Keep safety repairs authorised and reconcilable",
+          "check": "Match each sampled accident/safety-system repair to itemised approved estimate, insurer/customer authorisation, parts invoices, labour and claim settlement status.",
+          "metric": "Safety-related repair invoices with complete approval and cost reconciliation ÷ sampled safety-related invoices (%)",
+          "rationale": "Safety-critical repairs should be properly authorised, costed and closed without ambiguous payer responsibility."
+        }
+      ],
+      "huddleTitle": "One rating enquiry. Five evidence checks. Fifteen minutes.",
+      "huddleSummary": "Use a real recent 2026 Verna safety-related customer enquiry, or a documented analogous crash-rating question. This is a desk review, not a physical crash, SRS or ADAS test.",
+      "huddle": [
+        "Minutes 0–3 — SALES: verify model/variant against Bharat NCAP annexure and write a two-sentence accurate customer explanation.",
+        "Minutes 3–6 — SERVICE: show where OEM repair/check procedures and technician authorisation are recorded for safety-related work.",
+        "Minutes 6–9 — SPARES: validate VIN, approved source and traceability for one applicable safety part.",
+        "Minutes 9–12 — USED CARS: check whether an older listed car is incorrectly advertised using the new model's score.",
+        "Minutes 12–15 — ACCOUNTS: inspect one safety-repair invoice/claim for approvals and reconciled costs; record a Go / Hold / Correct decision, owner, deadline and customer-update time."
+      ],
+      "limitations": [
+        "The Bharat NCAP fact sheet identifies July 2026 as the month and year of assessment, and 2026 as the publication year. Its exact release day is not stated in the fact sheet. Hyundai's own dated public announcement is 20 November 2026.",
+        "Adult 28.22/32 and child 44.00/49 are points in defined laboratory assessments, not a percentage of crash survival, future injury avoidance, survey ratings, registrations or customer transactions.",
+        "The two explicitly tested HX8 variants and the twelve variants covered by the official annexure must not be conflated. Do not transfer the assessment to past model-year Verna vehicles, other trims absent from the annexure or other NCAP protocols.",
+        "The official fact sheet's frontal-offset assessment shows marginal protection for the front occupants' thighs. A five-star aggregate is not a perfect result in every body region or every real-world crash.",
+        "Hyundai markets several driver-assistance and restraint features. Not every marketed feature is necessarily standard across the variant range; use a specific VIN/variant equipment sheet before stating availability. Airbag-count claims were deliberately excluded pending variant-level reconciliation.",
+        "No manufacturer domestic wholesale, FADA/VAHAN customer retail-registration figure, independent real-world crash outcome or dealership performance improvement is claimed. The five operational checks and KPI definitions are original RPHV recommendations."
+      ],
+      "sources": [
+        {
+          "publisher": "Bharat NCAP",
+          "title": "Bharat NCAP Fact Sheet — Hyundai Verna (2026)",
+          "published": "2026 (exact publication day not stated; accessed 2026-11-23)",
+          "period": "Assessment July 2026; 2026 India-market Verna variants specified in annexure",
+          "type": "Primary independent vehicle safety assessment; standardised test result, not transaction, wholesale, registration or survey data",
+          "url": "https://www.bncap.in/wp-content/uploads/2026/11/FACT-SHEET_Verna.pdf"
+        },
+        {
+          "publisher": "Hyundai Motor India Limited",
+          "title": "The new Hyundai VERNA Achieves 5-Star Safety Rating at Bharat NCAP",
+          "published": "2026-11-20",
+          "period": "Announcement 20 November 2026 of Bharat NCAP's July 2026 assessment for 2026 Verna",
+          "type": "Primary manufacturer announcement; safety ratings attributed to Bharat NCAP",
+          "url": "https://www.hyundai.com/in/en/hyundai-story/media-center/press-release/hyundai-verna-achieves-5-start-safety-rating-at-bharat-ncap"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "026",
       "date": "2026-11-22",
       "status": "editorial-preview",
