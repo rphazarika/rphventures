@@ -4,6 +4,120 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "028",
+      "date": "2026-11-24",
+      "status": "editorial-preview",
+      "category": "COMMERCIAL VEHICLES / WORKSHOP PRODUCTIVITY",
+      "featureDesk": "SERVICE",
+      "title": "Four service bays. How much vehicle downtime can you prevent?",
+      "summary": "Ashok Leyland opened an LCV dealership in Jagdalpur on 23 November 2026. The company reports four service bays, its fourth LCV dealership in Chhattisgarh and more than 945 LCV customer touchpoints nationwide. RPHV's lesson: measure vehicle downtime and the reasons for lost bay hours, not just workshop infrastructure.",
+      "sourceNote": "Ashok Leyland original release, 23 November 2026; inauguration and network snapshot as of that date, India. Counts are manufacturer-reported infrastructure, not vehicle transactions or independently audited utilisation.",
+      "metrics": [
+        {
+          "value": "4",
+          "label": "Service bays",
+          "context": "New Jagdalpur LCV facility"
+        },
+        {
+          "value": "4th",
+          "label": "LCV dealership in Chhattisgarh",
+          "context": "Company-reported state network"
+        },
+        {
+          "value": ">945",
+          "label": "LCV customer touchpoints",
+          "context": "Company-reported India network; not all workshops"
+        }
+      ],
+      "reportingType": "OEM-reported facility inauguration and network snapshot; not monthly wholesales, customer registrations, survey data or measured workshop output.",
+      "intro": [
+        "Ashok Leyland announced the opening of its light commercial vehicle dealership in Jagdalpur, Chhattisgarh, on 23 November 2026. Operated by Sri Hari Commercial, it combines sales, service and spare-parts functions and has four service bays.",
+        "The company identifies this as its fourth LCV dealership in Chhattisgarh and reports more than 945 LCV customer touchpoints across India. Touchpoints are not necessarily standalone workshops. Neither count measures repair volume or actual vehicle uptime.",
+        "RPHV interpretation: for a business vehicle, hours off the road can disrupt income. A bay is productive only when the job, technician, parts and authorisation are ready. Separate active repair time from waiting time before deciding to add capacity."
+      ],
+      "interpretation": {
+        "heading": "Measure the hours lost, not just the bays installed",
+        "points": [
+          "Record arrival, diagnosis, approval, parts-ready, repair start, repair finish and release timestamps for each job.",
+          "Review waiting hours by cause: parts, approvals, technician availability, diagnosis or customer collection. Assign an owner to the largest controllable delay.",
+          "Schedule predictable maintenance around customer operating hours; do not promise a turnaround until capacity and parts are confirmed."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Capture the customer's operating schedule",
+          "check": "For commercial-vehicle deliveries, document route, usage, maintenance window and service contact.",
+          "metric": "Deliveries with documented operating and maintenance plan ÷ CV deliveries reviewed (%)",
+          "rationale": "A service appointment must fit the customer's actual working cycle."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Expose waiting time on each repair order",
+          "check": "Review closed ROs with arrival and ready-for-release timestamps; split elapsed time into active repair and waiting by reason.",
+          "metric": "Total arrival-to-ready hours ÷ closed ROs with complete timestamps (hours/RO)",
+          "rationale": "A bay count is not a measure of customer downtime."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Kit parts before planned maintenance",
+          "check": "Check tomorrow's booked jobs for VIN-correct parts, quantities and physical reservation.",
+          "metric": "Booked maintenance jobs with complete kits ÷ booked jobs requiring parts (%)",
+          "rationale": "Parts readiness prevents avoidable bay occupation."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Cost downtime risk in trade-ins",
+          "check": "For used commercial vehicles, document condition, likely reconditioning hours and approved cost before acquisition.",
+          "metric": "CV appraisals with approved repair-time and cost estimate ÷ CV appraisals reviewed (%)",
+          "rationale": "Unplanned refurbishment ties up capital and workshop capacity."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Identify approval-related delays",
+          "check": "Review open jobs awaiting credit, insurer or customer payment authorisation and record the responsible payer and next action.",
+          "metric": "Open ROs awaiting financial approval for more than 24 hours (count)",
+          "rationale": "Payment or credit uncertainty should not silently consume workshop capacity."
+        }
+      ],
+      "huddleTitle": "One delayed job. Five checks. Fifteen minutes.",
+      "huddleSummary": "Choose a real delayed commercial-vehicle repair. Use the recorded timestamps to find the largest controllable delay and set a named owner, deadline and customer update.",
+      "huddle": [
+        "0–3 min: SALES confirms the customer's operating window and next commitment.",
+        "3–6 min: SERVICE traces arrival, diagnosis, repair and waiting timestamps.",
+        "6–9 min: SPARES verifies the parts kit and dated ETA for missing lines.",
+        "9–12 min: USED CARS checks whether refurbishment jobs compete for the same capacity.",
+        "12–15 min: ACCOUNTS checks payer approval; agree on the next action, owner, deadline and customer-update time."
+      ],
+      "limitations": [
+        "The original manufacturer statement is dated 23 November 2026; the figures describe the new Jagdalpur facility and LCV network at announcement, not a monthly reporting period.",
+        "Four bays refers to this facility only; fourth dealership refers to Chhattisgarh only; more than 945 touchpoints refers to the nationwide Ashok Leyland LCV network, not an exact count or a count of workshops.",
+        "No measured bay utilisation, repair turnaround, investment, profitability, customer satisfaction or retail registration outcomes are supplied. No such improvement or comparison is claimed.",
+        "All operational checks and KPIs are RPHV recommendations. For percentage KPIs, a zero denominator is not applicable; report timestamp completeness alongside the service average."
+      ],
+      "sources": [
+        {
+          "publisher": "Ashok Leyland",
+          "title": "Ashok Leyland expands its footprint in Chhattisgarh, opens a new dealership in Jagdalpur",
+          "published": "2026-11-23",
+          "period": "Inauguration and network snapshot as of 23 November 2026; Jagdalpur, Chhattisgarh and India",
+          "type": "Primary OEM facility announcement; manufacturer-reported infrastructure counts",
+          "url": "https://www.ashokleyland.com/in/pressrelease/ashok-leyland-expands-its-footprint-in-chhattisgarh-opens-a-new-dealership-in-jagdalpur"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "027",
       "date": "2026-11-23",
       "status": "editorial-preview",
