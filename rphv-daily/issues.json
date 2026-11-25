@@ -4,6 +4,120 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "029",
+      "date": "2026-11-25",
+      "status": "editorial-preview",
+      "category": "DEALERSHIP FINANCE",
+      "featureDesk": "ACCOUNTS",
+      "title": "Turnover is not profit. Profit is not cash.",
+      "summary": "Popular Vehicles and Services reported quarterly revenue from operations of ₹2,088.92 crore and profit after tax of ₹2.20 crore. Its separate half-year cash-flow statement records a net operating cash outflow of ₹178.66 crore. RPHV recommends a daily review of contribution, ageing and collections.",
+      "sourceNote": "Popular Vehicles and Services Limited consolidated Ind AS exchange filing, 11 November 2026. Q2 FY27: 1 July–30 September 2026; H1 cash flow: 1 April–30 September 2026. Unaudited, subject to statutory auditor limited review.",
+      "metrics": [
+        {
+          "value": "₹2,088.92 cr",
+          "label": "Revenue from operations",
+          "context": "Q2 FY27 • consolidated"
+        },
+        {
+          "value": "₹2.20 cr",
+          "label": "Profit after tax",
+          "context": "Q2 FY27 • consolidated"
+        },
+        {
+          "value": "−₹178.66 cr",
+          "label": "Net operating cash flow",
+          "context": "H1 FY27 • six months, not Q2"
+        }
+      ],
+      "reportingType": "Unaudited consolidated company financial results; not manufacturer wholesales, customer registrations or survey data.",
+      "intro": [
+        "In its 11 November 2026 exchange filing, Indian dealership group Popular Vehicles and Services Limited reported Q2 FY27 revenue from operations of ₹2,088.92 crore, finance costs of ₹32.01 crore and profit after tax of ₹2.20 crore.",
+        "For the separate six-month period ended 30 September, the group reported net cash used in operating activities of ₹178.66 crore, despite positive half-year profit after tax of ₹3.57 crore. The cash-flow reconciliation includes an inventory increase adjustment of ₹302.27 crore. These are group financial figures, not vehicle counts.",
+        "RPHV interpretation: a dealership needs three distinct views—sales contribution, accounting profit and actual cash movement. Review stock funding and outstanding collections before committing more capital. The filing does not establish that one particular department caused the cash outflow."
+      ],
+      "interpretation": {
+        "heading": "Close the loop from invoice to cash",
+        "points": [
+          "Review actual gross contribution per vehicle after approved discounts and direct deal costs; keep accounting profit separate.",
+          "Assign aged stock and outstanding receivables a named owner, expected recovery date and next action.",
+          "Maintain a rolling weekly cash forecast showing confirmed receipts, unavoidable payments and borrowing headroom."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Check contribution before delivery",
+          "check": "Review the deal sheet for selling price, vehicle cost, discounts and direct deal costs before release.",
+          "metric": "Delivered deals with approved contribution sheet ÷ delivered deals reviewed (%)",
+          "rationale": "Sales volume alone cannot establish margin."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Convert completed work into invoices",
+          "check": "Review ready-for-delivery repair orders that have not been invoiced; verify approval and billing status.",
+          "metric": "Completed ROs unbilled for more than 24 hours (count)",
+          "rationale": "Completed work is not necessarily billed or collected."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Release capital from slow-moving inventory",
+          "check": "Review items without movement for 90 days and confirm return, transfer or genuine demand before reordering.",
+          "metric": "Value of stock without movement for 90+ days ÷ total parts stock value (%)",
+          "rationale": "Inventory consumes working capital until sold or otherwise recovered."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Measure holding cost before buying",
+          "check": "Approve purchase, refurbishment, estimated holding cost and realistic net resale proceeds for each proposed acquisition.",
+          "metric": "Acquisitions with approved full-cost appraisal ÷ acquisitions reviewed (%)",
+          "rationale": "An apparent trading margin can disappear while stock is held."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Build a seven-day cash forecast",
+          "check": "Reconcile bank balances, confirmed receipts, supplier dues, payroll and finance obligations; flag any funding gap.",
+          "metric": "Lowest projected closing cash balance over the next 7 days (₹)",
+          "rationale": "A positive profit does not guarantee funds for upcoming payments."
+        }
+      ],
+      "huddleTitle": "Trace one transaction from margin to money.",
+      "huddleSummary": "Choose a real delivered vehicle or completed repair with money still outstanding. End with a recovery action, named owner, deadline and updated cash forecast.",
+      "huddle": [
+        "0–3 min: SALES checks the approved deal contribution and promised settlement.",
+        "3–6 min: SERVICE verifies completion, billing or pending authorisation.",
+        "6–9 min: SPARES confirms parts issue and associated direct costs.",
+        "9–12 min: USED CARS checks any exchange settlement and holding cost, or identifies a comparable stock exception.",
+        "12–15 min: ACCOUNTS reconciles receipts and commitments; assign owner, recovery deadline and next review."
+      ],
+      "limitations": [
+        "The figures are consolidated results of one Indian dealership group, not national totals or individual outlet benchmarks. The filing covers the parent and applicable subsidiaries; the group composition changed across reporting periods. No year-on-year comparison is made.",
+        "Q2 revenue, finance cost and PAT cover July–September 2026; net operating cash flow, inventory adjustment and half-year PAT cover April–September 2026. Do not subtract the six-month cash flow from quarterly profit.",
+        "The original filing reports INR lakhs. Divide by 100 for crore and round to two decimals: 208892.10, 3200.50, 220.40, −17865.70, 30226.70 and 357.00 lakh respectively. Finance costs are not assumed to be solely inventory interest.",
+        "Unaudited interim results received statutory auditor limited review. The data do not establish a single cause of cash outflow, nor any individual dealership performance. All checks and KPIs are RPHV recommendations. Zero denominators are not applicable."
+      ],
+      "sources": [
+        {
+          "publisher": "Popular Vehicles and Services Limited / NSE",
+          "title": "Integrated Filing — IndAS (consolidated Q2 FY27 financial results and H1 cash flow)",
+          "published": "2026-11-11",
+          "period": "2026-07-01 to 2026-09-30 (Q2); 2026-04-01 to 2026-09-30 (H1 cash flow and PAT)",
+          "type": "Primary company stock-exchange filing; unaudited consolidated interim results with limited review",
+          "url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212508_11112026202040_iXBRL_WEB.html"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "028",
       "date": "2026-11-24",
       "status": "editorial-preview",
