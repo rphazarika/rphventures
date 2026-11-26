@@ -4,6 +4,118 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "030",
+      "date": "2026-11-26",
+      "status": "editorial-preview",
+      "category": "MARKET INTELLIGENCE",
+      "featureDesk": "SALES",
+      "title": "Festive retail set a record. Passenger cars tell a different story.",
+      "summary": "FADA's 42-day festive registration data show a growing overall market but fewer passenger vehicles than last festive season. Electric passenger-vehicle registrations rose sharply. Dealers should reconcile their own demand by model and powertrain before placing fresh orders.",
+      "sourceNote": "FADA release dated 23 November 2026, compiled 22 November; festive 2026: 11 October–21 November; festive 2025: 22 September–2 November. Both windows are 42 days, not calendar months.",
+      "metrics": [
+        {
+          "value": "55,25,490",
+          "label": "All-category retail registrations",
+          "context": "+2.21% versus festive 2025"
+        },
+        {
+          "value": "−7.16%",
+          "label": "Passenger-vehicle retail change",
+          "context": "7,48,616 vs 8,06,322 units"
+        },
+        {
+          "value": "+72.91%",
+          "label": "Electric passenger-vehicle retail change",
+          "context": "52,104 vs 30,133 units"
+        }
+      ],
+      "reportingType": "Registration-based retail snapshot from FADA/MoRTH; not OEM wholesales, bookings, a survey or final revised data.",
+      "intro": [
+        "FADA's 23 November release records 55,25,490 registrations across six vehicle categories, compared with 54,05,956 in the equivalent 2025 festive window. Passenger vehicles fell from 8,06,322 to 7,48,616, while electric passenger vehicles rose from 30,133 to 52,104.",
+        "Electric passenger vehicles accounted for approximately 6.96% of reported PV registrations this festive period versus 3.74% last year (RPHV calculation: electric PV registrations divided by all PV registrations in each window). These are national reported aggregates, not a forecast for a particular outlet."
+      ],
+      "interpretation": {
+        "heading": "Plan December by model and powertrain",
+        "points": [
+          "Separate live bookings, confirmed VIN allocations and registrations in the local demand review.",
+          "Review lost enquiries and cancellation reasons before changing the stock mix; do not infer local EV demand from national growth alone.",
+          "Align workshop skill coverage, parts replenishment and inventory funding with verified demand."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Audit the live order book",
+          "check": "Reconfirm model, powertrain, delivery date and customer intent for each active booking; exclude cancelled orders.",
+          "metric": "Reconfirmed active bookings ÷ active bookings reviewed (%)",
+          "rationale": "An aggregate market record does not clear an individual dealer's stock."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Check powertrain readiness",
+          "check": "Match next week's scheduled jobs to trained technicians and approved diagnostic equipment.",
+          "metric": "Scheduled jobs with verified skill and tool coverage ÷ scheduled jobs reviewed (%)",
+          "rationale": "A changing vehicle mix changes aftersales requirements."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Replenish against actual demand",
+          "check": "Compare proposed purchase lines with recent consumption, reservations, VIN fitment and supplier lead times.",
+          "metric": "Purchase lines supported by documented demand ÷ proposed purchase lines reviewed (%)",
+          "rationale": "National registration growth does not justify every local reorder."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Refresh exchange valuations",
+          "check": "Check local comparable resale evidence, inspection cost and ownership documents before approving an exchange.",
+          "metric": "Exchange appraisals with current evidence ÷ appraisals reviewed (%)",
+          "rationale": "A market-level trend is not a vehicle-specific valuation."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Fund confirmed demand first",
+          "check": "Review unallocated stock by age, cost and finance exposure before approving new orders.",
+          "metric": "Funded unallocated vehicle stock at 60+ days (₹ at acquisition cost)",
+          "rationale": "A profitable mix must also be affordable to hold."
+        }
+      ],
+      "huddleTitle": "One model. One demand-to-stock decision.",
+      "huddleSummary": "Select a model with excess stock or an allocation shortage. End with an order, transfer or hold decision, named owner and review deadline.",
+      "huddle": [
+        "0–3 min: SALES verifies active orders and lost-enquiry reasons.",
+        "3–6 min: SERVICE checks skill and tool readiness for the selected powertrain.",
+        "6–9 min: SPARES checks demand, fitment and supplier lead time.",
+        "9–12 min: USED CARS checks exchange valuation and refurbishment exposure.",
+        "12–15 min: ACCOUNTS checks stock funding; agree action, owner and deadline."
+      ],
+      "limitations": [
+        "FADA compiled the snapshot on 22 November 2026 from 1,468 of 1,469 RTOs. Telangana registrations for three-wheelers, commercial vehicles and tractors were unavailable for festive 2026. Later revisions are possible; coverage may differ between years.",
+        "The overall total includes two-wheelers, three-wheelers, commercial vehicles, wheeled construction equipment, passenger vehicles and tractors. Electric PV share uses only the PV denominator, not all vehicles. Growth is against the corresponding festive 2025 window, not October 2025 or a monthly comparison.",
+        "The release uses equal 42-day festival-relative windows, allowing for registration lag. No causal attribution, local forecast, wholesale comparison or dealer profitability claim is made. KPIs and 60-day threshold are RPHV suggestions; zero denominators are not applicable."
+      ],
+      "sources": [
+        {
+          "publisher": "Federation of Automobile Dealers Associations (FADA)",
+          "title": "FADA Releases 42 Days Festive’26 Vehicle Retail Data",
+          "published": "2026-11-23",
+          "period": "2026-10-11 to 2026-11-21; comparison 2025-09-22 to 2025-11-02; compiled 2026-11-22",
+          "type": "Primary industry association release; registration snapshot compiled with MoRTH",
+          "url": "https://fada.in/images/press-release/16b03c447ab70cFADA_Press_Release_42%20Days%20Festive%20Vehicle%20Retail%20Data%202026_FINAL.pdf"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "029",
       "date": "2026-11-25",
       "status": "editorial-preview",
