@@ -4,6 +4,126 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "031",
+      "date": "2026-11-27",
+      "status": "draft",
+      "category": "OPERATIONS INTELLIGENCE",
+      "featureDesk": "SERVICE",
+      "title": "A charger installed is not a charger available.",
+      "summary": "SIAM's first National EV Charging Day highlighted reliable, accessible charging. Dealers can turn this into a measurable ownership promise: verify that charging actually works before recommending it to customers.",
+      "sourceNote": "SIAM organiser release and photo gallery dated 20 November 2026; event held that day in New Delhi. Direct page retrieval timed out; full indexed primary release and indexed official gallery were available. Recheck live source links before publication.",
+      "metrics": [
+        {
+          "value": "20 NOV",
+          "label": "SIAM event date",
+          "context": "2026 | New Delhi"
+        },
+        {
+          "value": "GRID 2026",
+          "label": "Charging infrastructure dialogue",
+          "context": "First SIAM National EV Charging Day"
+        },
+        {
+          "value": "UPTIME",
+          "label": "RPHV operating focus",
+          "context": "Measure availability, not installations"
+        }
+      ],
+      "reportingType": "Industry-association event announcement and reported discussion, not a market dataset, vehicle registrations, wholesales or an audited charger-uptime survey.",
+      "intro": [
+        "On 20 November 2026, SIAM held its first National EV Charging Day in New Delhi, with support from the Ministry of Heavy Industries. Participants discussed charging reliability, access, maintenance and the coordination needed for a scalable Indian EV charging network.",
+        "The event is a useful prompt to examine customer-facing charging readiness. It does not establish the number of operational chargers, local availability or a new binding dealership requirement."
+      ],
+      "interpretation": {
+        "heading": "Make the charging promise verifiable",
+        "points": [
+          "Confirm connector compatibility, access hours, payment method and latest known availability before sharing a charging location.",
+          "Test the dealership's approved charging equipment through qualified personnel and record failed sessions, corrective actions and restoration times.",
+          "Review actual demand and total ownership cost before investing in additional charging capacity."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Verify the charging handover",
+          "check": "Confirm home or workplace charging plan, compatible public alternatives and escalation contact at EV delivery.",
+          "metric": "EV deliveries with documented charging briefing ÷ EV deliveries reviewed (%)",
+          "rationale": "A customer needs a usable plan, not just a map pin."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Track charger availability",
+          "check": "Use authorised staff to log scheduled charger service hours and unavailable hours; escalate faults to the approved provider.",
+          "metric": "Available charger-hours ÷ scheduled charger-hours (%)",
+          "rationale": "Installed equipment is not necessarily usable."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Verify charging accessories",
+          "check": "Check approved compatibility, stock and supplier ETA for promised cables and accessories.",
+          "metric": "Verified accessory lines ÷ promised accessory lines reviewed (%)",
+          "rationale": "Incorrect accessories can delay safe handover."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Check charging evidence before valuation",
+          "check": "Record supplied cable, connector condition and authorised functional test evidence before EV appraisal approval.",
+          "metric": "EV appraisals with complete charging evidence ÷ EV appraisals reviewed (%)",
+          "rationale": "Unverified charging condition creates resale and repair risk."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Measure charging cost",
+          "check": "Reconcile charger meter readings, electricity expense and completed sessions for the same monthly period and boundary.",
+          "metric": "Allocated charging electricity expense (₹) ÷ completed charging sessions (₹/session)",
+          "rationale": "Electricity cost per session is not total charger operating cost."
+        }
+      ],
+      "huddleTitle": "One EV delivery. One charging readiness check.",
+      "huddleSummary": "Use an actual upcoming EV delivery or a documented case if none is due. End with a Ready/Hold decision, accountable owner, deadline and customer update.",
+      "huddle": [
+        "0–3 min: SALES checks the customer's charging plan and alternatives.",
+        "3–6 min: SERVICE reviews charger availability logs and escalation route.",
+        "6–9 min: SPARES confirms approved cable and accessory availability.",
+        "9–12 min: USED CARS reviews charging-condition evidence if an exchange applies; otherwise reviews a sample EV appraisal.",
+        "12–15 min: ACCOUNTS checks charging-cost records; agree decision, owner and deadline."
+      ],
+      "limitations": [
+        "The source is an event report, not evidence of operational charger counts, reliability, national penetration or financial returns. Numerical claims from speeches are omitted because their underlying datasets or denominators were not independently verified.",
+        "Full indexed SIAM primary release and official photo gallery agree on the event date; direct retrieval of the release and event page timed out. Live URL verification is pending; status remains draft and publication is withheld.",
+        "KPIs are RPHV recommendations, not SIAM mandates. Use the same period and scope for numerator and denominator; zero denominators are N/A. No physical electrical testing is part of the huddle."
+      ],
+      "sources": [
+        {
+          "publisher": "SIAM",
+          "title": "SIAM Organises its First National EV Charging Day: Advancing the growth and readiness of EV Charging Infrastructure",
+          "published": "2026-11-20",
+          "period": "Event on 2026-11-20, New Delhi, India",
+          "type": "Primary organiser release; full indexed text retrieved; live page timeout",
+          "url": "https://www.siam.in/news-%26-updates/press-releases/siam-organises-its-first-national-ev-charging-day-advancing-the-growth-and-readiness-of-ev-charging-infrastructure-/625"
+        },
+        {
+          "publisher": "SIAM",
+          "title": "SIAM EV CHARGING DAY - 1st Growth & Readiness for EV Infrastructure Dialogue (GRID)",
+          "published": "2026-11-20 (event date displayed; separate gallery publication date unstated)",
+          "period": "2026-11-20 event",
+          "type": "Primary organiser photo gallery; indexed text",
+          "url": "https://www.siam.in/news-%26-updates/photo-gallery/siam-ev-charging-day---1st-growth-readiness-for-ev-infrastructure-dialogue-grid-20-nov-2026/73"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "030",
       "date": "2026-11-26",
       "status": "editorial-preview",
