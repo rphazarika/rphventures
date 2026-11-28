@@ -4,6 +4,126 @@
   "version": "web-preview-1",
   "issues": [
     {
+      "number": "032",
+      "date": "2026-11-28",
+      "status": "draft",
+      "category": "OPERATIONS INTELLIGENCE",
+      "featureDesk": "SALES",
+      "title": "Prices change on December 1. Are your open bookings ready?",
+      "summary": "Hyundai and Tata have announced December price revisions. The immediate dealership task is to reconcile quotations, allocation, customer consent and billing before the changeover—not to rush deliveries.",
+      "sourceNote": "Two original exchange disclosures dated 24 November 2026, both announcing a revision effective 1 December 2026. India passenger-vehicle portfolios; no monthly sales dataset.",
+      "metrics": [
+        {
+          "value": "₹8,000",
+          "label": "Hyundai maximum planned increase",
+          "context": "Select models and trims; not a uniform increase"
+        },
+        {
+          "value": "0.5%",
+          "label": "Tata average announced increase",
+          "context": "Cars and SUVs, including ICE and EV; varies by model and variant"
+        },
+        {
+          "value": "1 DEC",
+          "label": "Announced effective date",
+          "context": "2026 • both manufacturers"
+        }
+      ],
+      "reportingType": "Forward-looking OEM pricing disclosures, not realised transaction prices, wholesale volumes, customer registrations or survey data.",
+      "intro": [
+        "Hyundai Motor India informed the exchanges on 24 November that it plans to raise prices of selected models and trims from 1 December 2026, capped at ₹8,000 per affected vehicle. Tata Motors Passenger Vehicles announced an average 0.5% increase for its car and SUV range, including combustion-engine and electric vehicles, from the same date. Both attributed the revisions to higher input costs.",
+        "The two measures are not directly comparable: one is a rupee ceiling on selected models; the other is a portfolio average with undisclosed weighting. Neither filing supplies a revised variant-level price list or terms protecting existing bookings."
+      ],
+      "interpretation": {
+        "heading": "Control the quotation-to-invoice transition",
+        "points": [
+          "List every live booking crossing the effective date; record its VIN allocation, written quotation validity and verified price-protection terms.",
+          "Contact affected customers only with confirmed model-level information. Do not promise an old price or a discount without written authority.",
+          "Do not accelerate invoicing or handover at the expense of payment clearance, PDI, registration or customer consent. Reconcile approved exceptions after the price master changes."
+        ]
+      },
+      "desks": [
+        {
+          "slug": "sales",
+          "name": "SALES",
+          "number": "01",
+          "headline": "Reconfirm live bookings",
+          "check": "Review open bookings with delivery due after 30 November; verify quotation validity, allocation and customer acknowledgement of confirmed pricing.",
+          "metric": "Bookings with documented price status and customer acknowledgement ÷ bookings reviewed (%)",
+          "rationale": "Avoid disputed quotations and surprise changes at handover."
+        },
+        {
+          "slug": "service",
+          "name": "SERVICE",
+          "number": "02",
+          "headline": "Keep PDI gates intact",
+          "check": "Verify signed PDI and defect closure for every vehicle scheduled for handover before the price change.",
+          "metric": "Vehicles with completed PDI and no unresolved release-blocking defects ÷ vehicles scheduled for handover (%)",
+          "rationale": "Month-end urgency cannot substitute for release readiness."
+        },
+        {
+          "slug": "spares",
+          "name": "SPARES",
+          "number": "03",
+          "headline": "Confirm accessory commitments",
+          "check": "Match promised accessories to approved price, correct fitment and reserved stock for each imminent delivery.",
+          "metric": "Verified and reserved accessory lines ÷ promised accessory lines reviewed (%)",
+          "rationale": "Unplanned accessory substitutions can create margin loss or customer disputes."
+        },
+        {
+          "slug": "used-cars",
+          "name": "USED CARS",
+          "number": "04",
+          "headline": "Recheck linked exchange deals",
+          "check": "Verify exchange offer validity, inspection, reconditioning estimate and net customer settlement before revising the new-car quotation.",
+          "metric": "Linked exchanges with revalidated settlement sheets ÷ linked exchanges reviewed (%)",
+          "rationale": "A change in new-car price does not automatically justify changing exchange value."
+        },
+        {
+          "slug": "accounts",
+          "name": "ACCOUNTS",
+          "number": "05",
+          "headline": "Audit price-master exceptions",
+          "check": "Reconcile each open affected deal to the approved OEM price list, permitted protection or discount and finance sanction before invoice release.",
+          "metric": "Open affected deals with unresolved price or funding exceptions (count)",
+          "rationale": "Prevent unsupported discounts, collection shortfalls and invoice reversals."
+        }
+      ],
+      "huddleTitle": "One open booking. One verified price decision.",
+      "huddleSummary": "Choose one actual booking due on or after 1 December. Conclude with Proceed/Hold/Escalate, owner, deadline and next customer update.",
+      "huddle": [
+        "0–3 min: SALES checks quotation validity, allocation and customer communication.",
+        "3–6 min: SERVICE verifies PDI and release readiness.",
+        "6–9 min: SPARES confirms reserved accessories and fitment.",
+        "9–12 min: USED CARS verifies any linked exchange settlement; mark N/A if none.",
+        "12–15 min: ACCOUNTS checks price authority and payment/finance; record decision and owner."
+      ],
+      "limitations": [
+        "Hyundai's amount is a maximum, not an average or universal hike. Tata's 0.5% is a reported average; the weighting method is unspecified. No direct comparison of magnitude is made.",
+        "The notices do not identify exact revised variant prices, on-road costs, existing-booking price protection, realised margins or future sales impact. Verify current OEM circulars before changing quotations; the effective date is still in the future as of this edition.",
+        "All desk checks and metrics are RPHV recommendations, not OEM mandates. For percentage KPIs use a consistent cohort; a zero denominator is N/A."
+      ],
+      "sources": [
+        {
+          "publisher": "Hyundai Motor India Limited",
+          "title": "Advance intimation regarding Price Increase in December 2026",
+          "published": "2026-11-24",
+          "period": "Announcement 2026-11-24; planned effective date 2026-12-01, India",
+          "type": "Primary company exchange disclosure; signed PDF, page 1",
+          "url": "https://nsearchives.nseindia.in/corporate/HMILNSE_24112026122630_PriceIncreaseHMIL.pdf"
+        },
+        {
+          "publisher": "Tata Motors Passenger Vehicles Limited",
+          "title": "Tata Motors Passenger Vehicles to increase prices of its Cars & SUVs from December 2026",
+          "published": "2026-11-24",
+          "period": "Announcement 2026-11-24; effective date 2026-12-01, India",
+          "type": "Primary company exchange disclosure and attached release, pages 1–2",
+          "url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_24112026142530_NSEBSEPriceHike.pdf"
+        }
+      ],
+      "corrections": []
+    },
+    {
       "number": "031",
       "date": "2026-11-27",
       "status": "draft",
